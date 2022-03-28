@@ -1,0 +1,51 @@
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import Image from "next/image";
+import Offer from "../components/sections/OurService/WhatDoWeOffer";
+import HowDoesItWork from "../components/sections/OurService/HowDoesItWork";
+import WhyYouShouldInvest from "../components/sections/Investors/WhyYouShouldInvest";
+import Questions from "../components/sections/FAQ/questions";
+const Faq = () => {
+  return (
+    <>
+      <div className="relative p-6 pt-44 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
+        <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
+          <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
+            <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
+              Frequently Asked Questions
+            </h1>
+            <p
+              style={{ lineHeight: "1.1" }}
+              className="mt-8 text-2xl text-left text-gray-700 sm:text-left"
+            >
+              You can find answers to some frequently asked questions below.
+              Feel free to reach out to us at info@blockchainpresence.net for
+              any additional information.
+            </p>
+          </AnimationOnScroll>
+        </div>
+        <div className="sm:pl-16">
+          <Image src="/img/faq2.png" width="400" height="400" alt="" />
+        </div>
+        <div className="custom-shape-divider-bottom-1648168505">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      {/* <Offer /> */}
+      <div className="bg-gradient-to-t to-white from-[#BDC5D8] pt-12 pb-20">
+        <Questions />
+      </div>
+    </>
+  );
+};
+
+export default Faq;

@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[role="tab"].active {
+  @apply text-red-600 border-red-600 dark:text-red-500 dark:border-red-500 hover:text-red-600 hover:border-red-600 dark:hover:text-red-500 dark:hover:border-red-500;
+}
+
+/* BCP Our Service */
+
+.boxsenderreceiver {
+  width: 85%;
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+  background-color: rgb(89, 109, 157, 0.2);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(192, 192, 192);
+  height: auto;
+}
+
+.largertext {
+  color: black;
+  font-size: 25px;
+  font: bolder;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgsendersreceivers {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smallertext {
+  color: black;
+  font-size: 12px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxunderimg {
+  margin: auto auto;
+  color: black;
+  font-size: 20px;
+  width: auto;
+  margin-top: 0px;
+  text-align: center;
+}
+/*  */
+
+/* Divider Coin */
+.custom-shape-divider-top-1647393075 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1647393075 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 66px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1647393075 .shape-fill {
+  fill: #ffffff;
+}
+
+/* Divider Trending */
+.custom-shape-divider-bottom-1647386089 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647386089 svg {
+  position: relative;
+  display: block;
+  width: calc(129% + 1.3px);
+  height: 76px;
+}
+
+.custom-shape-divider-bottom-1647386089 .shape-fill {
+  fill: #ffffff;
+}
+.custom-shape-divider-top-1648170642 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1648170642 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 83px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1648170642 .shape-fill {
+  fill: #ffffff;
+}
+/* Divider Hero */
+.custom-shape-divider-bottom-1648168505 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1648168505 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 58px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1648168505 .shape-fill {
+  fill: #ffffff;
+}
+.custom-shape-divider-bottom-1647379428 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647379428 svg {
+  position: relative;
+  display: block;
+  width: calc(157% + 1.3px);
+  height: 183px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1647379428 .shape-fill {
+  fill: #ffffff;
+}
+.avatar {
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
