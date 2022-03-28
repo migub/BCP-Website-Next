@@ -24,18 +24,6 @@ const Sidebar = (props) => {
         <div className="h-screen w-62">
           <nav className="px-6 mt-10 ">
             <a
-              // className="flex items-center p-2 my-6 text-gray-600 transition-colors bg-gray-100 rounded-lg hover:text-gray-800 hover:bg-gray-100 "
-              className="flex items-center p-2 my-6 text-white transition-colors duration-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 "
-              onClick={() => {
-                props.onClose(false);
-                router.push("/");
-              }}
-            >
-              <IoHome />
-              <span className="mx-4 text-lg font-normal">Home</span>
-              <span className="flex-grow text-right"></span>
-            </a>
-            <a
               onClick={() => {
                 props.onClose(false);
                 router.push("/ourservice");
