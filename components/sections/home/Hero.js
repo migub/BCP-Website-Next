@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="relative p-6 pt-44 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
+      <div className="relative p-6 pt-32 sm:pt-40 pb-24 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
         <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
             <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
@@ -41,7 +41,7 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="pl-16">
+        <div className="justify-center flex sm:pl-16">
           <Image src="/img/logo.png" width="300" height="300" alt="" />
         </div>
         <div className="custom-shape-divider-bottom-1648168505">

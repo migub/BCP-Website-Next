@@ -23,7 +23,7 @@ const WhatIs = () => {
             What is Blockchain Presence?
           </h1>
           <div className="w-full lg:w-1/2 mt-16 m-auto">
-            <p className="text-xl  text-gray-500 dark:text-gray-300 px-4 py-4">
+            <p className="text-xl  text-gray-500  px-4 py-4">
               Blockchain Presence AG is a swiss corporation and an official
               spin-off of the University of Zurich, founded in December 2020. We
               are located in Zurich, near the University of Zurich and the

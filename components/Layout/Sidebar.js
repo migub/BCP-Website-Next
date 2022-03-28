@@ -19,7 +19,7 @@ import { FaCoins } from "react-icons/fa";
 const Sidebar = (props) => {
   const router = useRouter();
   return (
-    <div className="fixed z-20 w-full bg-[#383f56] mt-24 dark:bg-gray-800">
+    <div className="fixed z-20 w-full bg-[#383f56] mt-20">
       <div className="flex flex-col sm:flex-row sm:justify-around">
         <div className="h-screen w-62">
           <nav className="px-6 mt-10 ">

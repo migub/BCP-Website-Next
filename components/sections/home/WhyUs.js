@@ -1,8 +1,6 @@
-import Image from "next/image";
-import { AnimationOnScroll } from "react-animation-on-scroll";
-import Features from "../../Features";
+import Features from "./Features";
 
-const Earn = () => {
+const WhyUs = () => {
   return (
     <>
       <div
@@ -20,4 +18,4 @@ const Earn = () => {
   );
 };
 
-export default Earn;
+export default WhyUs;
