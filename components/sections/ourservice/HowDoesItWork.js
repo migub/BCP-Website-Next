@@ -8,7 +8,7 @@ const HowDoesItWork = () => {
           How does it work?
         </h1>
         <div className="w-full lg:w-1/2 mt-6 mb-6 m-auto">
-          <p className="text-xl text-center text-gray-500 dark:text-gray-300 px-4 py-4">
+          <p className="text-xl text-center text-gray-500  px-4 py-4">
             The main role of the Blockchain Presence blockchain oracle is to
             connect data providers (senders) and data requesters (receivers) and
             create a reliable platform for data transactions.

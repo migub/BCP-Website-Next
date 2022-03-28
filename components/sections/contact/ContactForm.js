@@ -6,7 +6,6 @@ const ContactForm = () => {
   return (
     <>
       <form
-        action="mailto:michaelgubler@gmx.net"
         method="POST"
         encType="multipart/form-data"
         name="EmailForm"

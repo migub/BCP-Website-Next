@@ -4,7 +4,7 @@ import Questions from "../components/sections/faq/Questions";
 const Faq = () => {
   return (
     <>
-      <div className="relative p-6 pt-44 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
+      <div className="relative p-6 pt-32 sm:pt-40 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
         <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
           <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
             Frequently Asked Questions
