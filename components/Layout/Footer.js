@@ -49,6 +49,7 @@ const Footer = () => {
           <a
             title="bcp-instagram"
             target="_blank"
+            rel="noreferrer"
             href="https://www.instagram.com/blockchain_presence/"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
@@ -64,6 +65,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             data-type="LinkedIn"
             title="bcp-linkedIn"
             href="https://www.linkedin.com/company/blockchain-presence/"
@@ -73,6 +75,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             data-type="Custom"
             title="bcp-tiktok"
             href="https://www.tiktok.com/@blockchain_presence"
@@ -82,6 +85,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             data-type="YouTube"
             title="bcp-youtube"
             href="https://www.youtube.com/channel/UC5CXdL-Lzik6ks3Iq4g_GIQ"
@@ -91,6 +95,7 @@ const Footer = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             data-type="Medium"
             title="bcp-medium"
             href="https://medium.com/@BCPresence"
