@@ -10,7 +10,7 @@ export default function Home() {
         <title>Blockchain Presence</title>
         <meta
           name="description"
-          content="The best decentralized betting of 2022"
+          content="We aim at creating a blockchain oracle for leading smart contract platforms."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
