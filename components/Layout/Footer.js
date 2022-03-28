@@ -58,6 +58,7 @@ const Footer = () => {
           <a
             title="bcp-twitter"
             target="_blank"
+            rel="noreferrer"
             href="https://twitter.com/BCpresence"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
