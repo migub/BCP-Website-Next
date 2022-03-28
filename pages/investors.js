@@ -1,8 +1,8 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import WhyYouShouldInvest from "../components/sections/investors/WhyYouShouldInvest";
 
-import WhyYouShouldInvest from "../components/sections/Investors/WhyYouShouldInvest";
 const Investors = () => {
   const router = useRouter();
 

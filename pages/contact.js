@@ -1,5 +1,3 @@
-import { AnimationOnScroll } from "react-animation-on-scroll";
-import Image from "next/image";
 import ContactForm from "../components/sections/contact/ContactForm";
 const Contact = () => {
   return (

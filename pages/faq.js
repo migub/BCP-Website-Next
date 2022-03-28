@@ -1,9 +1,6 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Image from "next/image";
-import Offer from "../components/sections/OurService/WhatDoWeOffer";
-import HowDoesItWork from "../components/sections/OurService/HowDoesItWork";
-import WhyYouShouldInvest from "../components/sections/Investors/WhyYouShouldInvest";
-import Questions from "../components/sections/FAQ/questions";
+import Questions from "../components/sections/faq/Questions";
 const Faq = () => {
   return (
     <>

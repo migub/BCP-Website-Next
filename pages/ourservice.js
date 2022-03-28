@@ -1,8 +1,7 @@
 import { useRouter } from "next/router";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Image from "next/image";
-import Offer from "../components/sections/OurService/WhatDoWeOffer";
-import HowDoesItWork from "../components/sections/OurService/HowDoesItWork";
+import HowDoesItWork from "../components/sections/ourservice/HowDoesItWork";
 const OurService = () => {
   const router = useRouter();
   return (

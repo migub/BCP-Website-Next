@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Hero from "../components/sections/Home/Hero";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import WhyUs from "../components/sections/Home/WhyUs";
-import WhatIs from "../components/sections/Home/WhatIs";
+import Hero from "../components/sections/home/Hero";
+import WhyUs from "../components/sections/home/WhyUs";
+import WhatIs from "../components/sections/home/WhatIs";
 
 export default function Home() {
   return (
