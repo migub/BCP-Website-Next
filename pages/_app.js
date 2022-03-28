@@ -6,7 +6,7 @@ import Footer from "../components/Layout/Footer";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div className="font-kanit bg-[#BDC5D8]">
+      <div className="font-kanit">
         <Navbar />
         <Component {...pageProps} />
         <Footer />
