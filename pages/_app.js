@@ -8,7 +8,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <div className="font-montserrat">
         <Navbar />
-        <Component {...pageProps} />
+        <div style={{ minHeight: "calc(100vh - 384px)" }}>
+          <Component {...pageProps} />
+        </div>
         <Footer />
       </div>
     </>
