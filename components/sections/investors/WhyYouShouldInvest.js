@@ -17,14 +17,14 @@ const WhyYouShouldInvest = () => {
         </div>
         <div className="flex flex-wrap my-12 ">
           <div className="w-full p-8 border-b md:w-1/2 md:border-r lg:w-1/3">
-            <div className="flex items-center mb-6 font-semibold">
+            <div className="flex items-center h-16 mb-6 font-semibold">
               <div
                 style={{ color: "white" }}
-                className="flex items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
+                className="flex items-center mr-4 justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
               >
                 <GiReceiveMoney />
               </div>
-              <div className="ml-4 text-xl">Essential for Web3</div>
+              <div className="text-xl">Essential for Web3</div>
             </div>
             <p className="leading-loose text-gray-500 text-md">
               Smart Contracts themselves can not access real-world data. BCP
@@ -32,14 +32,16 @@ const WhyYouShouldInvest = () => {
             </p>
           </div>
           <div className="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r">
-            <div className="flex items-center mb-6 font-semibold">
-              <div
-                style={{ color: "white" }}
-                className="flex items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
-              >
-                <IoSchoolSharp />
+            <div className="flex items-center h-16 mb-6 font-semibold">
+              <div>
+                <div
+                  style={{ color: "white" }}
+                  className="flex mr-4 items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
+                >
+                  <IoSchoolSharp />
+                </div>
               </div>
-              <div className="ml-4 text-xl">Backed by University of Zurich</div>
+              <div className="text-xl ">Backed by University of Zurich</div>
             </div>
             <p className="leading-loose text-gray-500 text-md">
               We have access to young talents at University of Zurich who are
@@ -48,13 +50,15 @@ const WhyYouShouldInvest = () => {
           </div>
           <div className="w-full p-8 border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0">
             <div className="flex items-center mb-6 font-semibold">
-              <div
-                style={{ color: "white" }}
-                className="flex items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
-              >
-                <IoTrendingUpSharp />
+              <div>
+                <div
+                  style={{ color: "white" }}
+                  className="flex mr-4 items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
+                >
+                  <IoTrendingUpSharp />
+                </div>
               </div>
-              <div className="ml-4 text-xl">Strong growing global market</div>
+              <div className="text-xl">Strong growing global market</div>
             </div>
             <p className="leading-loose text-gray-500 text-md">
               The market for Web3 and blockchain oracle services has been
@@ -64,13 +68,15 @@ const WhyYouShouldInvest = () => {
           </div>
           <div className="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0">
             <div className="flex items-center mb-6 font-semibold">
-              <div
-                style={{ color: "white" }}
-                className="flex items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
-              >
-                <IoServerSharp />
+              <div>
+                <div
+                  style={{ color: "white" }}
+                  className="flex mr-4 items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
+                >
+                  <IoServerSharp />
+                </div>
               </div>
-              <div className="ml-4 text-xl">Equity token</div>
+              <div className="text-xl ">Equity token</div>
             </div>
             <p className="leading-loose text-gray-500 text-md">
               Receive dividends through our unique equity token and trade our
@@ -79,13 +85,15 @@ const WhyYouShouldInvest = () => {
           </div>
           <div className="w-full p-8 border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0">
             <div className="flex items-center mb-6 font-semibold">
-              <div
-                style={{ color: "white" }}
-                className="flex items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
-              >
-                <IoAccessibilitySharp />
+              <div>
+                <div
+                  style={{ color: "white" }}
+                  className="flex mr-4 items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
+                >
+                  <IoAccessibilitySharp />
+                </div>
               </div>
-              <div className="ml-4 text-xl">Convenient user experience</div>
+              <div className="text-xl">Convenient user experience</div>
             </div>
             <p className="leading-loose text-gray-500 text-md">
               {`We have created the application SCA (Sender Convenience
@@ -95,13 +103,15 @@ const WhyYouShouldInvest = () => {
           </div>
           <div className="w-full p-8 md:w-1/2 lg:w-1/3">
             <div className="flex items-center mb-6 font-semibold">
-              <div
-                style={{ color: "white" }}
-                className="flex items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
-              >
-                <IoEarthSharp />
+              <div>
+                <div
+                  style={{ color: "white" }}
+                  className="flex mr-4 items-center  justify-center h-12 w-12 rounded-md bg-[#383f56] text-2xl text-white"
+                >
+                  <IoEarthSharp />
+                </div>
               </div>
-              <div className="ml-4 text-xl">Unique business model</div>
+              <div className="text-xl">Unique business model</div>
             </div>
             <p className="leading-loose text-gray-500 text-md">
               BCP is offering an on-chain authentification service which is a
