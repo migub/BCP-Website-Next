@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        kanit: ['"Kanit"', "sans-serif"],
+        montserrat: ['"Montserrat"', "sans-serif"],
       },
       screens: {
         "3xl": "2000px",
