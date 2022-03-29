@@ -11,7 +11,7 @@ const Faq = () => {
           </h1>
           <p
             style={{ lineHeight: "1.1" }}
-            className="mt-8 text-2xl text-left text-gray-700 sm:text-left"
+            className="mt-8 overflow-hidden text-2xl text-left text-gray-700 sm:text-left"
           >
             You can find answers to some frequently asked questions below. Feel
             free to reach out to us at info@blockchainpresence.net for any
