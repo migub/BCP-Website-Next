@@ -59,7 +59,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
-        <div className="hidden space-x-16 text-white sm:flex ">
+        <div className="hidden space-x-16 text-white whitespace-nowrap sm:flex ">
           <div
             onClick={() => router.push("/ourservice")}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
