@@ -5,8 +5,8 @@ const Faq = () => {
   return (
     <>
       <div className="relative p-6 pt-32 sm:pt-40 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
-        <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
-          <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
+        <div className=" xl:w-1/2 sm:w-2/3 pb-12 sm:min-w-[300px]">
+          <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-5xl">
             Frequently Asked Questions
           </h1>
           <p
@@ -18,9 +18,9 @@ const Faq = () => {
             additional information.
           </p>
         </div>
-        <div className="sm:pl-16">
+        {/* <div className="sm:pl-16">
           <Image src="/img/faq2.png" width="400" height="400" alt="" />
-        </div>
+        </div> */}
         <div className="custom-shape-divider-bottom-1648168505">
           <svg
             data-name="Layer 1"

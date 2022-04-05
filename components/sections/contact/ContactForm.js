@@ -9,9 +9,9 @@ const ContactForm = () => {
         method="POST"
         encType="multipart/form-data"
         name="EmailForm"
-        className="flex w-full max-w-sm m-auto space-x-3"
+        className="flex w-full max-w-xl m-auto space-x-3"
       >
-        <div className="w-full max-w-2xl px-5 py-10 m-auto  bg-[#BDC5D8] rounded-lg shadow">
+        <div className="w-full max-w-3xl px-5 py-10 m-auto  bg-[#BDC5D8] rounded-lg shadow">
           {/* <div className="mb-6 text-3xl font-light text-center text-gray-800 dark:text-white">
             Contact us !
           </div> */}

@@ -26,12 +26,12 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="fixed z-20 flex items-center justify-between  w-full p-2 bg-[#383f56] shadow-lg lg:pl-[20%] lg:pr-[20%] h-20">
+      <div className="fixed z-20 flex items-center justify-between w-full p-2 bg-[#383f56] shadow-lg lg:pl-[10%] lg:pr-[10%] h-20">
         <div
           onClick={() => router.push("/")}
-          className="flex cursor-pointer w-96 h-16 space-x-2 overflow-hidden items-center"
+          className="flex items-center h-16 space-x-2 overflow-hidden cursor-pointer w-96"
         >
-          <div className="flex mx-3 w-16 ">
+          <div className="flex w-16 mx-3 ">
             <Image
               src="/img/logo.png"
               width="400"
@@ -41,7 +41,7 @@ const Navbar = () => {
             />
           </div>
           <div>
-            <h1 className="hidden text-xl  font-bold whitespace-nowrap text-left text-white md:block sm:text-left sm:text-xl">
+            <h1 className="hidden text-xl font-bold text-left text-white whitespace-nowrap md:block sm:text-left sm:text-xl">
               Blockchain <br />
               Presence
             </h1>
@@ -59,7 +59,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
-        <div className="items-center hidden space-x-8 text-white sm:flex ">
+        <div className="hidden space-x-16 text-white sm:flex ">
           <div
             onClick={() => router.push("/ourservice")}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"

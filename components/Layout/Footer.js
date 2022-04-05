@@ -9,42 +9,8 @@ import {
 } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="bg-[#383f56] h-96 w-full py-8">
+    <footer className="bg-[#383f56] w-full py-8">
       <div className="max-w-screen-xl px-4 mx-auto">
-        {/* <ul className="flex flex-wrap justify-between max-w-screen-md mx-auto text-lg font-light">
-          <li className="my-2">
-            <a
-              className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
-              href="#"
-            >
-              FAQ
-            </a>
-          </li>
-          <li className="my-2">
-            <a
-              className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
-              href="#"
-            >
-              Configuration
-            </a>
-          </li>
-          <li className="my-2">
-            <a
-              className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
-              href="#"
-            >
-              Github
-            </a>
-          </li>
-          <li className="my-2">
-            <a
-              className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
-              href="#"
-            >
-              LinkedIn
-            </a>
-          </li>
-        </ul> */}
         <div className="flex items-center justify-between max-w-xs pt-8 mx-auto">
           <a
             title="bcp-instagram"
@@ -118,10 +84,7 @@ const Footer = () => {
             <Image src="/img/uzhcircle.png" alt="" width="75px" height="75px" />
           </div>
         </div>
-        <div className="flex items-center justify-center pt-10 font-light text-center text-gray-500 sm:pt-12">
-          Created by Blockchain Presence AG
-        </div>
-        <div className="text-center text-gray-500">
+        <div className="pt-5 text-center text-gray-500">
           <a href="mailto:info@blockchainpresence.net">
             info@blockchainpresence.net
           </a>
