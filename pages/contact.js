@@ -12,7 +12,11 @@ const Contact = () => {
         </div>
         {/* <Offer /> */}
         <div className="px-4 pb-20">
-          <ContactForm />
+          <ContactForm
+            placeholderOne="Name"
+            placeholderTwo="E-Mail"
+            placeholderThree="Enter your comment"
+          />
         </div>
       </div>
     </>

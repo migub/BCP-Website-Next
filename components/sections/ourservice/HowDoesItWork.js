@@ -1,17 +1,15 @@
 import Image from "next/image";
 
-const HowDoesItWork = () => {
+const HowDoesItWork = (props) => {
   return (
     <>
       <div className="pb-1 bg-gradient-to-t to-white from-[#BDC5D8]">
         <h1 className="pt-24 text-4xl font-bold text-center text-gray-800 sm:text-center sm:text-5xl">
-          How does it work?
+          {props.title}
         </h1>
         <div className="w-full m-auto mt-6 mb-6 lg:w-1/2">
           <p className="px-4 py-4 text-xl text-center text-gray-500">
-            The main role of the Blockchain Presence blockchain oracle is to
-            connect data providers (senders) and data requesters (receivers) and
-            create a reliable platform for data transactions.
+            {props.subTitle}
           </p>
         </div>
         <div className="boxsenderreceiver">

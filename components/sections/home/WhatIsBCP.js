@@ -1,4 +1,4 @@
-const WhatIs = () => {
+const WhatIsBCP = (props) => {
   return (
     <>
       <div
@@ -20,17 +20,11 @@ const WhatIs = () => {
             </svg>
           </div>
           <h1 className="text-4xl font-bold text-center text-gray-800 sm:text-center sm:text-6xl">
-            What is Blockchain Presence?
+            {props.title}
           </h1>
-          <div className="w-full lg:w-1/2 mt-16 m-auto">
-            <p className="text-xl  text-gray-500  px-4 py-4">
-              Blockchain Presence AG is a swiss corporation and an official
-              spin-off of the University of Zurich, founded in December 2020. We
-              are located in Zurich, near the University of Zurich and the
-              Crypto Valley Zug. We strive to develop and operate an oracle
-              platform for smart contracts. The Blockchain Presence platform
-              connects smart contracts with on-chain authenticated data
-              providers.
+          <div className="w-full m-auto mt-16 lg:w-1/2">
+            <p className="px-4 py-4 text-xl text-gray-500">
+              {props.description}
             </p>
           </div>
         </div>
@@ -39,4 +33,4 @@ const WhatIs = () => {
   );
 };
 
-export default WhatIs;
+export default WhatIsBCP;

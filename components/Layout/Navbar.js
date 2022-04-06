@@ -14,7 +14,7 @@ import {
 } from "react-icons/io5";
 import Sidebar from "./Sidebar";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const router = useRouter();
   const [modal, setModal] = useState(false);
   const openNavbar = () => {
@@ -61,34 +61,34 @@ const Navbar = () => {
         </div>
         <div className="hidden space-x-16 text-white whitespace-nowrap sm:flex ">
           <div
-            onClick={() => router.push("/ourservice")}
+            onClick={() => router.push(props.link1)}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
           >
-            <p>Our Service</p>
+            <p>{props.title1}</p>
           </div>
           <div
             onClick={() => {
-              router.push("/investors");
+              router.push(props.link2);
             }}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
           >
-            <p>Investors</p>
+            <p>{props.title2}</p>
           </div>
           <div
             onClick={() => {
-              router.push("/faq");
+              router.push(props.link3);
             }}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
           >
-            <p>FAQ</p>
+            <p>{props.title3}</p>
           </div>
           <div
             onClick={() => {
-              router.push("/contact");
+              router.push(props.link4);
             }}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
           >
-            <p>Contact</p>
+            <p>{props.title4}</p>
           </div>
           {/* <IoPersonCircleSharp className="text-4xl text-gray-500 cursor-pointer hover:text-gray-200" /> */}
           {/* <button className="px-4 py-2 font-bold text-white rounded bg-cyan-500 hover:bg-cyan-700">
