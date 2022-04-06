@@ -45,7 +45,7 @@ const Footer = () => {
             rel="noreferrer"
             data-type="Custom"
             title="bcp-tiktok"
-            href="https://www.tiktok.com/@blockchain_presence"
+            href="https://www.tiktok.com/@blockchainpresence"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
             <FaTiktok style={{ fontSize: "20px" }} />
