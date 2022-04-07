@@ -17,14 +17,14 @@ const WhyYouShouldInvest = (props) => {
             icon={props.itemOneIcon}
           />
           <Reason
-            title={props.itemOneTitle}
-            description={props.itemOneDescription}
-            icon={props.itemOneIcon}
+            title={props.itemTwoTitle}
+            description={props.itemTwoDescription}
+            icon={props.itemTwoIcon}
           />
           <Reason
-            title={props.itemOneTitle}
-            description={props.itemOneDescription}
-            icon={props.itemOneIcon}
+            title={props.itemThreeTitle}
+            description={props.itemThreeDescription}
+            icon={props.itemThreeIcon}
           />
         </div>
       </div>
