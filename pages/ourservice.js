@@ -15,7 +15,7 @@ const OurService = () => {
       />
       <HowDoesItWork
         title="How does it work?"
-        subTitle="The main role of the Blockchain Presence blockchain oracle is to connect data providers (senders) and data requesters (receivers) and create a reliable platform for data transactions."
+        subTitle="The main role of the Blockchain Presence oracle is to connect data providers (senders) to data requesters (receivers) and thus create a reliable platform for data transactions."
       />
     </>
   );
