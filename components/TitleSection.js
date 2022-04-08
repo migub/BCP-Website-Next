@@ -26,6 +26,11 @@ const TitleSection = (props) => {
               {props.buttonTitle}
             </button>
           )}
+          {props.buttonExternTitle && ( <a target="_blank" href={props.buttonExternLink} ><button
+              className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600"
+            >
+              {props.buttonExternTitle}
+            </button></a>)}
         </div>
       </div>
       {/* <div className="sm:pl-16">

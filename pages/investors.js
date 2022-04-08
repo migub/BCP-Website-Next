@@ -25,17 +25,17 @@ const Investors = () => {
         <WhyYouShouldInvest
           title="Why should you invest in BCP"
           // First point
-          itemThreeTitle="Unique business model"
-          itemThreeDescription="BCP is offering an on-chain authentification service which is a decentralized run-time protocol that verifies the identity of a commited cryptographic signee."
-          itemThreeIcon={<IoEarthSharp />}          
+          itemOneTitle="Unique business model"
+          itemOneDescription="BCP is offering an on-chain authentification service which is a decentralized run-time protocol that verifies the identity of a commited cryptographic signee."
+          itemOneIcon={<IoEarthSharp />}          
           // Second Point
           itemTwoTitle="Strong growing global market"
           itemTwoDescription="The market for blockchain oracle services has been growing at exceptional rates, and thus vast potential is available."
           itemTwoIcon={<IoTrendingUpSharp />}
           // Third Point
-          itemOneTitle="Access to young talents"
-          itemOneDescription="We have access to young talents at University of Zurich who are motivated developers and marketing experts."
-          itemOneIcon={<IoSchoolSharp />}
+          itemThreeTitle="Access to young talents"
+          itemThreeDescription="We have access to young talents at University of Zurich who are motivated developers and marketing experts."
+          itemThreeIcon={<IoSchoolSharp />}
         />
       </div>
     </>

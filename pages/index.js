@@ -22,7 +22,7 @@ export default function Home() {
       {/********************** Start editing home page here **********************/}
       <Hero
         title="Blockchain Presence"
-        subTitle="We create a blockchain oracle for leading smart contract platforms."
+        subTitle="Blockchain Presence AG is a start-up, founded in 2020. Our solution is the further development of the oracle model. The most important innovation is a novel, three-step protocol for on-chain authentication."
         buttonOneTitle="Start Investing in Us"
         buttonTwoTitle="Why Us"
       />

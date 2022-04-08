@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {useRouter} from "next/router";
 import {
   FaInstagram,
   FaTwitter,
@@ -7,10 +8,13 @@ import {
   FaYoutube,
   FaMedium,
 } from "react-icons/fa";
+import {FiExternalLink} from "react-icons/fi";
 const Footer = () => {
+  const router = useRouter();
   return (
     <footer className="bg-[#383f56] w-full py-8">
       <div className="max-w-screen-xl px-4 mx-auto">
+        <div className="text-white opacity-75 flex justify-center space-x-1 items-center"><div onClick={() => router.push("/student-internships")} className="flex justify-center items-center space-x-1"><FiExternalLink /><div>Student Interships</div></div></div>
         <div className="flex items-center justify-between max-w-xs pt-8 mx-auto">
           <a
             title="bcp-instagram"
@@ -84,7 +88,7 @@ const Footer = () => {
             <Image src="/img/uzhcircle.png" alt="" width="75px" height="75px" />
           </div>
         </div>
-        <div className="pt-5 text-center text-gray-500">
+        <div className="pt-5 text-center text-white opacity-50">
           <a href="mailto:info@blockchainpresence.net">
             info@blockchainpresence.net
           </a>
