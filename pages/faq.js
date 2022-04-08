@@ -2,7 +2,9 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import Image from "next/image";
 import Questions from "../components/sections/faq/Questions";
 import TitleSection from "../components/TitleSection";
+import { useRouter } from "next/router";
 const Faq = () => {
+  const router = useRouter();
   const data = {
     rows: [
       {
@@ -108,9 +110,16 @@ const Faq = () => {
     <>
       <TitleSection
         title="Frequently Asked Questions"
-        subTitle="You can find answers to some frequently asked questions below. Feel
-            free to reach out to us at info@blockchainpresence.net for any
-            additional information."
+        subTitle={
+          <div>
+            You can find answers to some frequently asked questions below. Feel
+            free to reach out to us at{" "}
+            <a href="mailto:info@blockchainpresence.net">
+              info@blockchainpresence.net{" "}
+            </a>
+            or <a href="/contact">here </a> for any additional information.
+          </div>
+        }
       />
       <div className="bg-gradient-to-t to-white from-[#BDC5D8] pt-12 pb-20">
         <Questions data={data} />

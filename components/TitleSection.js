@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 
 const TitleSection = (props) => {
+  console.log(props.subTitle);
   const router = useRouter();
   return (
     <div className="relative p-6 pt-32 sm:pt-40 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
