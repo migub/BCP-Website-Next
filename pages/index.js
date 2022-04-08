@@ -14,7 +14,7 @@ export default function Home() {
         <title>Blockchain Presence</title>
         <meta
           name="description"
-          content="We aim at creating a blockchain oracle for leading smart contract platforms."
+          content="Our solution is the further development of the oracle model. The most important innovation is a novel, three-step protocol for on-chain authentication."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,13 +23,13 @@ export default function Home() {
       <Hero
         title="Blockchain Presence"
         subTitle="We create a blockchain oracle for leading smart contract platforms."
-        buttonOneTitle="Start Investing"
+        buttonOneTitle="Start Investing in Us"
         buttonTwoTitle="Why Us"
       />
       <WhyBCP
         // First Feature
         featureOneTitle="Reliable and Secure"
-        featureOneDescription="Senders build up reputation by offering the best service for smart contract developers. Every single sender on the BCP platform is registered on-chain. Thereby, we can guarantee that all data comes from the original source."
+        featureOneDescription="Senders build up reputation by offering the best service for smart contract developers. Every sender on the BCP platform is registered on-chain. Thereby, we can guarantee that all data origins from the source."
         featureOneIcon={<AiFillSafetyCertificate />}
         // Second Feature
         featureTwoTitle="Cost-efficient"
@@ -44,7 +44,7 @@ export default function Home() {
         title="What is Blockchain Presence?"
         description="Blockchain Presence AG is a swiss corporation and an official
               spin-off of the University of Zurich, founded in December 2020. We
-              are located in Zurich, near the University of Zurich and the
+              are located near the University of Zurich and the
               Crypto Valley Zug. We strive to develop and operate an oracle
               platform for smart contracts. The Blockchain Presence platform
               connects smart contracts with on-chain authenticated data

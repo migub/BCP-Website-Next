@@ -35,7 +35,7 @@ const HowDoesItWork = (props) => {
           />
           <div className="boxunderimg">
             Oracles can be thought of as a mechanism for bridging the gap
-            between the off-chain world and the on-chain world.
+            between the off-chain and the on-chain world.
           </div>
         </div>
       </div>
