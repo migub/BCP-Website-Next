@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {useRouter} from "next/router";
+import Link from "next/link";
 import {
   FaInstagram,
   FaTwitter,
@@ -14,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#383f56] w-full py-8">
       <div className="max-w-screen-xl px-4 mx-auto">
-        <div className="text-white opacity-75 flex justify-center space-x-1 items-center"><div onClick={() => router.push("/student-internships")} className="flex justify-center items-center space-x-1"><FiExternalLink /><div>Student Interships</div></div></div>
+        <div className="text-white opacity-75 flex justify-center space-x-1 items-center"><div onClick={() => router.push("/student-internships")} className="flex justify-center cursor-pointer items-center space-x-1"><FiExternalLink /><div>Student Interships</div></div></div>
         <div className="flex items-center justify-between max-w-xs pt-8 mx-auto">
           <a
             title="bcp-instagram"

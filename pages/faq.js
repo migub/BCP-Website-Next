@@ -3,6 +3,7 @@ import Image from "next/image";
 import Questions from "../components/sections/faq/Questions";
 import TitleSection from "../components/TitleSection";
 import { useRouter } from "next/router";
+import Link from "next/link";
 const Faq = () => {
   const router = useRouter();
   const data = {
@@ -98,10 +99,10 @@ const Faq = () => {
           <div>
             You can find answers to some frequently asked questions below. Feel
             free to reach out to us at{" "}
-            <a href="mailto:info@blockchainpresence.net">
-              info@blockchainpresence.net{" "}
-            </a>
-            or <a href="/contact">here </a> for any additional information.
+            <Link href="mailto:info@blockchainpresence.net">
+              info@blockchainpresence.net
+            </Link>
+            {" "}or <Link href="/contact">here </Link> for any additional information.
           </div>
         }
       />
