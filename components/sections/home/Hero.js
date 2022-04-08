@@ -8,14 +8,14 @@ const Hero = (props) => {
   return (
     <>
       <div className="relative p-6 pt-32 sm:pt-40 pb-24 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
-        <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
+        <div className=" sm:w-1/4 pb-12 sm:min-w-[450px]">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
+            <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-5xl">
               {props.title}
             </h1>
             <p
-              style={{ lineHeight: "1.1" }}
-              className="mt-8 text-2xl text-left text-gray-700 sm:text-left"
+              // style={{ lineHeight: "1.1" }}
+              className="mt-8 text-lg text-left text-gray-700 sm:text-xl sm:text-left"
             >
               {props.subTitle}
             </p>

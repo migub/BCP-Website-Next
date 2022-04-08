@@ -12,7 +12,7 @@ const Reason = (props) => {
         </div>
         <div className="text-xl ">{props.title}</div>
       </div>
-      <p className="leading-loose text-black text-md">{props.description}</p>
+      <p className="text-black text-md">{props.description}</p>
     </div>
   );
 };

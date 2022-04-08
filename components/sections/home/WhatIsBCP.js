@@ -19,11 +19,11 @@ const WhatIsBCP = (props) => {
               ></path>
             </svg>
           </div>
-          <h1 className="text-4xl font-bold text-center text-gray-800 sm:text-center sm:text-6xl">
+          <h1 className="text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
             {props.title}
           </h1>
           <div className="w-full m-auto mt-16 lg:w-1/2">
-            <p className="px-4 py-4 text-xl text-gray-500">
+            <p className="px-4 py-4 text-lg text-gray-500 sm:text-xl">
               {props.description}
             </p>
           </div>

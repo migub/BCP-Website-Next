@@ -6,12 +6,12 @@ const TitleSection = (props) => {
   return (
     <div className="relative p-6 pt-32 sm:pt-40 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
       <div className=" xl:w-1/2 sm:w-2/3 pb-12 sm:min-w-[300px]">
-        <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-5xl">
+        <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-4xl">
           {props.title}
         </h1>
         <p
-          style={{ lineHeight: "1.1" }}
-          className="mt-8 overflow-hidden text-2xl text-left text-gray-700 sm:text-left"
+          // style={{ lineHeight: "1.1" }}
+          className="mt-8 overflow-hidden text-lg leading-5 text-left text-gray-700 sm:text-lg sm:text-left"
         >
           {props.subTitle}
         </p>
@@ -26,11 +26,17 @@ const TitleSection = (props) => {
               {props.buttonTitle}
             </button>
           )}
-          {props.buttonExternTitle && ( <Link rel="noreferrer" target="_blank" href={props.buttonExternLink} ><button
-              className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600"
+          {props.buttonExternTitle && (
+            <Link
+              rel="noreferrer"
+              target="_blank"
+              href={props.buttonExternLink}
             >
-              {props.buttonExternTitle}
-            </button></Link>)}
+              <button className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600">
+                {props.buttonExternTitle}
+              </button>
+            </Link>
+          )}
         </div>
       </div>
       {/* <div className="sm:pl-16">
