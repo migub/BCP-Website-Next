@@ -6,6 +6,9 @@ import WhatIsBCP from "../components/sections/home/WhatIsBCP";
 import { AiFillSafetyCertificate } from "react-icons/ai";
 import { GiReceiveMoney } from "react-icons/gi";
 import { IoAccessibilitySharp } from "react-icons/io5";
+import Numbers from "../components/sections/home/Numbers";
+import HowDoesItWork from "../components/sections/home/HowDoesItWork";
+import Timeline from "../components/sections/home/Timeline";
 
 export default function Home() {
   return (
@@ -21,11 +24,23 @@ export default function Home() {
 
       {/********************** Start editing home page here **********************/}
       <Hero
-        title="Blockchain Presence"
-        subTitle="Blockchain Presence AG is a start-up, founded in 2020. Our solution is the further development of the oracle model. The most important innovation is a novel, three-step protocol for on-chain authentication."
+        title={`Reliable, Convenient and Cost-Efficient`}
+        subTitle="Blockchain Presence is a blockchain oracle solution on-chain authentication."
         buttonOneTitle="Start Investing in Us"
         buttonTwoTitle="Why Us"
       />
+      <WhatIsBCP
+        title="What is Blockchain Presence?"
+        description="BCP is a swiss corporation and an official spinoff
+        of the University of Zurich, founded in
+        December 2020. We are located near the
+        University of Zurich and the Crypto Valley Zug.
+        We strive to develop and operate an oracle
+        platform for smart contracts. Our platform
+        connects smart contracts with on-chain
+        authenticated data providers."
+      />
+      <Numbers />
       <WhyBCP
         // First Feature
         featureOneTitle="Reliable and Secure"
@@ -40,15 +55,11 @@ export default function Home() {
         featureThreeDescription="The BCP website provides users with realtime information on the status of the order and delivery process. Mainnet information is passed on to the testnet, facilitating development and testing."
         featureThreeIcon={<IoAccessibilitySharp />}
       />
-      <WhatIsBCP
-        title="What is Blockchain Presence?"
-        description="Blockchain Presence AG is a swiss corporation and an official
-              spin-off of the University of Zurich, founded in December 2020. We
-              are located near the University of Zurich and the
-              Crypto Valley Zug. We strive to develop and operate an oracle
-              platform for smart contracts. The Blockchain Presence platform
-              connects smart contracts with on-chain authenticated data
-              providers."
+      <Timeline title="Our Milestones" />
+      <HowDoesItWork
+        title="Oracle Service"
+        subTitle="Oracles can be thought of as a mechanism for bridging the gap between
+          the off-chain and the on-chain world."
       />
     </>
   );

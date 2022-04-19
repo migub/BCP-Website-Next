@@ -15,17 +15,17 @@ const WhyBCP = (props) => {
             <Feature
               title={props.featureOneTitle}
               description={props.featureOneDescription}
-              icon={props.featureOneIcon}
+              // icon={props.featureOneIcon}
             />
             <Feature
               title={props.featureTwoTitle}
               description={props.featureTwoDescription}
-              icon={props.featureTwoIcon}
+              // icon={props.featureTwoIcon}
             />
             <Feature
               title={props.featureThreeTitle}
               description={props.featureThreeDescription}
-              icon={props.featureThreeIcon}
+              // icon={props.featureThreeIcon}
             />
           </div>
         </div>

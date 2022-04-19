@@ -4,13 +4,18 @@ import Image from "next/image";
 import HowDoesItWork from "../components/sections/ourservice/HowDoesItWork";
 import TitleSection from "../components/TitleSection";
 import Application from "../components/sections/application/Application";
-const StudentInterships = () => {
+import StudentExperience from "../components/sections/application/StudentExperience";
+const StudentIntership = () => {
   const router = useRouter();
   return (
     <>
       <TitleSection
         title="Student Internships"
-        subTitle=""
+        subTitle="Blockchain Presence gives university students the opportunity to write their
+masters or bachelors thesis by working in teams together with other
+students and contributing to this project."
+        buttonExternTitle="Start Application"
+        buttonExternLink="https://forms.office.com/Pages/ResponsePage.aspx?id=2zjkx2LkIkypCsNYsWmAs7Ovbd1yb0BMjRrifH1U99BURDgyRU0xTExKWjI2MU1NUEVOQ084T0g5Ny4u"
       />
       <Application
         title="Application Process"
@@ -19,8 +24,12 @@ const StudentInterships = () => {
         buttonTitle="Start Application"
         buttonLink="https://forms.office.com/Pages/ResponsePage.aspx?id=2zjkx2LkIkypCsNYsWmAs7Ovbd1yb0BMjRrifH1U99BURDgyRU0xTExKWjI2MU1NUEVOQ084T0g5Ny4u"
       />
+      <StudentExperience
+        title="Student Experience"
+        description="Julia wrote her bachelor thesis in the framework of BCP in 20XX. Now she is working at Bitcoin Suisse."
+      />
     </>
   );
 };
 
-export default StudentInterships;
+export default StudentIntership;

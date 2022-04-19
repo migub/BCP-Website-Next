@@ -26,7 +26,7 @@ const Navbar = (props) => {
   };
   return (
     <>
-      <div className="fixed z-20 flex items-center justify-between w-full p-2 bg-[#383f56] shadow-lg lg:pl-[10%] lg:pr-[10%] h-20">
+      <div className="fixed z-20 flex items-center justify-between w-full p-2 bg-[#384054] shadow-lg lg:pl-[10%] lg:pr-[10%] h-20">
         <div
           onClick={() => router.push("/")}
           className="flex items-center h-16 space-x-2 overflow-hidden cursor-pointer w-96"

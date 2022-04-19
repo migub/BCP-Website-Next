@@ -7,10 +7,10 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative p-6 pt-32 sm:pt-40 pb-24 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
-        <div className=" sm:w-1/4 pb-12 sm:min-w-[450px]">
+      <div className="relative p-6 pt-32 pb-24 sm:pt-52 sm:flex sm:justify-center sm:items-center bg-gradient-to-b to-white from-[#5870a16e]">
+        <div className=" sm:w-2/5 pb-12  sm:min-w-[450px]">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-5xl">
+            <h1 className="text-4xl font-extrabold text-left text-gray-800 sm:text-left sm:text-5xl">
               {props.title}
             </h1>
             <p
@@ -42,19 +42,6 @@ const Hero = (props) => {
         </div>
         <div className="flex justify-center sm:pl-16">
           <Image src="/img/logo.png" width="300" height="300" alt="" />
-        </div>
-        <div className="custom-shape-divider-bottom-1648168505">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-              className="shape-fill"
-            ></path>
-          </svg>
         </div>
       </div>
     </>
