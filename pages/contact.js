@@ -2,7 +2,7 @@ import ContactForm from "../components/sections/contact/ContactForm";
 const Contact = () => {
   return (
     <>
-      <div className="bg-gradient-to-t to-[#cfd5e4] from-white">
+      <div className="bg-gradient-to-t min-h-screen mb-[-300px] to-[#cfd5e4] from-white">
         <div className="relative p-6 pt-32 sm:pt-40 sm:flex sm:justify-center sm:items-center ">
           <div className=" sm:w-1/2 pb-12 sm:min-w-[300px]">
             <h1 className="text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
