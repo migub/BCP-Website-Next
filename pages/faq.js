@@ -1,43 +1,115 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import Image from "next/image";
 import Questions from "../components/sections/faq/Questions";
+import TitleSection from "../components/TitleSection";
+import { useRouter } from "next/router";
+import Link from "next/link";
 const Faq = () => {
+  const router = useRouter();
+  const data = {
+    rows: [
+      {
+        title: <p className="px-4 text-white">What is a blockchain oracle?</p>,
+        content: (
+          <p className="px-2 pb-2 font-light text-white">
+            Whenever a smart contract contains a contingency, like payment
+            conditional on an event, the contract needs to be informed in a
+            reliable manner. Oracles are needed to inform smart contracts about
+            financial data, like interest rates. One of the main applications of
+            oracles is currently the reliable creation of random numbers for
+            gambling purposes, but Blockchain Presence aims to offer a much
+            broader scope of informational input.
+          </p>
+        ),
+      },
+      {
+        title: (
+          <p className="px-4 text-white">
+            Why do we need another blockchain oracle?
+          </p>
+        ),
+        content: (
+          <p className="px-2 pb-2 font-light text-white">
+            Existing smart contract oracles are less secure because they rely on
+            off-chain authentication. Blockchain Presence offers a three-step
+            on-chain authentication method, and is thereby as secure as the
+            underlying smart contract environment.
+          </p>
+        ),
+      },
+      {
+        title: (
+          <p className="px-4 text-white">
+            How can I feed data from Blockchain Presence into my smart contract?
+          </p>
+        ),
+        content: (
+          <p className="px-2 pb-2 font-light text-white">
+            Once you know which data you wish to order from Blockchain Presence,
+            you use the provided order function call to implement a callback
+            function. The order function call specifies which data you are
+            ordering, and when you wish to have it delivered to your smart
+            contract. The callback function in your smart contract will be
+            called once the data has been sent by your sender of choice. Coding
+            examples for the order and delivery process are provided on Github.
+          </p>
+        ),
+      },
+      {
+        title: (
+          <p className="px-4 text-white">
+            How much does it cost to order data from the Blockchain Presence
+            platform?
+          </p>
+        ),
+        content: (
+          <p className="px-2 pb-2 font-light text-white">
+            Using the platform is free. However, any blockchain transaction fees
+            still apply and the sender can also specify fee. We have designed
+            the order and delivery process to keep these gas costs at the
+            absolute minimum necessary.
+          </p>
+        ),
+      },
+      {
+        title: (
+          <p className="px-4 text-white">
+            Why would senders want to provide data to Blockchain Presence?
+          </p>
+        ),
+        content: (
+          <p className="px-2 pb-2 font-light text-white">
+            There are three main motivations for becoming a sender. One is that
+            becoming a sender is a straightforward way to step-foot into the
+            blockchain world. Secondly, a sender can ensure data availability to
+            smart contracts. Finally, a sender may earn fees on the data he
+            provides.
+          </p>
+        ),
+      },
+    ],
+  };
   return (
     <>
-      <div className="relative p-6 pt-32 sm:pt-40 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
-        <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
-          <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
-            Frequently Asked Questions
-          </h1>
-          <p
-            style={{ lineHeight: "1.1" }}
-            className="mt-8 overflow-hidden text-2xl text-left text-gray-700 sm:text-left"
-          >
+      <TitleSection
+        title="Frequently Asked Questions"
+        subTitle={
+          <div>
             You can find answers to some frequently asked questions below. Feel
-            free to reach out to us at info@blockchainpresence.net for any
-            additional information.
-          </p>
-        </div>
-        <div className="sm:pl-16">
-          <Image src="/img/faq2.png" width="400" height="400" alt="" />
-        </div>
-        <div className="custom-shape-divider-bottom-1648168505">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-              className="shape-fill"
-            ></path>
-          </svg>
-        </div>
-      </div>
-      {/* <Offer /> */}
+            free to reach out to us at{" "}
+            <Link href="mailto:info@blockchainpresence.net">
+              info@blockchainpresence.net
+            </Link>{" "}
+            or{" "}
+            <Link href="/contact">
+              <span className="underline cursor-pointer">here</span>
+            </Link>{" "}
+            for any additional information.
+          </div>
+        }
+      />
       <div className="bg-gradient-to-t to-white from-[#BDC5D8] pt-12 pb-20">
-        <Questions />
+        <Questions data={data} />
       </div>
     </>
   );

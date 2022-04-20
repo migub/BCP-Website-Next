@@ -2,23 +2,22 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { IoPlayCircle } from "react-icons/io5";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-const Hero = () => {
+const Hero = (props) => {
   const router = useRouter();
 
   return (
     <>
-      <div className="relative p-6 pt-32 sm:pt-40 pb-24 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
-        <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
+      <div className="relative p-6 pt-32 pb-24 h-[100vh] sm:pt-40 lg:space-x-20 lg:px-32 title-background #module lg:flex lg:justify-center lg:items-center ">
+        <div className="pb-12 lg:w-2/3">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
-              Blockchain Presence
+            <h1 className="text-4xl font-bold text-left text-white sm:text-left sm:text-6xl">
+              {props.title}
             </h1>
             <p
-              style={{ lineHeight: "1.1" }}
-              className="mt-8 text-2xl text-left text-gray-700 sm:text-left"
+              // style={{ lineHeight: "1.1" }}
+              className="mt-8 text-lg text-left text-white sm:text-xl sm:text-left"
             >
-              We aim at creating a blockchain oracle for leading smart contract
-              platforms.
+              {props.subTitle}
             </p>
           </AnimationOnScroll>
 
@@ -29,22 +28,22 @@ const Hero = () => {
               }}
               className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600"
             >
-              Start Investing
+              {props.buttonOneTitle}
             </button>
             <button
               onClick={() => {
                 router.push("#whyus");
               }}
-              className="px-4 py-2 font-semibold border rounded g-transparent text-[#383f56] hover:text-gray-500 border-[#383f56] hover:border-gray-600"
+              className="px-4 py-2 font-semibold text-white border border-white rounded g-transparent hover:text-gray-500 hover:border-gray-600"
             >
-              Why Us
+              {props.buttonTwoTitle}
             </button>
           </div>
         </div>
-        <div className="justify-center flex sm:pl-16">
-          <Image src="/img/logo.png" width="300" height="300" alt="" />
+        <div className="relative flex items-center justify-center w-full xl:w-1/4 h-96 ">
+          <Image src="/img/logo.png" layout="fill" objectFit="contain" alt="" />
         </div>
-        <div className="custom-shape-divider-bottom-1648168505">
+        {/* <div className="custom-shape-divider-bottom-1648168505">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +55,7 @@ const Hero = () => {
               className="shape-fill"
             ></path>
           </svg>
-        </div>
+        </div> */}
       </div>
     </>
   );

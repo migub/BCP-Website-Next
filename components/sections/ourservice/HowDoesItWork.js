@@ -1,17 +1,15 @@
 import Image from "next/image";
 
-const HowDoesItWork = () => {
+const HowDoesItWork = (props) => {
   return (
     <>
-      <div className="mt-12 pb-1 bg-gradient-to-t to-white from-[#BDC5D8]">
-        <h1 className="text-4xl font-bold pt-24 text-center text-gray-800 sm:text-center sm:text-6xl">
-          How does it work?
+      <div className="pb-1 bg-gradient-to-t to-white from-[#BDC5D8]">
+        <h1 className="pt-24 text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
+          {props.title}
         </h1>
-        <div className="w-full lg:w-1/2 mt-6 mb-6 m-auto">
-          <p className="text-xl text-center text-gray-500  px-4 py-4">
-            The main role of the Blockchain Presence blockchain oracle is to
-            connect data providers (senders) and data requesters (receivers) and
-            create a reliable platform for data transactions.
+        <div className="w-full m-auto mt-6 mb-6 lg:w-1/2">
+          <p className="px-4 py-4 text-center text-gray-500 text-md sm:text-lg">
+            {props.subTitle}
           </p>
         </div>
         <div className="boxsenderreceiver">
@@ -35,9 +33,9 @@ const HowDoesItWork = () => {
             height="2446px"
             alt=""
           />
-          <div className="boxunderimg">
+          <div className="text-lg text-center">
             Oracles can be thought of as a mechanism for bridging the gap
-            between the off-chain world and the on-chain world.
+            between the off-chain and the on-chain world.
           </div>
         </div>
       </div>

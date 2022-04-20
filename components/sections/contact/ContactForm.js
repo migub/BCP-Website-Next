@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ContactForm = () => {
+const ContactForm = (props) => {
   const [ticked, setTicked] = useState(false);
 
   return (
@@ -9,9 +9,9 @@ const ContactForm = () => {
         method="POST"
         encType="multipart/form-data"
         name="EmailForm"
-        className="flex w-full max-w-sm m-auto space-x-3"
+        className="flex w-full max-w-xl m-auto space-x-3"
       >
-        <div className="w-full max-w-2xl px-5 py-10 m-auto  bg-[#BDC5D8] rounded-lg shadow">
+        <div className="w-full max-w-3xl px-5 py-10 m-auto  bg-[#BDC5D8] rounded-lg shadow">
           {/* <div className="mb-6 text-3xl font-light text-center text-gray-800 dark:text-white">
             Contact us !
           </div> */}
@@ -22,7 +22,7 @@ const ContactForm = () => {
                   type="text"
                   id="contact-form-name"
                   className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-300 rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#383f56] focus:border-transparent"
-                  placeholder="Name"
+                  placeholder={props.placeholderOne}
                 />
               </div>
             </div>
@@ -32,7 +32,7 @@ const ContactForm = () => {
                   type="text"
                   id="contact-form-email"
                   className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-transparent border-gray-300 rounded-lg shadow-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#383f56] focus:border-transparent"
-                  placeholder="E-Mail"
+                  placeholder={props.placeholderTwo}
                 />
               </div>
             </div>
@@ -41,7 +41,7 @@ const ContactForm = () => {
                 <textarea
                   className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-[#383f56] focus:border-transparent"
                   id="comment"
-                  placeholder="Enter your comment"
+                  placeholder={props.placeholderThree}
                   name="comment"
                   rows="5"
                   cols="40"

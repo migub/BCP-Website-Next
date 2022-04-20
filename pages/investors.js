@@ -2,58 +2,41 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import WhyYouShouldInvest from "../components/sections/investors/WhyYouShouldInvest";
+import TitleSection from "../components/TitleSection";
+//Icons
+import {
+  IoSchoolSharp,
+  IoTrendingUpSharp,
+  IoEarthSharp,
+} from "react-icons/io5";
 
 const Investors = () => {
   const router = useRouter();
 
   return (
     <>
-      <div className="relative p-6 pt-32 sm:pt-40 pb-28 sm:flex sm:justify-center sm:items-center bg-gradient-to-t to-[#BDC5D8] from-[#BDC5D8]">
-        <div className=" sm:w-1/4 pb-12 sm:min-w-[300px]">
-          <h1 className="text-4xl font-bold text-left text-gray-800 sm:text-left sm:text-6xl">
-            Become an Investor
-          </h1>
-          <p
-            style={{ lineHeight: "1.1" }}
-            className="mt-8 text-2xl text-left text-gray-700 sm:text-left"
-          >
-            Blockchain Presence AG is a start-up, founded in 2020. We aim to
-            create a a blockchain oracle for leading smart contract platforms.
-            We are an innovative and visionary company where you can be part of.
-          </p>
-          <AnimationOnScroll animateOnce animateIn="animate__fadeIn">
-            <div className="flex justify-start mt-10 space-x-5 sm:justify-start">
-              <button
-                onClick={() => {
-                  router.push("/contact");
-                }}
-                className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600"
-              >
-                Contact Us
-              </button>
-            </div>
-          </AnimationOnScroll>
-        </div>
-        <div className="sm:pl-16">
-          <Image src="/img/invest.png" width="400" height="400" alt="" />
-        </div>
-        <div className="custom-shape-divider-bottom-1648168505">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-              className="shape-fill"
-            ></path>
-          </svg>
-        </div>
-      </div>
-      {/* <Offer /> */}
+      <TitleSection
+        title="Become an Investor"
+        subTitle="Blockchain Presence AG is a start-up, founded in 2020. Our solution is the further development of the oracle model. The most important innovation is a novel, three-step protocol for on-chain authentication. This opens the door to new use cases, such as the creation of new crypto markets that are compatible with anti-money laundering regulation standards."
+        buttonTitle="Contact Us"
+        buttonLink="/contact"
+      />
       <div className="bg-gradient-to-t to-white from-[#BDC5D8]">
-        <WhyYouShouldInvest />
+        <WhyYouShouldInvest
+          title="Why should you invest in BCP"
+          // First point
+          itemOneTitle="Unique business model"
+          itemOneDescription="BCP is offering an on-chain authentification service which is a decentralized run-time protocol that verifies the identity of a commited cryptographic signee."
+          itemOneIcon={<IoEarthSharp />}          
+          // Second Point
+          itemTwoTitle="Strong growing global market"
+          itemTwoDescription="The market for blockchain oracle services has been growing at exceptional rates, and thus vast potential is available."
+          itemTwoIcon={<IoTrendingUpSharp />}
+          // Third Point
+          itemThreeTitle="Access to young talents"
+          itemThreeDescription="We have access to young talents at University of Zurich who are motivated developers and marketing experts."
+          itemThreeIcon={<IoSchoolSharp />}
+        />
       </div>
     </>
   );
