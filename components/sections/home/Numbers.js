@@ -2,9 +2,9 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Numbers = () => {
   return (
-    <div className="bg-[#384054]">
+    <div className="bg-[#384054] ">
       <AnimationOnScroll
-        className="flex items-center w-full h-40 mt-10 justify-evenly"
+        className="flex items-center w-full h-40 mt-10 overflow-hidden justify-evenly"
         animateOnce
         animateIn="animate__fadeInRight"
       >
@@ -12,7 +12,7 @@ const Numbers = () => {
           <div className="text-3xl font-bold text-center text-white sm:text-4xl">
             #1
           </div>
-          <div className="pt-3 text-[10px] text-center text-white sm:text-sm">
+          <div className="pt-3 text-[9px] text-center text-white sm:text-sm">
             University for Blockchain research in Europe
           </div>
         </div>

@@ -14,13 +14,13 @@ const Timeline = (props) => {
         </div>
         <div className="relative h-full p-10 m-auto overflow-hidden 2xl:w-2/3 wrap">
           <div
-            className="absolute border border-gray-700 md:h-full h-[850px] border-2-2 border-opacity-20"
+            className="absolute border border-gray-700 md:h-full h-[950px] border-2-2 border-opacity-20"
             style={{ left: "50%" }}
           ></div>
           {/* <!-- right timeline --> */}
           <div className="flex items-center justify-between w-full mb-8 0 md:right-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
-            <div className=" hidden md:flex items-center order-1  w-8 h-8 bg-[#384056] rounded-full shadow-xl">
+            <div className=" hidden z-10 md:flex items-center order-1  w-8 h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-lg font-semibold text-white">1</h1>
             </div>
             <AnimationOnScroll
@@ -42,7 +42,7 @@ const Timeline = (props) => {
           {/* <!-- left timeline --> */}
           <div className="flex flex-row-reverse items-center justify-between w-full mb-8 left-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
-            <div className=" hidden md:flex items-center order-1 w-8 h-8 bg-[#384056] rounded-full shadow-xl">
+            <div className=" hidden z-10 md:flex items-center order-1 w-8 h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-lg font-semibold text-white">2</h1>
             </div>
             <AnimationOnScroll
@@ -64,7 +64,7 @@ const Timeline = (props) => {
           {/* <!-- right timeline --> */}
           <div className="flex items-center justify-between w-full mb-8 right-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
-            <div className=" hidden md:flex items-center order-1 w-8 h-8 bg-[#384056] rounded-full shadow-xl">
+            <div className=" hidden z-10 md:flex items-center order-1 w-8 h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-lg font-semibold text-white">3</h1>
             </div>
             <AnimationOnScroll
@@ -87,7 +87,7 @@ const Timeline = (props) => {
           {/* <!-- left timeline --> */}
           <div className="flex flex-row-reverse items-center justify-between w-full mb-8 left-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
-            <div className=" hidden md:flex items-center order-1 w-8 h-8 bg-[#384056] rounded-full shadow-xl">
+            <div className=" hidden z-10 md:flex items-center order-1 w-8 h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-lg font-semibold text-white">4</h1>
             </div>
             <AnimationOnScroll
