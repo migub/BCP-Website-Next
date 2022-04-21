@@ -4,7 +4,7 @@ const TitleSection = (props) => {
   console.log(props.subTitle);
   const router = useRouter();
   return (
-    <div className="relative bg-gradient-to-b to-white from-[#5870a11c] p-6 pt-32 sm:pt-40 pb-24 sm:flex sm:justify-center sm:items-center">
+    <div className="relative bg-gradient-to-b to-[#5870a11c] from-[#5870a11c] p-6 pt-32 sm:pt-40 sm:pb-24 sm:flex sm:justify-center sm:items-center">
       <div className=" xl:w-1/2 sm:w-2/3 flex flex-col justify-center items-center sm:min-w-[300px]">
         <div>
           <h1 className="text-4xl font-bold text-gray-800 sm:text-left sm:text-5xl">

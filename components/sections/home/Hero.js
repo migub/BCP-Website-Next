@@ -7,26 +7,28 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative p-6 pt-32 pb-24 sm:pt-52 sm:flex sm:justify-center sm:items-center bg-gradient-to-b to-white from-[#5870a16e]">
-        <div className=" sm:w-2/5 pb-12  sm:min-w-[450px]">
+      <div className="relative overflow-hidden space-x-3 h-[70vh] md:h-[75vh] p-6 pt-32 pb-24 sm:pt-52 sm:flex justify-center items-center herobackground">
+        <div className="xl:ml-52 mt-7 md:mt-0 xl:w-1/3   md:pb-12 sm:min-w-[450px]">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="text-4xl font-extrabold text-left text-gray-800 sm:text-left sm:text-5xl">
-              {props.title}
+            <h1 className="flex flex-col space-y-4 text-5xl font-extrabold text-left text-white 2xl:text-8xl sm:text-left sm:text-8xl">
+              <div>Reliable.</div>
+              <div className="text-[#5870A1] ">Convenient.</div>{" "}
+              <div>Cost-Efficient.</div>
             </h1>
             <p
               // style={{ lineHeight: "1.1" }}
-              className="mt-8 text-lg text-left text-gray-700 sm:text-xl sm:text-left"
+              className="my-8 text-lg text-left text-white opacity-75 sm:text-xl sm:text-left"
             >
               {props.subTitle}
             </p>
           </AnimationOnScroll>
 
-          <div className="flex justify-start mt-10 space-x-5 sm:justify-start">
+          <div className="flex justify-start space-x-5 sm:justify-start">
             <button
               onClick={() => {
                 router.push("/investors");
               }}
-              className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600"
+              className="px-6 py-3 font-bold text-white shadow-lg rounded-2xl bg-[#383F57] md:bg-[#5870A1] hover:bg-white hover:text-[#5870A1] border-[0.5px] border-[#5870A1] "
             >
               {props.buttonOneTitle}
             </button>
@@ -34,15 +36,19 @@ const Hero = (props) => {
               onClick={() => {
                 router.push("#whyus");
               }}
-              className="px-4 py-2 font-semibold border rounded g-transparent text-[#383f56] hover:text-gray-500 border-[#383f56] hover:border-gray-600"
+              className="px-4 py-2 font-semibold text-white border border-white rounded-2xl bg-[#383F57] hover:bg-white hover:text-[#5870A1]"
             >
               {props.buttonTwoTitle}
             </button>
           </div>
         </div>
-        <div className="flex justify-center sm:pl-16">
-          <Image src="/img/logo.png" width="300" height="300" alt="" />
-        </div>
+        <AnimationOnScroll
+          className="relative hidden xl:flex justify-center items-center mb-20 w-2/5 h-[700px]"
+          animateOnce
+          animateIn="animate__fadeIn"
+        >
+          <Image src="/img/hero.png" layout="fill" objectFit="contain" />
+        </AnimationOnScroll>
       </div>
     </>
   );

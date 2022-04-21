@@ -13,18 +13,6 @@ const HowDoesItWork = (props) => {
           </p>
         </div>
         <div className="boxsenderreceiver">
-          <div className="largertext">
-            Receivers
-            <span className="largertext" style={{ float: "right" }}>
-              Senders
-            </span>
-          </div>
-          <div className="smallertext">
-            Data requesters
-            <span className="smallertext" style={{ float: "right" }}>
-              Data providers
-            </span>
-          </div>
           <Image
             style="margin-top: 20px; margin-bottom: 20px;"
             className="imgsendersreceivers"

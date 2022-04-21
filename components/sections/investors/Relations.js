@@ -1,7 +1,7 @@
 const Relations = (props) => {
   return (
     <>
-      <div className=" py-10 bg-[#384054] bannerBackground flex justify-center items-center ">
+      <div className=" py-10 bg-[#384054] herobackground flex justify-center items-center ">
         <div className="w-2/3 text-left">
           <p className="mb-6 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">
             {props.title}

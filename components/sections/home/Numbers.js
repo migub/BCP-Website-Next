@@ -8,19 +8,29 @@ const Numbers = () => {
         animateOnce
         animateIn="animate__fadeInRight"
       >
-        <div className="flex flex-col items-center justify-center h-full w-52 ">
-          <div className="text-4xl font-bold text-center text-white">#1</div>
-          <div className="pt-3 text-sm text-center text-white">
+        <div className="flex flex-col items-center justify-center w-1/3 h-full pt-3 sm:w-52 ">
+          <div className="text-3xl font-bold text-center text-white sm:text-4xl">
+            #1
+          </div>
+          <div className="pt-3 text-[10px] text-center text-white sm:text-sm">
             University for Blockchain research in Europe
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center h-full w-52 ">
-          <div className="text-4xl font-bold text-center text-white">60+</div>
-          <div className="pt-3 text-sm text-center text-white">Students</div>
+        <div className="flex flex-col items-center justify-center w-1/3 h-fullsm:w-52 ">
+          <div className="text-3xl font-bold text-center text-white sm:text-4xl">
+            60+
+          </div>
+          <div className="pt-3 text-xs text-center text-white sm:text-sm">
+            Students
+          </div>
         </div>
-        <div className="flex flex-col items-center justify-center h-full w-52 ">
-          <div className="text-4xl font-bold text-center text-white">7</div>
-          <div className="pt-3 text-sm text-center text-white">Co-Founders</div>
+        <div className="flex flex-col items-center justify-center w-1/3 h-full sm:w-52 ">
+          <div className="text-3xl font-bold text-center text-white sm:text-4xl">
+            7
+          </div>
+          <div className="pt-3 text-xs text-center text-white sm:text-sm">
+            Co-Founders
+          </div>
         </div>
       </AnimationOnScroll>
     </div>

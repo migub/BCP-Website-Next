@@ -1,6 +1,6 @@
 const Feature = (props) => {
   return (
-    <div className="w-full px-4 py-4 mt-6 bg-white rounded-lg sm:w-1/2 xl:h-[400px] 2xl:h-[350px] xl:w-1/4">
+    <div className="w-full px-4 py-4 mt-6 bg-white sm:w-1/2 xl:w-1/4">
       <div className="flex-shrink-0">
         {/* <div
           style={{ color: "white" }}
