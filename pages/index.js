@@ -29,6 +29,7 @@ export default function Home() {
         buttonOneTitle="Start Investing in Us"
         buttonTwoTitle="Why Us"
       />
+      <Numbers />
       <WhatIsBCP
         title="What is Blockchain Presence?"
         description="BCP is a swiss corporation and an official spinoff
@@ -40,7 +41,6 @@ export default function Home() {
         connects smart contracts with on-chain
         authenticated data providers."
       />
-      <Numbers />
       <WhyBCP
         // First Feature
         featureOneTitle="Reliable and Secure"

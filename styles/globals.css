@@ -15,8 +15,8 @@
 }
 
 .herobackground {
-  background-color: #384054;
-  background-image: url("/img/herobackground.svg");
+  background-color: white;
+  background-image: url("/img/whiteabs.jpg");
   background-size: cover;
 }
 .boxsenderreceiver {
@@ -60,6 +60,69 @@
   margin-top: 0px;
   text-align: center;
 }
+/* Header Text Slider */
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.13);
+  background: #f39c12;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.center {
+  position: absolute;
+  top: 49.5%;
+  left: 0;
+  right: 0;
+  margin-top: -22.5px;
+}
+.carousel {
+  background-color: red;
+  position: relative;
+  text-align: center;
+  line-height: 45px;
+}
+
+.carousel .change_outer {
+  position: absolute;
+  top: 0;
+  text-align: left;
+  height: 45px;
+  overflow: hidden;
+}
+.carousel .change_outer .change_inner {
+  display: inline-table;
+  position: relative;
+  animation: rotate 8s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0%,
+  20% {
+    transform: translateY(0);
+    width: 200px;
+  }
+  33%,
+  53% {
+    transform: translateY(-45px);
+  }
+  66%,
+  86% {
+    transform: translateY(-90px);
+  }
+  100% {
+    transform: translateY(-0px);
+  }
+}
+
 /*  */
 
 /* Divider Coin */

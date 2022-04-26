@@ -23,21 +23,23 @@ const Timeline = (props) => {
             <div className=" hidden z-10 md:flex items-center order-1  w-8 h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-lg font-semibold text-white">1</h1>
             </div>
-            <AnimationOnScroll
-              className="order-1 md:w-5/12 px-6 py-4 bg-[#BDC5D8] rounded-lg shadow-xl"
-              animateOnce
-              animateIn="animate__fadeInRight"
-            >
-              <h3 className="mb-3 text-xl font-bold text-gray-800">
-                Founding of Blockchain Presence AG
-              </h3>
-              <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                Blockchain Presence AG is a swiss corporation and an official
-                spin-off of the University of Zurich, founded in December 2020.
-                We are located near the University of Zurich and the Crypto
-                Valley Zug. // Dummy Text
-              </p>
-            </AnimationOnScroll>
+            <div className="order-1 md:w-5/12">
+              <AnimationOnScroll
+                className="bg-[#BDC5D8] px-6 rounded-lg py-4 shadow-xl"
+                animateOnce
+                animateIn="animate__fadeInRight"
+              >
+                <h3 className="mb-3 text-xl font-bold text-gray-800">
+                  Founding of Blockchain Presence AG
+                </h3>
+                <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+                  Blockchain Presence AG is a swiss corporation and an official
+                  spin-off of the University of Zurich, founded in December
+                  2020. We are located near the University of Zurich and the
+                  Crypto Valley Zug. // Dummy Text
+                </p>
+              </AnimationOnScroll>
+            </div>
           </div>
           {/* <!-- left timeline --> */}
           <div className="flex flex-row-reverse items-center justify-between w-full mb-8 left-timeline">

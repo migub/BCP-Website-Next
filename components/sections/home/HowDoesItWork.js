@@ -12,14 +12,12 @@ const HowDoesItWork = (props) => {
             {props.subTitle}
           </p>
         </div>
-        <div className="boxsenderreceiver">
+        <div className="relative flex items-center justify-center w-full my-24 h-96">
           <Image
-            style="margin-top: 20px; margin-bottom: 20px;"
-            className="imgsendersreceivers"
             src="/img/senderreceiver.png"
-            width="9642px"
-            height="2446px"
+            layout="fill"
             alt=""
+            objectFit="contain"
           />
         </div>
       </div>

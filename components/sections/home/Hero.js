@@ -2,52 +2,82 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { IoPlayCircle } from "react-icons/io5";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import Button from "../../Button";
 const Hero = (props) => {
   const router = useRouter();
 
   return (
     <>
-      <div className="relative overflow-hidden space-x-3  md:h-[75vh] p-6 pt-32 pb-24 sm:pt-52 sm:flex justify-center items-center herobackground">
-        <div className="xl:ml-52 mt-7 md:mt-0 xl:w-1/3   md:pb-12 sm:min-w-[450px]">
+      <div className="relative space-x-32  overflow-hidden shadow-xl h-[65vh] md:h-[80vh] 2xl:h-[800px]  p-6 pt-32  sm:flex justify-center items-center herobackground">
+        <div className="md:w-[960px]  mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="flex flex-col space-y-4 text-4xl font-extrabold text-left text-white 2xl:text-8xl sm:text-left md:text-8xl">
-              <div>Reliable.</div>
+            <h1 className="flex flex-col text-4xl font-semibold text-left sm:text-left md:text-[3rem]">
+              {/* <div>Reliable.</div>
               <div className="text-[#5870A1] ">Convenient.</div>{" "}
-              <div>Cost-Efficient.</div>
+              <div>Cost-Efficient.</div> */}
+              <div className="leading-[50px] md:leading-[65px]">
+                <div className="flex mb-5 ">
+                  <div className="">
+                    <span className="">
+                      Blockchain Presence is a <br className="lg:hidden" />
+                    </span>{" "}
+                    <span className="text-[#5870A1]">
+                      <div class="carousel h-12 inline-flex">
+                        <div class="change_outer mt-2">
+                          <div class=" change_inner">
+                            <div>Reliable</div>
+                            <div>Convenient</div>
+                            <div className="w-[350px]">Cost-Efficient</div>
+                          </div>
+                        </div>
+                      </div>
+                    </span>{" "}
+                    <br className="lg:hidden" />
+                    Decentralized Oracle
+                  </div>
+                </div>
+              </div>
             </h1>
             <p
               // style={{ lineHeight: "1.1" }}
-              className="my-8 text-sm text-left text-white opacity-75 sm:text-xl sm:text-left"
+              className="my-8 text-sm font-semibold text-left opacity-70 sm:text-xl sm:text-left"
             >
               {props.subTitle}
             </p>
           </AnimationOnScroll>
-
           <div className="flex justify-start space-x-5 sm:justify-start">
-            <button
+            <Button
               onClick={() => {
                 router.push("/investors");
               }}
-              className="px-6 py-3 text-sm font-bold text-white shadow-lg rounded-2xl bg-[#383F57] md:bg-[#5870A1] hover:bg-white hover:text-[#5870A1] border-[0.5px] border-[#5870A1] "
             >
               {props.buttonOneTitle}
-            </button>
-            <button
+            </Button>
+            <Button
+              outlined
               onClick={() => {
-                router.push("#whyus");
+                router.push("/investors");
               }}
-              className="px-4 py-2 font-semibold  text-sm text-white border border-white rounded-2xl bg-[#383F57] hover:bg-white hover:text-[#5870A1]"
             >
               {props.buttonTwoTitle}
-            </button>
+            </Button>
+          </div>
+          <div className="text-sm mt-7">
+            <span className="opacity-75"> Need help?</span>{" "}
+            <span
+              onClick={() => router.push("/contact")}
+              className="cursor-pointer underline text-[#383F57] font-semibold"
+            >
+              Contact us!
+            </span>
           </div>
         </div>
         <AnimationOnScroll
-          className="relative hidden xl:flex justify-center items-center mb-20 w-2/5 h-[700px]"
+          className="relative  hidden xl:flex justify-center items-center w-[350px] h-[350px]"
           animateOnce
           animateIn="animate__fadeIn"
         >
-          <Image src="/img/hero.png" layout="fill" objectFit="contain" />
+          <Image src="/img/logo.png" layout="fill" objectFit="contain" />
         </AnimationOnScroll>
       </div>
     </>
