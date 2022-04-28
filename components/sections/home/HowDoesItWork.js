@@ -12,7 +12,7 @@ const HowDoesItWork = (props) => {
             {props.subTitle}
           </p>
         </div>
-        <div className="relative flex items-center justify-center w-full my-24 h-96">
+        <div className="relative flex items-center justify-center md:w-full w-4/5 m-auto  md:my-24 h-[300px]">
           <Image
             src="/img/senderreceiver.png"
             layout="fill"

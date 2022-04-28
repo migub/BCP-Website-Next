@@ -6,17 +6,17 @@ import Navbar from "./Layout/Navbar";
 const TitleSection = (props) => {
   const router = useRouter();
   return (
-    <div className="relative herobackground bg-gradient-to-b to-[#5870a11c] from-[#5870a11c] p-6 pt-32 sm:pt-72 sm:pb-44 sm:flex sm:justify-center sm:items-center">
+    <div className="relative herobackground bg-gradient-to-b to-[#5870a11c] from-[#5870a11c] p-6 pt-32 sm:pt-52 sm:pb-32 sm:flex sm:justify-center sm:items-center">
       <div className=" xl:w-1/2 sm:w-2/3 flex flex-col justify-center items-center sm:min-w-[300px]">
         <div>
-          <h1 className="text-4xl font-bold text-white sm:text-left sm:text-5xl">
+          <h1 className="text-4xl font-bold text-center sm:text-5xl">
             {props.title}
           </h1>
         </div>
         <div>
           <p
             // style={{ lineHeight: "1.1" }}
-            className="mt-8 overflow-hidden text-lg leading-5 text-center text-white opacity-75 sm:text-lg sm:text-center"
+            className="mt-8 overflow-hidden text-lg leading-5 text-center opacity-75 sm:text-lg sm:text-center"
           >
             {props.subTitle}
           </p>

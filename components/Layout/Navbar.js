@@ -2,16 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 import { useState, useEffect } from "react";
-import {
-  IoMenu,
-  IoClose,
-  IoHomeSharp,
-  IoSettingsSharp,
-  IoStatsChartSharp,
-  IoPersonCircleSharp,
-  IoMapSharp,
-  IoCreateSharp,
-} from "react-icons/io5";
+import { IoMenu, IoClose } from "react-icons/io5";
 import Sidebar from "./Sidebar";
 
 const Navbar = (props) => {
@@ -20,33 +11,28 @@ const Navbar = (props) => {
   const router = useRouter();
   console.log(router.pathname);
 
-  useEffect(() => {
-    if (router.pathname == "/") {
-      setNavBackground("bg-transparent text-white");
-      setMobileMenuColor("white");
-    } else {
-      setNavBackground("bg-white shadow-lg text-black");
-      setMobileMenuColor("black");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (router.pathname == "/") {
+  //     setNavBackground("bg-transparent text-black");
+  //     setMobileMenuColor("white");
+  //   } else {
+  //     setNavBackground("bg-white shadow-lg text-black");
+  //     setMobileMenuColor("black");
+  //   }
+  // }, []);
 
   useEffect(() => {
-    if (router.pathname == "/") {
-      const handleScroll = () => {
-        const show = window.scrollY > 150;
-        if (show) {
-          setNavBackground("bg-white shadow-lg text-black");
-          setMobileMenuColor("black");
-        } else {
-          setNavBackground("bg-transparent text-white");
-          setMobileMenuColor("white");
-        }
-      };
-      document.addEventListener("scroll", handleScroll);
-    } else {
-      setNavBackground("bg-white text-black");
-      setMobileMenuColor("black");
-    }
+    const handleScroll = () => {
+      const show = window.scrollY > 150;
+      if (show) {
+        setNavBackground("bg-white shadow-lg text-black");
+        setMobileMenuColor("black");
+      } else {
+        setNavBackground("bg-transparent text-black");
+        setMobileMenuColor("white");
+      }
+    };
+    document.addEventListener("scroll", handleScroll);
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
@@ -63,7 +49,7 @@ const Navbar = (props) => {
   return (
     <>
       <div
-        className={`fixed z-20 flex items-center justify-between w-full p-2 ${navBackground} bg-white text-white  lg:pl-[20%] lg:pr-[20%] md:h-[110px]`}
+        className={`fixed z-20 flex items-center justify-between w-full p-2 ${navBackground}   xl:px-[10%] 2xl:px-[20%] md:h-[110px]`}
       >
         <div
           onClick={() => router.push("/")}

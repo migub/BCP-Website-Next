@@ -2,7 +2,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Numbers = () => {
   return (
-    <div className="bg-[#384054]">
+    <div className="bg-[#384054] overflow-hidden">
       <AnimationOnScroll
         className="flex items-center justify-center shadow-xl w-full h-[140px] overflow-hidden"
         animateOnce

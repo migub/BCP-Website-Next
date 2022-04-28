@@ -11,17 +11,17 @@ const StudentExperience = (props) => {
           <h1 className="text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
             {props.title}
           </h1>
-          <div className="flex items-center justify-center mt-20 px-14 ">
-            <div className="w-[350px] m-auto shadow-xl h-[350px] flex relative justify-center items-center">
+          <div className="items-center justify-center mt-20 md:flex px-14 ">
+            <div className="md:w-[350px] w-[200px] h-[200px] m-auto shadow-xl md:h-[350px] rounded-full overflow-hidden flex relative justify-center items-center">
               <Image
                 src="/img/tamara.png"
                 alt=""
                 layout="fill"
-                objectFit="contain"
+                objectFit="cover"
               />
             </div>
             <div className="w-full m-auto lg:w-1/2">
-              <p className="px-4 py-4 text-lg text-gray-500 sm:text-xl">
+              <p className="px-4 py-10 text-lg text-gray-500 md:py-4 sm:text-xl">
                 {props.description}
               </p>
             </div>

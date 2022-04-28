@@ -9,14 +9,14 @@
 /* BCP Our Service */
 
 .bannerBackground {
-  background-color: #384054;
+  background-color: white;
   background-image: url("/img/sprinkles.png");
   background-size: cover;
 }
 
 .herobackground {
   background-color: white;
-  background-image: url("/img/darkcyan.jpg");
+  background-image: url("/img/whiteabs.jpg");
   background-size: cover;
 }
 .boxsenderreceiver {

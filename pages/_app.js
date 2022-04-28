@@ -12,8 +12,8 @@ function MyApp({ Component, pageProps }) {
           link1="/student-internship"
           title2="Investors"
           link2="/investors"
-          title3="Whitepaper"
-          link3="/whitepaper"
+          title3="Downloads"
+          link3="/downloads"
           title4="Contact"
           link4="/contact"
         />

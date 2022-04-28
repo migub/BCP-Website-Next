@@ -11,7 +11,7 @@ const ContactForm = (props) => {
         name="EmailForm"
         className="flex w-full max-w-xl m-auto space-x-3"
       >
-        <div className="w-full max-w-3xl px-5 py-10 m-auto  bg-[#BDC5D8] rounded-lg shadow">
+        <div className="w-full max-w-3xl px-5 py-10 m-auto bg-[#EDEFF5] rounded-lg shadow">
           {/* <div className="mb-6 text-3xl font-light text-center text-gray-800 dark:text-white">
             Contact us !
           </div> */}
