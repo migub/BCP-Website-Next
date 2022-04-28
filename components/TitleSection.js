@@ -1,40 +1,39 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Button from "./Button";
+import Navbar from "./Layout/Navbar";
+
 const TitleSection = (props) => {
-  console.log(props.subTitle);
   const router = useRouter();
   return (
-    <div className="relative bg-gradient-to-b to-[#5870a11c] from-[#5870a11c] p-6 pt-32 sm:pt-40 sm:pb-24 sm:flex sm:justify-center sm:items-center">
+    <div className="relative herobackground bg-gradient-to-b to-[#5870a11c] from-[#5870a11c] p-6 pt-32 sm:pt-72 sm:pb-44 sm:flex sm:justify-center sm:items-center">
       <div className=" xl:w-1/2 sm:w-2/3 flex flex-col justify-center items-center sm:min-w-[300px]">
         <div>
-          <h1 className="text-4xl font-bold text-gray-800 sm:text-left sm:text-5xl">
+          <h1 className="text-4xl font-bold text-white sm:text-left sm:text-5xl">
             {props.title}
           </h1>
         </div>
         <div>
           <p
             // style={{ lineHeight: "1.1" }}
-            className="mt-8 overflow-hidden text-lg leading-5 text-center text-gray-700 sm:text-lg sm:text-center"
+            className="mt-8 overflow-hidden text-lg leading-5 text-center text-white opacity-75 sm:text-lg sm:text-center"
           >
             {props.subTitle}
           </p>
         </div>
         <div className="flex justify-start mt-10 space-x-5 sm:justify-start">
           {props.buttonTitle && (
-            <button
+            <Button
               onClick={() => {
                 router.push(props.buttonLink);
               }}
-              className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600"
             >
               {props.buttonTitle}
-            </button>
+            </Button>
           )}
           {props.buttonExternTitle && (
             <a target="_blank" rel="noreferrer" href={props.buttonExternLink}>
-              <button className="px-4 py-2 font-bold text-white rounded bg-[#383f56] hover:bg-gray-600">
-                {props.buttonExternTitle}
-              </button>
+              <Button>{props.buttonExternTitle}</Button>
             </a>
           )}
         </div>

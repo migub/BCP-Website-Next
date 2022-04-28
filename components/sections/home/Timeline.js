@@ -3,7 +3,20 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 const Timeline = (props) => {
   return (
     <>
-      <div className=" bg-[#5870a11c] h-full mx-auto py-32">
+      <div className="relative bg-[#5870a11c] h-full mx-auto mt-1 py-32">
+        <div class="custom-shape-divider-top-1650993069">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
         <h1 className="text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
           {props.title}
         </h1>
@@ -109,6 +122,19 @@ const Timeline = (props) => {
               </p>
             </AnimationOnScroll>
           </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1650993162">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
         </div>
       </div>
     </>

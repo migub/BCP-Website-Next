@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   IoMenu,
   IoClose,
@@ -15,7 +15,43 @@ import {
 import Sidebar from "./Sidebar";
 
 const Navbar = (props) => {
+  const [navBackground, setNavBackground] = useState("");
+  const [mobileMenuColor, setMobileMenuColor] = useState("");
   const router = useRouter();
+  console.log(router.pathname);
+
+  useEffect(() => {
+    if (router.pathname == "/") {
+      setNavBackground("bg-transparent text-white");
+      setMobileMenuColor("white");
+    } else {
+      setNavBackground("bg-white shadow-lg text-black");
+      setMobileMenuColor("black");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (router.pathname == "/") {
+      const handleScroll = () => {
+        const show = window.scrollY > 150;
+        if (show) {
+          setNavBackground("bg-white shadow-lg text-black");
+          setMobileMenuColor("black");
+        } else {
+          setNavBackground("bg-transparent text-white");
+          setMobileMenuColor("white");
+        }
+      };
+      document.addEventListener("scroll", handleScroll);
+    } else {
+      setNavBackground("bg-white text-black");
+      setMobileMenuColor("black");
+    }
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [router.pathname]);
+
   const [modal, setModal] = useState(false);
   const openNavbar = () => {
     if (modal == true) {
@@ -26,7 +62,9 @@ const Navbar = (props) => {
   };
   return (
     <>
-      <div className="fixed z-20 flex items-center justify-between w-full p-2 bg-[#383F57] shadow-lg lg:pl-[20%] lg:pr-[20%] h-[110px]">
+      <div
+        className={`fixed z-20 flex items-center justify-between w-full p-2 ${navBackground} bg-white text-white  lg:pl-[20%] lg:pr-[20%] md:h-[110px]`}
+      >
         <div
           onClick={() => router.push("/")}
           className="flex items-center h-16 space-x-2 overflow-hidden cursor-pointer w-96"
@@ -41,7 +79,7 @@ const Navbar = (props) => {
             />
           </div>
           <div>
-            <h1 className="hidden text-xl font-bold text-left text-white whitespace-nowrap md:block sm:text-left sm:text-xl">
+            <h1 className="hidden text-xl font-bold text-left whitespace-nowrap md:block sm:text-left sm:text-xl">
               Blockchain <br />
               Presence
             </h1>
@@ -53,13 +91,17 @@ const Navbar = (props) => {
             className="flex items-center justify-center w-12 h-12 rounded-full"
           >
             {!modal ? (
-              <IoMenu style={{ color: "white", fontSize: "25px" }} />
+              <IoMenu
+                style={{ color: { mobileMenuColor }, fontSize: "25px" }}
+              />
             ) : (
-              <IoClose style={{ color: "white", fontSize: "25px" }} />
+              <IoClose
+                style={{ color: { mobileMenuColor }, fontSize: "25px" }}
+              />
             )}
           </div>
         </div>
-        <div className="hidden space-x-16 text-white whitespace-nowrap sm:flex ">
+        <div className="hidden space-x-16 whitespace-nowrap sm:flex ">
           <div
             onClick={() => router.push(props.link1)}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
@@ -90,13 +132,21 @@ const Navbar = (props) => {
           >
             <p>{props.title4}</p>
           </div>
-          {/* <IoPersonCircleSharp className="text-4xl text-gray-500 cursor-pointer hover:text-gray-200" /> */}
-          {/* <button className="px-4 py-2 font-bold text-white rounded bg-cyan-500 hover:bg-cyan-700">
-            Connect Wallet
-          </button> */}
         </div>
       </div>
-      {modal && <Sidebar onClose={setModal} />}
+      {modal && (
+        <Sidebar
+          onClose={setModal}
+          title1={props.title1}
+          link1={props.link1}
+          title2={props.title2}
+          link2={props.link2}
+          title3={props.title3}
+          link3={props.link3}
+          title4={props.title4}
+          link4={props.link4}
+        />
+      )}
     </>
   );
 };

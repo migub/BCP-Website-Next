@@ -8,10 +8,10 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative space-x-32  overflow-hidden shadow-xl h-[65vh] md:h-[80vh] 2xl:h-[800px]  p-6 pt-32  sm:flex justify-center items-center herobackground">
+      <div className="relative space-x-32  overflow-hidden shadow-xl h-[65vh] md:h-[80vh] 2xl:h-[850px]  p-6 pt-32  sm:flex justify-center items-center herobackground">
         <div className="md:w-[960px]  mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="flex flex-col text-4xl font-semibold text-left sm:text-left md:text-[3rem]">
+            <h1 className="flex flex-col text-white text-4xl font-semibold text-left sm:text-left md:text-[3rem]">
               {/* <div>Reliable.</div>
               <div className="text-[#5870A1] ">Convenient.</div>{" "}
               <div>Cost-Efficient.</div> */}
@@ -40,7 +40,7 @@ const Hero = (props) => {
             </h1>
             <p
               // style={{ lineHeight: "1.1" }}
-              className="my-8 text-sm font-semibold text-left opacity-70 sm:text-xl sm:text-left"
+              className="my-8 text-sm font-semibold text-left text-white opacity-70 sm:text-xl sm:text-left"
             >
               {props.subTitle}
             </p>
@@ -63,10 +63,10 @@ const Hero = (props) => {
             </Button>
           </div>
           <div className="text-sm mt-7">
-            <span className="opacity-75"> Need help?</span>{" "}
+            <span className="text-white opacity-75"> Need help?</span>{" "}
             <span
               onClick={() => router.push("/contact")}
-              className="cursor-pointer underline text-[#383F57] font-semibold"
+              className="font-semibold text-white underline cursor-pointer"
             >
               Contact us!
             </span>
@@ -77,7 +77,7 @@ const Hero = (props) => {
           animateOnce
           animateIn="animate__fadeIn"
         >
-          <Image src="/img/logo.png" layout="fill" objectFit="contain" />
+          {/* <Image src="/img/hero.png" layout="fill" objectFit="contain" /> */}
         </AnimationOnScroll>
       </div>
     </>
