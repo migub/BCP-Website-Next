@@ -2,12 +2,12 @@ import Image from "next/image";
 const Relations = (props) => {
   return (
     <>
-      <div className=" py-8 bg-[#384054] md:flex md:space-x-24 2xl:space-x-0 justify-center items-center ">
+      <div className=" py-8 overflow-hidden bg-[#384054] md:flex md:space-x-24 2xl:space-x-0 justify-center items-center ">
         <div className="text-center text-white md:w-2/5 md:text-left">
           <p className="mb-4 text-3xl font-bold leading-8 tracking-tight sm:text-4xl">
             {props.title}
           </p>
-          <div className="px-10 text-lg text-center md:px-0 md:text-left opacity-80">
+          <div className="text-lg text-center md:px-10 md:px-0 md:text-left opacity-80">
             Contact our Investor Relations Office:
             investor.relations@blockchainpresence.net
           </div>
