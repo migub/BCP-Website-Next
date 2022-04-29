@@ -27,7 +27,7 @@ const Timeline = (props) => {
         </div>
         <div className="relative h-full p-10 m-auto overflow-hidden 2xl:w-2/3 wrap">
           <div
-            className="absolute border border-gray-700 md:h-full h-[950px] border-2-2 border-opacity-20"
+            className="absolute border border-gray-700 md:h-full h-[650px] border-2-2 border-opacity-20"
             style={{ left: "50%" }}
           ></div>
           {/* <!-- right timeline --> */}
