@@ -8,7 +8,7 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative space-x-32 2xl:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[850px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
+      <div className="relative space-x-32 2xl:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
         <div className="md:w-[960px] mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
             <h1 className="flex flex-col  text-4xl font-semibold text-left sm:text-left md:text-[3rem]">
@@ -22,9 +22,9 @@ const Hero = (props) => {
                       Blockchain Presence is a <br className="lg:hidden" />
                     </span>{" "}
                     <span className="text-[#5870A1]">
-                      <div class="carousel h-12 inline-flex">
-                        <div class="change_outer mt-2">
-                          <div class=" change_inner">
+                      <div className="inline-flex h-12 carousel">
+                        <div className="mt-2 change_outer">
+                          <div className=" change_inner">
                             <div>Reliable</div>
                             <div>Convenient</div>
                             <div className="w-[350px]">Cost-Efficient</div>

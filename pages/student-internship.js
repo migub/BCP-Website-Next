@@ -26,7 +26,15 @@ students and contributing to this project."
       />
       <StudentExperience
         title="Student Experience"
-        description="Julia wrote her bachelor thesis in the framework of BCP in 20XX. Now she is working at Bitcoin Suisse."
+        description={`“I joined BCP in December 2020 to write my
+        bachelor’s thesis in the Marketing
+        department. Being 9 months at BCP I have
+        built up important knowledge about the
+        blockchain industry and met great people.
+        The experience I have gathered at BCP
+        helped me to get a position at Bitcoin Suisse
+        where I work until today.”.
+        `}
       />
     </>
   );

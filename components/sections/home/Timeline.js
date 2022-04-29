@@ -4,7 +4,7 @@ const Timeline = (props) => {
   return (
     <>
       <div className="relative bg-[#5870a11c] h-full mx-auto mt-1 py-32">
-        <div class="custom-shape-divider-top-1650993069">
+        <div className="custom-shape-divider-top-1650993069">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +13,7 @@ const Timeline = (props) => {
           >
             <path
               d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-              class="shape-fill"
+              className="shape-fill"
             ></path>
           </svg>
         </div>
@@ -43,13 +43,10 @@ const Timeline = (props) => {
                 animateIn="animate__fadeInRight"
               >
                 <h3 className="mb-3 text-xl font-bold text-gray-800">
-                  Founding of Blockchain Presence AG
+                  Research Project
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                  Blockchain Presence AG is a swiss corporation and an official
-                  spin-off of the University of Zurich, founded in December
-                  2020. We are located near the University of Zurich and the
-                  Crypto Valley Zug. // Dummy Text
+                  Research project started at the University of Zurich.{" "}
                 </p>
               </AnimationOnScroll>
             </div>
@@ -66,13 +63,10 @@ const Timeline = (props) => {
               className="order-1 md:w-5/12 mt-8 md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
             >
               <h3 className="mb-3 text-xl font-bold text-white">
-                Austrian Blockchain Award
+                Spin-Off of University of Zurich
               </h3>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                Blockchain Presence AG is a swiss corporation and an official
-                spin-off of the University of Zurich, founded in December 2020.
-                We are located near the University of Zurich and the Crypto
-                Valley Zug. // Dummy Text
+                BCP becam an offical spin-off of the University of Zurich
               </p>
             </AnimationOnScroll>
           </div>
@@ -88,13 +82,10 @@ const Timeline = (props) => {
               animateIn="animate__fadeInRight"
             >
               <h3 className="mb-3 text-xl font-bold text-gray-800">
-                Dividends via Smart Contract
+                Austrian Blockchain Award
               </h3>
               <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                Blockchain Presence AG is a swiss corporation and an official
-                spin-off of the University of Zurich, founded in December 2020.
-                We are located near the University of Zurich and the Crypto
-                Valley Zug. // Dummy Text
+                BCP won the third place of the Austrian Blockchain Award{" "}
               </p>
             </AnimationOnScroll>
           </div>
@@ -112,18 +103,15 @@ const Timeline = (props) => {
             >
               {" "}
               <h3 className="mb-3 text-xl font-bold text-white">
-                Over 70 contributors
+                Dividends via Smart Contract
               </h3>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                Blockchain Presence AG is a swiss corporation and an official
-                spin-off of the University of Zurich, founded in December 2020.
-                We are located near the University of Zurich and the Crypto
-                Valley Zug. // Dummy Text
+                First successful dividend payment via smart contract
               </p>
             </AnimationOnScroll>
           </div>
         </div>
-        <div class="custom-shape-divider-bottom-1650993162">
+        <div className="custom-shape-divider-bottom-1650993162">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +120,7 @@ const Timeline = (props) => {
           >
             <path
               d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-              class="shape-fill"
+              className="shape-fill"
             ></path>
           </svg>
         </div>
