@@ -41,7 +41,7 @@ const Investors = () => {
           itemThreeDescription="We have access to young talents at University of Zurich who are motivated developers and marketing experts."
           itemThreeIcon={<IoSchoolSharp />}
         />
-        <Roadmap />
+        {/* <Roadmap /> */}
       </div>
     </>
   );

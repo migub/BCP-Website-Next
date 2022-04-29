@@ -2,13 +2,13 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Numbers = () => {
   return (
-    <div className="bg-[#384054] ">
+    <div className="bg-[#384054] overflow-hidden">
       <AnimationOnScroll
-        className="flex items-center w-full h-40 mt-10 overflow-hidden justify-evenly"
+        className="flex items-center justify-center shadow-xl w-full h-[140px] overflow-hidden"
         animateOnce
         animateIn="animate__fadeInRight"
       >
-        <div className="flex flex-col items-center justify-center w-1/3 h-full pt-3 sm:w-52 ">
+        <div className="flex flex-col items-center justify-center w-1/3 h-full pt-1 sm:w-52 ">
           <div className="text-3xl font-bold text-center text-white sm:text-4xl">
             #1
           </div>

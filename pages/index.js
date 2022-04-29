@@ -25,10 +25,11 @@ export default function Home() {
       {/********************** Start editing home page here **********************/}
       <Hero
         title="Reliable, Convenient and Cost-Efficient"
-        subTitle="Blockchain Presence is a blockchain oracle solution on-chain authentication."
+        subTitle="Blockchain Presence is a blockchain oracle solution with on-chain authentication."
         buttonOneTitle="Start Investing in Us"
         buttonTwoTitle="Why Us"
       />
+      <Numbers />
       <WhatIsBCP
         title="What is Blockchain Presence?"
         description="BCP is a swiss corporation and an official spinoff
@@ -40,7 +41,6 @@ export default function Home() {
         connects smart contracts with on-chain
         authenticated data providers."
       />
-      <Numbers />
       <WhyBCP
         // First Feature
         featureOneTitle="Reliable and Secure"

@@ -16,13 +16,13 @@ const Footer2 = () => {
     <footer className="bg-[#383f56] h-[300px] w-full py-8">
       <div className="max-w-screen-xl px-4 mx-auto">
         <div className="flex items-center justify-center space-x-1 text-white opacity-75">
-          <div
+          {/* <div
             onClick={() => router.push("/student-internships")}
             className="flex items-center justify-center space-x-1 cursor-pointer"
           >
             <FiExternalLink />
             <div>Student Interships</div>
-          </div>
+          </div> */}
         </div>
         <div className="flex items-center justify-between max-w-xs pt-8 mx-auto">
           <a
