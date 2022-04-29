@@ -9,12 +9,12 @@ const StudentExperience = (props) => {
             {props.title}
           </h1>
           <div className="items-center justify-center mt-20 md:flex px-14 ">
-            <div className="md:w-[300px] w-[200px] h-[200px] m-auto shadow-xl md:h-[300px] rounded-full overflow-hidden flex relative justify-center items-center">
+            <div className="md:w-[300px] w-[200px] h-[200px] m-auto shadow-xl md:h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">
               <Image
                 src="/img/julia.jpg"
                 alt=""
                 layout="fill"
-                objectFit="contain"
+                objectFit="cover"
               />
             </div>
             <div className="w-full m-auto lg:w-1/2">

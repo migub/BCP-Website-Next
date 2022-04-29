@@ -14,7 +14,7 @@ const HowDoesItWork = (props) => {
             {props.subTitle}
           </p>
         </div>
-        <div className="relative flex items-center justify-center  w-3/5 m-auto  md:mt-24 h-[300px]">
+        <div className="relative flex items-center justify-center md:w-3/5 m-auto  md:mt-24 h-[300px]">
           <Image
             src="/img/senderreceiver.png"
             layout="fill"
@@ -22,8 +22,8 @@ const HowDoesItWork = (props) => {
             objectFit="contain"
           />
         </div>
-        <div className="flex items-center justify-center">
-          <div className="relative flex items-center justify-center w-1/2  md:my-24 h-[500px]">
+        <div className="items-center justify-center md:flex">
+          <div className="relative flex items-center justify-center w-full md:w-1/2  md:my-24 h-[500px]">
             <Image
               src="/img/usecases.png"
               layout="fill"
@@ -31,8 +31,8 @@ const HowDoesItWork = (props) => {
               objectFit="contain"
             />
           </div>
-          <div className="flex flex-col items-center justify-center w-1/3 space-y-20">
-            <h1 className="pt-24 text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
+          <div className="flex flex-col items-center justify-center md:w-1/3 md:space-y-20">
+            <h1 className="pt-24 pb-20 text-3xl font-bold text-center text-gray-800 md:pb-0 sm:text-center sm:text-4xl">
               There are various use cases for the BCP oracle
             </h1>
             <Button
