@@ -8,10 +8,10 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative space-x-32 2xl:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
+      <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
         <div className="md:w-[960px] mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="flex flex-col  text-4xl font-semibold text-left sm:text-left md:text-[3rem]">
+            <h1 className="flex flex-col  text-4xl font-semibold text-left md:text-[3rem] xl:text-[2.5rem] sm:text-left 2xl:text-[3rem]">
               {/* <div>Reliable.</div>
               <div className="text-[#5870A1] ">Convenient.</div>{" "}
               <div>Cost-Efficient.</div> */}
@@ -23,7 +23,7 @@ const Hero = (props) => {
                     </span>{" "}
                     <span className="text-[#5870A1]">
                       <div className="inline-flex h-12 carousel">
-                        <div className="mt-2 change_outer">
+                        <div className="md:mt-2 xl:mt-3 2xl:mt-2 change_outer">
                           <div className=" change_inner">
                             <div>Reliable</div>
                             <div>Convenient</div>
@@ -73,7 +73,7 @@ const Hero = (props) => {
           </div>
         </div>
         <AnimationOnScroll
-          className="relative  hidden 2xl:flex justify-center items-center w-[650px] h-[650px]"
+          className="relative  hidden xl:flex justify-center items-center w-[650px] h-[650px]"
           animateOnce
           animateIn="animate__fadeIn"
         >
