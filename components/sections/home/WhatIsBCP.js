@@ -1,6 +1,18 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import YouTube from "react-youtube";
 
 const WhatIsBCP = (props) => {
+  const opts = {
+    height: "390",
+    width: "640",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
+  const _onReady = (event) => {
+    event.target.pauseVideo();
+  };
+
   return (
     <>
       <div className="relative p-6 py-20 md:pt-36 md:pb-28 sm:flex sm:justify-center sm:space-x-32 sm:items-center ">
@@ -15,7 +27,7 @@ const WhatIsBCP = (props) => {
               </p>
             </div>
             <div className="sm:w-1/2 mt-10 sm:mt-0 w-full m-auto shadow-xl bg-gray-200 h-[350px] flex justify-center items-center">
-              [Video]
+              <YouTube videoId="-88c5i5PF0g" opts={opts} onReady={_onReady} />
             </div>
           </div>
         </div>
