@@ -9,7 +9,7 @@ const WhyBCP = (props) => {
       >
         <div className="">
           <h1 className="text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
-            Why Blockchain Presence?
+            What makes Blockchain Presence special?
           </h1>
           <div className="flex-wrap items-center justify-center gap-8 mt-10 text-center sm:flex">
             <Feature

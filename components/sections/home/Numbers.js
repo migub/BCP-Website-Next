@@ -8,28 +8,31 @@ const Numbers = () => {
         animateOnce
         animateIn="animate__fadeInRight"
       >
-        <div className="flex flex-col items-center justify-center w-1/3 h-full pt-1 sm:w-52 ">
+        <div className="flex flex-col items-center justify-center w-1/3 sm:w-72">
           <div className="text-3xl font-bold text-center text-white sm:text-4xl">
-            #1
+            9
           </div>
-          <div className="pt-3 text-[9px] text-center text-white sm:text-sm">
-            University for Blockchain research in Europe
+          <div className="pt-3 text-xs text-center text-white sm:text-sm">
+            Co-Founder
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-1/3 h-fullsm:w-52 ">
+        <div className="flex flex-col items-center justify-center w-1/3 h-full ">
           <div className="text-3xl font-bold text-center text-white sm:text-4xl">
-            60+
+            30+
           </div>
           <div className="pt-3 text-xs text-center text-white sm:text-sm">
             Students
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-1/3 h-full sm:w-52 ">
+        <div className="flex flex-col items-center justify-center w-1/3 h-full pt-1 sm:w-72">
           <div className="text-3xl font-bold text-center text-white sm:text-4xl">
-            7
+            #4
           </div>
-          <div className="pt-3 text-xs text-center text-white sm:text-sm">
-            Co-Founders
+          <div className="pt-3 text-[8px] text-center text-white sm:text-sm">
+            Global Blockchain University Ranking
+            <div className="text-[8px] sm:text-[9px]">
+              (Coindesk, October 2021)
+            </div>
           </div>
         </div>
       </AnimationOnScroll>

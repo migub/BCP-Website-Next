@@ -32,30 +32,23 @@ export default function Home() {
       <Numbers />
       <WhatIsBCP
         title="What is Blockchain Presence?"
-        description="BCP is a swiss corporation and an official spinoff
-        of the University of Zurich, founded in
-        December 2020. We are located near the
-        University of Zurich and the Crypto Valley Zug.
-        We strive to develop and operate an oracle
-        platform for smart contracts. Our platform
-        connects smart contracts with on-chain
-        authenticated data providers."
+        description="Blockchain Presence AG is a Swiss corporation founded in December 2020. In close collaboration with the University of Zurich, the start-up strives to develop and operate a universal oracle platform for smart contracts."
       />
       <WhyBCP
         // First Feature
-        featureOneTitle="Reliable and Secure"
-        featureOneDescription="Senders build up reputation by offering the best service for smart contract developers. Every sender on the BCP platform is registered on-chain. Thereby, we can guarantee that all data origins from the source."
+        featureOneTitle="Reliable and secure"
+        featureOneDescription="Providers of information (senders) build up reputation by offering the best service for smart contract developers. Every sender on the Blockchain Presence platform is registered on-chain. This makes the delivery as secure as the underlying blockchain protocol."
         featureOneIcon={<AiFillSafetyCertificate />}
         // Second Feature
         featureTwoTitle="Cost-efficient"
-        featureTwoDescription="Our lean design ensures minimum gas consumption for contract deployment as well as for order and delivery transactions. In addition, there are no transaction costs for any utility token."
+        featureTwoDescription="The lean design of our platform ensures minimum gas consumption for contract deployment as well as for order and delivery transactions. No token is needed to order data from our committed senders."
         featureTwoIcon={<GiReceiveMoney />}
         // Third Feature
         featureThreeTitle="Convenient"
-        featureThreeDescription="The BCP website provides users with realtime information on the status of the order and delivery process. Mainnet information is passed on to the testnet, facilitating development and testing."
+        featureThreeDescription="Our website provides users with real-time information on the status of the order and delivery process. Further, mainnet information regarding registrations and commitments is passed on to the testnet, facilitating development and testing."
         featureThreeIcon={<IoAccessibilitySharp />}
       />
-      <Timeline title="Our Milestones" />
+      <Timeline title="Our history so far" />
       <HowDoesItWork
         title="Oracle Service"
         subTitle="Oracles can be thought of as a mechanism for bridging the gap between

@@ -1,7 +1,5 @@
-import { GiReceiveMoney } from "react-icons/gi";
-import Feature from "../home/Feature";
-
 import Reason from "./Reason";
+
 const WhyYouShouldInvest = (props) => {
   return (
     <>
@@ -12,17 +10,17 @@ const WhyYouShouldInvest = (props) => {
           </p>
         </div>
         <div className="flex-wrap items-center justify-center gap-8 text-center sm:flex">
-          <Feature
+          <Reason
             title={props.itemOneTitle}
             description={props.itemOneDescription}
             icon={props.itemOneIcon}
           />
-          <Feature
+          <Reason
             title={props.itemTwoTitle}
             description={props.itemTwoDescription}
             icon={props.itemTwoIcon}
           />
-          <Feature
+          <Reason
             title={props.itemThreeTitle}
             description={props.itemThreeDescription}
             icon={props.itemThreeIcon}

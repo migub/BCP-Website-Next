@@ -8,12 +8,12 @@ function MyApp({ Component, pageProps }) {
     <>
       <div className="font-montserrat">
         <Navbar
-          title1="Student Internship"
-          link1="/student-internship"
-          title2="Investors"
-          link2="/investors"
-          title3="Downloads"
-          link3="/downloads"
+          title2="Internships"
+          link2="/internships"
+          title3="Investors"
+          link3="/investors"
+          title1="Downloads"
+          link1="/downloads"
           title4="Contact"
           link4="/contact"
         />

@@ -49,7 +49,7 @@ const Navbar = (props) => {
   return (
     <>
       <div
-        className={`fixed z-20 flex items-center justify-between w-full p-2 ${navBackground}   xl:px-[10%] 2xl:px-[20%] md:h-[110px]`}
+        className={`fixed z-20 flex items-center justify-between w-full p-2 ${navBackground} md:h-[110px]`}
       >
         <div
           onClick={() => router.push("/")}
@@ -87,7 +87,7 @@ const Navbar = (props) => {
             )}
           </div>
         </div>
-        <div className="hidden space-x-16 whitespace-nowrap sm:flex ">
+        <div className="hidden pr-8 space-x-16 whitespace-nowrap sm:flex ">
           <div
             onClick={() => router.push(props.link1)}
             className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
