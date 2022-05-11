@@ -18,9 +18,7 @@ const Hero = (props) => {
               <div className="leading-[50px] md:leading-[65px]">
                 <div className="flex mb-5 ">
                   <div className="">
-                    <span className="">
-                      Blockchain Presence is a <br className="lg:hidden" />
-                    </span>{" "}
+
                     <span className="text-[#5870A1]">
                       <div className="inline-flex h-12 carousel">
                         <div className="md:mt-2 xl:mt-3 2xl:mt-2 change_outer">
@@ -33,7 +31,6 @@ const Hero = (props) => {
                       </div>
                     </span>{" "}
                     <br className="lg:hidden" />
-                    Decentralized Oracle
                   </div>
                 </div>
               </div>
@@ -46,31 +43,9 @@ const Hero = (props) => {
             </p>
           </AnimationOnScroll>
           <div className="flex justify-start space-x-5 sm:justify-start">
-            <Button
-              onClick={() => {
-                router.push("/investors");
-              }}
-            >
-              {props.buttonOneTitle}
-            </Button>
-            <Button
-              outlined
-              onClick={() => {
-                router.push("/investors");
-              }}
-            >
-              {props.buttonTwoTitle}
-            </Button>
+
           </div>
-          <div className="text-sm mt-7">
-            <span className="opacity-75 "> Need help?</span>{" "}
-            <span
-              onClick={() => router.push("/contact")}
-              className="font-semibold underline cursor-pointer"
-            >
-              Contact us!
-            </span>
-          </div>
+
         </div>
         <AnimationOnScroll
           className="relative  hidden xl:flex justify-center items-center w-[650px] h-[650px]"
