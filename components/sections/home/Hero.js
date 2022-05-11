@@ -8,7 +8,7 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
+      <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[250px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
         <div className="md:w-[960px] mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
             <h1 className="flex flex-col justify-center items-center text-4xl font-semibold text-left md:text-[3rem] whitespace-nowrap xl:text-[3.5rem] sm:text-left 2xl:text-[3.5rem]">

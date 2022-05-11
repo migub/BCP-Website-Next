@@ -55,7 +55,7 @@ const Navbar = (props) => {
           onClick={() => router.push("/")}
           className="flex items-center h-20 space-x-2 overflow-hidden cursor-pointer w-96"
         >
-          <div className="flex w-30 mx-3 ">
+          <div className="hidden mx-3 md:flex w-30 ">
             <Image
               src="/img/logowithbcp.png"
               width="190"
@@ -64,9 +64,16 @@ const Navbar = (props) => {
               alt=""
             />
           </div>
-          <div>
-
+          <div className="flex w-32 mx-3 md:hidden ">
+            <Image
+              src="/img/logo.png"
+              width="190"
+              height="100"
+              objectFit="contain"
+              alt=""
+            />
           </div>
+          <div></div>
         </div>
         <div className="flex space-x-4 sm:hidden">
           <div

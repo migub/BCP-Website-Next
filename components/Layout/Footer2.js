@@ -24,7 +24,7 @@ const Footer2 = () => {
             <div>Student Interships</div>
           </div> */}
         </div>
-        <div className="flex items-center justify-between max-w-md pt-8 mx-auto space-x-3">
+        <div className="flex items-center justify-center pt-8 mx-auto space-x-10">
           <a
             title="bcp-instagram"
             target="_blank"
@@ -90,15 +90,12 @@ const Footer2 = () => {
               width="70px"
               height="70px"
             />
-
           </div>
           <div>
             <Image src="/img/uzhcircle.png" alt="" width="70px" height="70px" />
           </div>
         </div>
-        <div className="flex justify-center mt-10 space-x-10">
-
-        </div>
+        <div className="flex justify-center mt-10 space-x-10"></div>
         <div className="pt-5 text-center text-white opacity-50">
           <a href="mailto:info@blockchainpresence.net">
             info@blockchainpresence.net
