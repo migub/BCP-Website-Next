@@ -9,7 +9,7 @@ const Numbers = () => {
         animateIn="animate__fadeInRight"
       >
         <div className="flex flex-col items-center justify-center w-1/3 sm:w-72">
-          <div className="flex items-center text-3xl font-bold text-center text-white bg-red-300 sm:text-4xl">
+          <div className="flex items-center text-3xl font-bold text-center text-white sm:text-4xl">
             9
           </div>
           <div className="pt-3 text-xs text-center text-white sm:text-sm">
