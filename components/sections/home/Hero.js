@@ -17,17 +17,11 @@ const Hero = (props) => {
               <div>Cost-Efficient.</div> */}
               <div className="leading-[50px] md:leading-[65px] w-[350px] ">
                 <div className="flex mb-5 ">
-<<<<<<< HEAD
                   <div className="w-full ">
                     {/* <span className="">
                       Blockchain Presence is a <br className="lg:hidden" />
                     </span>{" "} */}
                     <span className="text-[#5870A1]  ">
-=======
-                  <div className="">
-
-                    <span className="text-[#5870A1]">
->>>>>>> 20ef378f300083d636b1e1b5542ff6eebd85e2c3
                       <div className="inline-flex h-12 carousel">
                         <div className="md:mt-2 xl:mt-3 2xl:mt-2 change_outer">
                           <div className="text-center change_inner">
@@ -40,12 +34,8 @@ const Hero = (props) => {
                         </div>
                       </div>
                     </span>{" "}
-<<<<<<< HEAD
                     {/* <br className="lg:hidden" />
                     Decentralized Oracle */}
-=======
-                    <br className="lg:hidden" />
->>>>>>> 20ef378f300083d636b1e1b5542ff6eebd85e2c3
                   </div>
                 </div>
               </div>
@@ -56,7 +46,6 @@ const Hero = (props) => {
               {props.subTitle}
             </p> */}
           </AnimationOnScroll>
-<<<<<<< HEAD
           {/* <div className="flex justify-start space-x-5 sm:justify-start">
             <Button
               onClick={() => {
@@ -83,12 +72,6 @@ const Hero = (props) => {
               Contact us!
             </span>
           </div> */}
-=======
-          <div className="flex justify-start space-x-5 sm:justify-start">
-
-          </div>
-
->>>>>>> 20ef378f300083d636b1e1b5542ff6eebd85e2c3
         </div>
         <AnimationOnScroll
           className="relative  hidden xl:flex justify-center items-center w-[650px] h-[650px]"
