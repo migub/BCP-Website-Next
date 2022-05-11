@@ -25,9 +25,6 @@ export default function Home() {
       {/********************** Start editing home page here **********************/}
       <Hero
         title="Reliable, Convenient and Cost-Efficient"
-        subTitle="Blockchain Presence is a blockchain oracle solution with on-chain authentication."
-        buttonOneTitle="Start Investing in Us"
-        buttonTwoTitle="Why Us"
       />
       <Numbers />
       <WhatIsBCP

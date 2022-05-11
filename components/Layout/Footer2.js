@@ -24,7 +24,7 @@ const Footer2 = () => {
             <div>Student Interships</div>
           </div> */}
         </div>
-        <div className="flex items-center justify-between max-w-xs pt-8 mx-auto">
+        <div className="flex items-center justify-between max-w-md pt-8 mx-auto space-x-3">
           <a
             title="bcp-instagram"
             target="_blank"
@@ -32,7 +32,7 @@ const Footer2 = () => {
             href="https://www.instagram.com/blockchain_presence/"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
-            <FaInstagram style={{ fontSize: "20px" }} />
+            <FaInstagram style={{ fontSize: "30px" }} />
           </a>
           <a
             title="bcp-twitter"
@@ -41,7 +41,7 @@ const Footer2 = () => {
             href="https://twitter.com/BCpresence"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
-            <FaTwitter style={{ fontSize: "20px" }} />
+            <FaTwitter style={{ fontSize: "30px" }} />
           </a>
           <a
             target="_blank"
@@ -51,7 +51,7 @@ const Footer2 = () => {
             href="https://www.linkedin.com/company/blockchain-presence/"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
-            <FaLinkedin style={{ fontSize: "20px" }} />
+            <FaLinkedin style={{ fontSize: "30px" }} />
           </a>
           <a
             target="_blank"
@@ -61,7 +61,7 @@ const Footer2 = () => {
             href="https://www.tiktok.com/@blockchainpresence"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
-            <FaTiktok style={{ fontSize: "20px" }} />
+            <FaTiktok style={{ fontSize: "30px" }} />
           </a>
           <a
             target="_blank"
@@ -71,7 +71,7 @@ const Footer2 = () => {
             href="https://www.youtube.com/channel/UC5CXdL-Lzik6ks3Iq4g_GIQ"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
-            <FaYoutube style={{ fontSize: "20px" }} />
+            <FaYoutube style={{ fontSize: "30px" }} />
           </a>
           <a
             target="_blank"
@@ -81,21 +81,23 @@ const Footer2 = () => {
             href="https://medium.com/@BCPresence"
             className="text-gray-300 transition-colors duration-200 hover:text-gray-800"
           >
-            <FaMedium style={{ fontSize: "20px" }} />
+            <FaMedium style={{ fontSize: "30px" }} />
           </a>
-        </div>
-        <div className="flex justify-center mt-10 space-x-10">
           <div>
             <Image
               src="/img/austrianreward.png"
               alt=""
-              width="75px"
-              height="75px"
+              width="70px"
+              height="70px"
             />
+
           </div>
           <div>
-            <Image src="/img/uzhcircle.png" alt="" width="75px" height="75px" />
+            <Image src="/img/uzhcircle.png" alt="" width="70px" height="70px" />
           </div>
+        </div>
+        <div className="flex justify-center mt-10 space-x-10">
+
         </div>
         <div className="pt-5 text-center text-white opacity-50">
           <a href="mailto:info@blockchainpresence.net">

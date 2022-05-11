@@ -53,22 +53,19 @@ const Navbar = (props) => {
       >
         <div
           onClick={() => router.push("/")}
-          className="flex items-center h-16 space-x-2 overflow-hidden cursor-pointer w-96"
+          className="flex items-center h-20 space-x-2 overflow-hidden cursor-pointer w-96"
         >
-          <div className="flex w-16 mx-3 ">
+          <div className="flex w-30 mx-3 ">
             <Image
-              src="/img/logo.png"
-              width="400"
-              height="400"
+              src="/img/logowithbcp.png"
+              width="190"
+              height="100"
               objectFit="contain"
               alt=""
             />
           </div>
           <div>
-            <h1 className="hidden text-xl font-bold text-left whitespace-nowrap md:block sm:text-left sm:text-xl">
-              Blockchain <br />
-              Presence
-            </h1>
+
           </div>
         </div>
         <div className="flex space-x-4 sm:hidden">
