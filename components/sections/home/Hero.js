@@ -11,41 +11,42 @@ const Hero = (props) => {
       <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
         <div className="md:w-[960px] mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="flex flex-col  text-4xl font-semibold text-left md:text-[3rem] xl:text-[2.5rem] sm:text-left 2xl:text-[3rem]">
+            <h1 className="flex flex-col justify-center items-center text-4xl font-semibold text-left md:text-[3rem] whitespace-nowrap xl:text-[3.5rem] sm:text-left 2xl:text-[3.5rem]">
               {/* <div>Reliable.</div>
               <div className="text-[#5870A1] ">Convenient.</div>{" "}
               <div>Cost-Efficient.</div> */}
-              <div className="leading-[50px] md:leading-[65px]">
+              <div className="leading-[50px] md:leading-[65px] w-[350px] ">
                 <div className="flex mb-5 ">
-                  <div className="">
-                    <span className="">
+                  <div className="w-full ">
+                    {/* <span className="">
                       Blockchain Presence is a <br className="lg:hidden" />
-                    </span>{" "}
-                    <span className="text-[#5870A1]">
+                    </span>{" "} */}
+                    <span className="text-[#5870A1]  ">
                       <div className="inline-flex h-12 carousel">
                         <div className="md:mt-2 xl:mt-3 2xl:mt-2 change_outer">
-                          <div className=" change_inner">
+                          <div className="text-center change_inner">
                             <div>Reliable</div>
                             <div>Convenient</div>
-                            <div className="w-[350px]">Cost-Efficient</div>
+                            <div className="w-[350px] md:w-auto">
+                              Cost-Efficient
+                            </div>
                           </div>
                         </div>
                       </div>
                     </span>{" "}
-                    <br className="lg:hidden" />
-                    Decentralized Oracle
+                    {/* <br className="lg:hidden" />
+                    Decentralized Oracle */}
                   </div>
                 </div>
               </div>
             </h1>
-            <p
-              // style={{ lineHeight: "1.1" }}
+            {/* <p
               className="my-8 text-sm font-semibold text-left opacity-70 sm:text-xl sm:text-left"
             >
               {props.subTitle}
-            </p>
+            </p> */}
           </AnimationOnScroll>
-          <div className="flex justify-start space-x-5 sm:justify-start">
+          {/* <div className="flex justify-start space-x-5 sm:justify-start">
             <Button
               onClick={() => {
                 router.push("/investors");
@@ -70,7 +71,7 @@ const Hero = (props) => {
             >
               Contact us!
             </span>
-          </div>
+          </div> */}
         </div>
         <AnimationOnScroll
           className="relative  hidden xl:flex justify-center items-center w-[650px] h-[650px]"
