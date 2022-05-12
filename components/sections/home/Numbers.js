@@ -13,7 +13,7 @@ const Numbers = () => {
             9
           </div>
           <div className="pt-3 text-xs text-center text-white sm:text-sm">
-            Co-Founder
+            Co-Founders
           </div>
         </div>
         <div className="flex flex-col items-center justify-center w-1/3 h-full ">
@@ -21,7 +21,7 @@ const Numbers = () => {
             30+
           </div>
           <div className="pt-3 text-xs text-center text-white sm:text-sm">
-            Students
+            Interns
           </div>
         </div>
         <div className="flex flex-col items-center justify-center w-1/3 h-full pt-1 sm:w-72">
@@ -30,7 +30,7 @@ const Numbers = () => {
           </div>
           <div className="pt-3 text-[8px] text-center text-white sm:text-sm">
             Global Blockchain University Ranking
-            <div className="text-[8px] sm:text-[9px]">
+            <div className="text-[8px] sm:text-sm">
               (Coindesk, October 2021)
             </div>
           </div>

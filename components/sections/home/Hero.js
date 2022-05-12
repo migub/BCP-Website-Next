@@ -8,46 +8,45 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[250px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
+      <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
         <div className="md:w-[960px] mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="flex flex-col justify-center items-center text-4xl font-semibold text-left md:text-[3rem] whitespace-nowrap xl:text-[3.5rem] sm:text-left 2xl:text-[3.5rem]">
+            <h1 className="flex flex-col  text-4xl font-semibold text-left md:text-[3rem] xl:text-[2.3rem] sm:text-left 2xl:text-[2rem]">
               {/* <div>Reliable.</div>
               <div className="text-[#5870A1] ">Convenient.</div>{" "}
               <div>Cost-Efficient.</div> */}
-              <div className="leading-[50px] md:leading-[65px] w-[350px] ">
+              <span className="mb-3 text-6xl">Blockchain Presence</span>
+              <div className="leading-[50px] md:leading-[65px]">
                 <div className="flex mb-5 ">
-                  <div className="w-full ">
-                    {/* <span className="">
-                      Blockchain Presence is a <br className="lg:hidden" />
-                    </span>{" "} */}
-                    <span className="text-[#5870A1]  ">
+                  <div className="">
+                    <span className="">
+                      A Low-Cost Oracle with On-Chain Authentication
+                    </span>{" "}
+                    {/* <span className="text-[#5870A1]">
                       <div className="inline-flex h-12 carousel">
                         <div className="md:mt-2 xl:mt-3 2xl:mt-2 change_outer">
-                          <div className="text-center change_inner">
+                          <div className=" change_inner">
                             <div>Reliable</div>
                             <div>Convenient</div>
-                            <div className="w-[350px] md:w-auto">
-                              Cost-Efficient
-                            </div>
+                            <div className="w-[350px]">Cost-Efficient</div>
                           </div>
                         </div>
                       </div>
-                    </span>{" "}
-                    {/* <br className="lg:hidden" />
-                    Decentralized Oracle */}
+                    </span> */}
                   </div>
                 </div>
               </div>
             </h1>
-            {/* <p
+            <p
+              // style={{ lineHeight: "1.1" }}
               className="my-8 text-sm font-semibold text-left opacity-70 sm:text-xl sm:text-left"
             >
               {props.subTitle}
-            </p> */}
+            </p>
           </AnimationOnScroll>
-          {/* <div className="flex justify-start space-x-5 sm:justify-start">
+          <div className="flex justify-start space-x-5 sm:justify-start">
             <Button
+              outlined
               onClick={() => {
                 router.push("/investors");
               }}
@@ -62,8 +61,16 @@ const Hero = (props) => {
             >
               {props.buttonTwoTitle}
             </Button>
+            <Button
+              outlined
+              onClick={() => {
+                router.push("/investors");
+              }}
+            >
+              {props.buttonThreeTitle}
+            </Button>
           </div>
-          <div className="text-sm mt-7">
+          {/* <div className="text-sm mt-7">
             <span className="opacity-75 "> Need help?</span>{" "}
             <span
               onClick={() => router.push("/contact")}
@@ -74,11 +81,11 @@ const Hero = (props) => {
           </div> */}
         </div>
         <AnimationOnScroll
-          className="relative  hidden xl:flex justify-center items-center w-[650px] h-[650px]"
+          className="relative  hidden xl:flex justify-center items-center w-[750px] h-[750px]"
           animateOnce
           animateIn="animate__fadeIn"
         >
-          <Image src="/img/hero.png" layout="fill" objectFit="contain" />
+          <Image src="/img/mockup-bcp.png" layout="fill" objectFit="contain" />
         </AnimationOnScroll>
       </div>
     </>

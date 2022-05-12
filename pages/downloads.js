@@ -9,7 +9,7 @@ const Downloads = () => {
     <>
       <TitleSection
         title="Downloads"
-        subTitle="Here you can find additional information about us"
+        subTitle="Here you can find our whitepaper and research documents"
       />
       <div className="my-20">
         <div className="relative flex w-full h-[300px] space-x-20   justify-center ">

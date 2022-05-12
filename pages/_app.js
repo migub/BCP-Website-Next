@@ -8,10 +8,10 @@ function MyApp({ Component, pageProps }) {
     <>
       <div className="font-montserrat">
         <Navbar
-          title1="Internships"
-          link1="/internships"
-          title2="Downloads"
-          link2="/downloads"
+          title2="Internships"
+          link2="/internships"
+          title1="Downloads"
+          link1="/downloads"
           title3="Investors"
           link3="/investors"
           title4="Contact"

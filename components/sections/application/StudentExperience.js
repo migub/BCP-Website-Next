@@ -8,8 +8,8 @@ const StudentExperience = (props) => {
           <h1 className="text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
             {props.title}
           </h1>
-          <div className="items-center justify-center mt-20 md:flex px-14 ">
-            <div className="md:w-[300px] w-[200px] h-[200px] m-auto shadow-xl md:h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">
+          <div className="items-center justify-center mt-20 md:space-x-20 md:flex">
+            <div className="md:w-[300px]  w-[200px] h-[200px] shadow-xl md:h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">
               <Image
                 src="/img/julia.jpg"
                 alt=""
@@ -17,7 +17,7 @@ const StudentExperience = (props) => {
                 objectFit="cover"
               />
             </div>
-            <div className="w-full m-auto lg:w-1/2">
+            <div className="w-full lg:w-1/3">
               <p className="px-4 py-10 text-lg text-gray-500 md:py-4 sm:text-xl">
                 {props.description}
               </p>

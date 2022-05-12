@@ -14,7 +14,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Blockchain Presence</title>
+        <title>Blockchain Presence</title> Low cost oracle with on-chain
+        authentication
         <meta
           name="description"
           content="Our solution is the further development of the oracle model. The most important innovation is a novel, three-step protocol for on-chain authentication."
@@ -25,6 +26,9 @@ export default function Home() {
       {/********************** Start editing home page here **********************/}
       <Hero
         title="Reliable, Convenient and Cost-Efficient"
+        buttonOneTitle="Learn More"
+        buttonTwoTitle="Apply for Internship"
+        buttonThreeTitle="Invest in BCP"
       />
       <Numbers />
       <WhatIsBCP
@@ -46,11 +50,11 @@ export default function Home() {
         featureThreeIcon={<IoAccessibilitySharp />}
       />
       <Timeline title="Our history so far" />
-      <HowDoesItWork
+      {/* <HowDoesItWork
         title="Oracle Service"
         subTitle="Oracles can be thought of as a mechanism for bridging the gap between
           the off-chain and the on-chain world."
-      />
+      /> */}
     </>
   );
 }
