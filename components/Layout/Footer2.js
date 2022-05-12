@@ -91,8 +91,8 @@ const Footer2 = () => {
               height="70px"
             />
           </div>
-          <div>
-            <Image src="/img/uzhcircle.png" alt="" width="70px" height="70px" />
+          <div><a href="https://www.innovation.uzh.ch/de/stories/allspinoffs-startups.html">
+            <Image src="/img/uzhcircle.png" alt="" width="70px" height="70px" /></a>
           </div>
         </div>
         <div className="flex justify-center mt-10 space-x-10"></div>
