@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Blockchain Presence</title> Low cost oracle with on-chain
+        <title>Blockchain Presence</title> A Low cost oracle with on-chain
         authentication
         <meta
           name="description"
