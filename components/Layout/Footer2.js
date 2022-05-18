@@ -83,17 +83,18 @@ const Footer2 = () => {
           >
             <FaMedium style={{ fontSize: "30px" }} />
           </a>
-          <div>
+          <div><a href="https://www.innovation.uzh.ch/de/stories/allspinoffs-startups.html">
+            <Image src="/img/uzhcircle.png" alt="" width="70px" height="70px" /></a>
+          </div>
+          <div><a href="https://www.wko.at/service/innovation-technologie-digitalisierung/austrian-blockchain-award-2021.html">
             <Image
               src="/img/austrianreward.png"
               alt=""
               width="70px"
               height="70px"
-            />
+            /></a>
           </div>
-          <div><a href="https://www.innovation.uzh.ch/de/stories/allspinoffs-startups.html">
-            <Image src="/img/uzhcircle.png" alt="" width="70px" height="70px" /></a>
-          </div>
+
         </div>
         <div className="flex justify-center mt-10 space-x-10"></div>
         <div className="pt-5 text-center text-white opacity-50">
