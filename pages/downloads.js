@@ -11,7 +11,7 @@ const Downloads = () => {
         title="Learn More"
         subTitle="Here you can find our whitepaper and research documents."
       />
-      <div className="my-20">
+      <div className="my-20 overflow-hidden">
         <div className="relative flex w-full h-[300px] space-x-20   justify-center ">
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
             <div>Download our Whitepaper</div>
@@ -43,19 +43,24 @@ const Downloads = () => {
             <Button>Download</Button>
           </div>
         </div>
-
-        <div className="relative flex w-full h-[300px] space-x-20   justify-center mt-20 ">
-          <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
-            <div>Watch our Prezi video about layers of smart contract platforms</div>
-            <Button><a href="https://prezi.com/p/paoqvb8f_ydy/layers-of-blockchain-copy/">To the video</a></Button>
+        <div className="relative flex flex-col lg:flex-row w-full h-[300px] lg:space-x-20  justify-center mt-32 ">
+          <div className="flex flex-col items-center justify-center space-y-10 font-bold text-center lg:w-1/4 ">
+            <div className="px-10 pb-10 lg:px-0 lg:pb-0">
+              View our presentation about layers of smart contract platforms
+            </div>
           </div>
           <div className="relative w-1/4 h-full">
-            <Image
-              src="/img/layerofscp.jpg"
-              alt=""
-              layout="fill"
-              objectFit="contain"
-            />
+            <iframe
+              src="https://prezi.com/p/embed/paoqvb8f_ydy/"
+              id="iframe_container"
+              frameborder="0"
+              webkitallowfullscreen=""
+              mozallowfullscreen=""
+              allowfullscreen=""
+              allow="autoplay; fullscreen"
+              height="315"
+              width="560"
+            ></iframe>
           </div>
         </div>
       </div>
