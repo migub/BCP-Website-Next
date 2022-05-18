@@ -43,7 +43,7 @@ const Downloads = () => {
             <Button>Download</Button>
           </div>
         </div>
-        <div className="relative flex flex-col lg:flex-row w-full h-[300px] lg:space-x-20  justify-center mt-32 ">
+        <div className="relative flex flex-col justify-center w-full mt-32 lg:flex-row lg:space-x-20 ">
           <div className="flex flex-col items-center justify-center space-y-10 font-bold text-center lg:w-1/4 ">
             <div className="px-10 pb-10 lg:px-0 lg:pb-0">
               View our presentation about layers of smart contract platforms
@@ -59,7 +59,7 @@ const Downloads = () => {
               allowFullScreen=""
               allow="autoplay; fullscreen"
               height="315"
-              width="560"
+              width="500"
             ></iframe>
           </div>
         </div>
