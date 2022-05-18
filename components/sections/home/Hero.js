@@ -20,7 +20,7 @@ const Hero = (props) => {
                 <div className="flex mb-5 ">
                   <div className="">
                     <span className="">
-                      A Low-Cost Oracle with On-Chain Authentication
+                      A Low-Cost Smart Contract Oracle with On-Chain Authentication
                     </span>{" "}
                     {/* <span className="text-[#5870A1]">
                       <div className="inline-flex h-12 carousel">

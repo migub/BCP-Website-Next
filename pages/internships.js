@@ -5,12 +5,13 @@ import HowDoesItWork from "../components/sections/ourservice/HowDoesItWork";
 import TitleSection from "../components/TitleSection";
 import Application from "../components/sections/application/Application";
 import StudentExperience from "../components/sections/application/StudentExperience";
+import StudentExperience2 from "../components/sections/application/StudentExperience2";
 const StudentIntership = () => {
   const router = useRouter();
   return (
     <>
       <TitleSection
-        title="Student Internships"
+        title="Internships"
         subTitle="Blockchain Presence gives university students the opportunity to write their
 masters or bachelors thesis by working in teams together with other
 students and contributing to this project."
@@ -26,14 +27,14 @@ students and contributing to this project."
       /> */}
       <StudentExperience
         title="Student Experience"
-        description={`“I joined BCP in December 2020 to write my
-        bachelor’s thesis in the Marketing
-        department. Being 9 months at BCP I have
-        built up important knowledge about the
-        blockchain industry and met great people.
-        The experience I have gathered at BCP
-        helped me to get a position at Bitcoin Suisse
-        where I work until today.”.
+        description={`“Blockchain Presence was one of the best experiences in my academic career! Each opinion gets considered & appreciated. One gets the chance to actively help BCP.
+        This allowed me to take initiative and responsibility to develop myself.”
+        `}
+      />
+      <StudentExperience2
+        title="Student Experience"
+        description={`“Developing a product at the frontline of blockchain technology, Blockchain Presence challenged me to go beyond 
+        the scope of my studies to work on solutions for its disruptive oracle model.”
         `}
       />
     </>
