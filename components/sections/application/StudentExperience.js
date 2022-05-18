@@ -9,7 +9,7 @@ const StudentExperience = (props) => {
             {props.title}
           </h1>
           <div className="items-center justify-center mt-20 md:space-x-20 md:flex">
-            <div className="md:w-[300px]  w-[200px] h-[200px] shadow-xl md:h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">
+            <div className="w-[300px]  shadow-xl h-[400px] rounded-xl m-auto md:m-0 overflow-hidden flex relative justify-center items-center">
               <Image
                 src="/img/mario.jpg"
                 alt=""
@@ -23,13 +23,13 @@ const StudentExperience = (props) => {
               </p>
             </div>
           </div>
-          <div className="items-center justify-center mt-20 md:space-x-20 md:flex">
-            <div className="w-full lg:w-1/3">
+          <div className="flex flex-col items-center justify-center mt-20 md:flex-row md:space-x-20">
+            <div className="order-2 w-full md:order-1 lg:w-1/3">
               <p className="px-4 py-10 text-lg text-gray-500 md:py-4 sm:text-xl">
                 {props.quote2}
               </p>
             </div>{" "}
-            <div className="md:w-[300px]  w-[200px] h-[200px] shadow-xl md:h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">
+            <div className="w-[300px] order-1 md:order-2 shadow-xl h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">
               <Image
                 src="/img/suba.jpg"
                 alt=""
