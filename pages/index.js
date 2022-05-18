@@ -35,6 +35,7 @@ export default function Home() {
         title="What is Blockchain Presence?"
         description="Blockchain Presence AG is a Swiss corporation founded in December 2020. In close collaboration with the University of Zurich, the start-up strives to develop and operate a universal oracle platform for smart contracts."
       />
+      <Timeline title="Our history so far" />
       <WhyBCP
         // First Feature
         featureOneTitle="Reliable and secure"
@@ -49,7 +50,7 @@ export default function Home() {
         featureThreeDescription="Our website provides users with real-time information on the status of the order and delivery process. Further, mainnet information regarding registrations and commitments is passed on to the testnet, facilitating development and testing."
         featureThreeIcon={<IoAccessibilitySharp />}
       />
-      <Timeline title="Our history so far" />
+
       {/* <HowDoesItWork
         title="Oracle Service"
         subTitle="Oracles can be thought of as a mechanism for bridging the gap between

@@ -4,7 +4,7 @@ const Relations = (props) => {
     <>
       <div className=" py-8 overflow-hidden bg-[#384054] md:flex md:space-x-24 2xl:space-x-0 justify-center items-center ">
         <div className="text-center text-white md:w-2/5 md:text-left">
-          <p className="mb-4 text-3xl font-bold leading-8 tracking-tight sm:text-4xl">
+          <p className="mb-4 text-3xl font-bold leading-8 tracking-tight sm:text-3xl">
             {props.title}
           </p>
           <div className="text-lg text-center md:px-10 md:px-0 md:text-left opacity-80">

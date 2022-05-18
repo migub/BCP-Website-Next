@@ -19,15 +19,15 @@ const Investors = () => {
     <>
       <TitleSection
         title="Become an Investor"
-        subTitle="Blockchain Presence AG is a start-up, founded in 2020. Our solution is the further development of the oracle model. The most important innovation is a novel, three-step protocol for on-chain authentication. This opens the door to new use cases, such as the creation of new crypto markets that are compatible with anti-money laundering regulation standards."
+        subTitle="Blockchain Presence AG is open to proposals that aim at expanding the current base of equity holders."
       />
       <div className="">
         <Relations
-          title="Interested in Investing in BCP?"
+          title="Interested in becoming a shareholder in Blockchain Presence AG?"
           buttonTitle="Contact Us"
         />
         <WhyYouShouldInvest
-          title="Why should you invest in Blockchain Presence?"
+          title="Why Blockchain Presence?"
           // First point
           itemOneTitle="Unique business model"
           itemOneDescription="Blockchain Presence has developed a unique decentralized protocol capable of ensuring the run-time authentification of reputable and committed information providers."

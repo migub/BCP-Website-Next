@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <Navbar
           title2="Internships"
           link2="/internships"
-          title1="Downloads"
+          title1="Learn More"
           link1="/downloads"
           title3="Investors"
           link3="/investors"
