@@ -11,16 +11,17 @@ const Hero = (props) => {
       <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[650px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
         <div className="md:w-[960px] mt-7 md:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
-            <h1 className="flex flex-col  text-4xl font-semibold text-left md:text-[3rem] xl:text-[2.3rem] sm:text-left 2xl:text-[2rem]">
+            <h1 className="flex flex-col  text-4xl font-semibold text-left md:text-[3rem] xl:text-[1.7rem] ">
               {/* <div>Reliable.</div>
               <div className="text-[#5870A1] ">Convenient.</div>{" "}
               <div>Cost-Efficient.</div> */}
-              <span className="mb-3 text-6xl">Blockchain Presence</span>
-              <div className="leading-[50px] md:leading-[65px]">
+              <span className="text-6xl mb-7">Blockchain Presence</span>
+              <div className="leading-[50px] md:leading-[35px]">
                 <div className="flex mb-5 ">
                   <div className="">
-                    <span className="">
-                      A Low-Cost Smart Contract Oracle with On-Chain Authentication
+                    <span className="opacity-80">
+                      A Low-Cost Smart Contract Oracle with On-Chain
+                      Authentication
                     </span>{" "}
                     {/* <span className="text-[#5870A1]">
                       <div className="inline-flex h-12 carousel">

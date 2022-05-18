@@ -26,16 +26,11 @@ students and contributing to this project."
         buttonLink="https://forms.office.com/Pages/ResponsePage.aspx?id=2zjkx2LkIkypCsNYsWmAs7Ovbd1yb0BMjRrifH1U99BURDgyRU0xTExKWjI2MU1NUEVOQ084T0g5Ny4u"
       /> */}
       <StudentExperience
-        title="Student Experience"
-        description={`“Blockchain Presence was one of the best experiences in my academic career! Each opinion gets considered & appreciated. One gets the chance to actively help BCP.
+        quote1={`“Blockchain Presence was one of the best experiences in my academic career! Each opinion gets considered & appreciated. One gets the chance to actively help BCP.
         This allowed me to take initiative and responsibility to develop myself.”
         `}
-      />
-      <StudentExperience2
-        title="Student Experience"
-        description={`“Developing a product at the frontline of blockchain technology, Blockchain Presence challenged me to go beyond 
-        the scope of my studies to work on solutions for its disruptive oracle model.”
-        `}
+        quote2={`“Developing a product at the frontline of blockchain technology, Blockchain Presence challenged me to go beyond 
+        the scope of my studies to work on solutions for its disruptive oracle model.”`}
       />
     </>
   );
