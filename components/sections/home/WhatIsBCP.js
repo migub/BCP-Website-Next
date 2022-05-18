@@ -1,5 +1,7 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import YoutubeEmbed from "../../YoutubeEmbed";
+import Iframe from "react-iframe";
+
 const WhatIsBCP = (props) => {
   return (
     <>
@@ -14,8 +16,16 @@ const WhatIsBCP = (props) => {
                 {props.description}
               </p>
             </div>
-            <div className="sm:w-1/2 mt-10 sm:mt-0 w-full m-auto shadow-xl bg-gray-200 h-[350px] flex justify-center items-center">
-              <YoutubeEmbed embedId="-88c5i5PF0g" />
+            <div className="flex items-center justify-center w-full m-auto mt-10 shadow-xl sm:w-1/2 sm:mt-0">
+              <Iframe
+                url="http://www.youtube.com/embed/-88c5i5PF0g"
+                width="450px"
+                height="450px"
+                id="myId"
+                className="myClassname"
+                display="initial"
+                position="relative"
+              />
             </div>
           </div>
         </div>
