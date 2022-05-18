@@ -43,6 +43,21 @@ const Downloads = () => {
             <Button>Download</Button>
           </div>
         </div>
+
+        <div className="relative flex w-full h-[300px] space-x-20   justify-center mt-20 ">
+          <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
+            <div>Watch our Prezi video about layers of smart contract platforms</div>
+            <Button><a href="https://prezi.com/p/paoqvb8f_ydy/layers-of-blockchain-copy/">To the video</a></Button>
+          </div>
+          <div className="relative w-1/4 h-full">
+            <Image
+              src="/img/layerofscp.jpg"
+              alt=""
+              layout="fill"
+              objectFit="contain"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
