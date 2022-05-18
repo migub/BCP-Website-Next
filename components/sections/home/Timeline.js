@@ -41,7 +41,7 @@ const Timeline = (props) => {
             </div>
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="bg-[#384056] px-6 rounded-lg py-4 shadow-xl"
+                className="bg-[#384056] px-6 md:ml-5 rounded-lg py-4 shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
@@ -68,7 +68,7 @@ const Timeline = (props) => {
               <AnimationOnScroll
                 animateOnce
                 animateIn="animate__fadeInLeft"
-                className="order-1    md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
+                className="order-1 md:mr-5   md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
               >
                 <h3 className="mb-3 text-xl font-bold text-white">
                   Spin-off of the University of Zurich
@@ -90,7 +90,7 @@ const Timeline = (props) => {
             </div>{" "}
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="order-1  mt-8 md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
+                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
@@ -117,7 +117,7 @@ const Timeline = (props) => {
               <AnimationOnScroll
                 animateOnce
                 animateIn="animate__fadeInLeft"
-                className="order-1  md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
+                className="order-1 md:mr-5 md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
               >
                 {" "}
                 <h3 className="mb-3 text-xl font-bold text-white">
@@ -214,7 +214,7 @@ const Timeline = (props) => {
             </div>
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="bg-[#BDC5D8] px-6 rounded-lg py-4 shadow-xl"
+                className="bg-[#BDC5D8] md:ml-5 px-6 rounded-lg py-4 shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
@@ -240,7 +240,7 @@ const Timeline = (props) => {
               <AnimationOnScroll
                 animateOnce
                 animateIn="animate__fadeInLeft"
-                className="order-1    md:mt-0 px-6 py-4 bg-[#BDC5D8] rounded-lg shadow-xl"
+                className="order-1  md:mr-5  md:mt-0 px-6 py-4 bg-[#BDC5D8] rounded-lg shadow-xl"
               >
                 <h3 className="mb-3 text-xl font-bold text-gray-800">
                   Tokenization
@@ -262,7 +262,7 @@ const Timeline = (props) => {
             </div>{" "}
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="order-1  mt-8 md:mt-0 px-6 py-4 bg-[#BDC5D8] rounded-lg shadow-xl"
+                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 py-4 bg-[#BDC5D8] rounded-lg shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
