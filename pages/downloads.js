@@ -53,10 +53,10 @@ const Downloads = () => {
             <iframe
               src="https://prezi.com/p/embed/paoqvb8f_ydy/"
               id="iframe_container"
-              frameborder="0"
+              frameBorder="0"
               webkitallowfullscreen=""
               mozallowfullscreen=""
-              allowfullscreen=""
+              allowFullScreen=""
               allow="autoplay; fullscreen"
               height="315"
               width="560"
