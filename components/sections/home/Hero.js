@@ -8,20 +8,20 @@ const Hero = (props) => {
 
   return (
     <>
-      <div className="relative space-x-32 md:px-32  overflow-hidden shadow-xl h-[600px] md:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  sm:flex justify-center items-center herobackground">
-        <div className="md:w-[960px] mt-7 md:mt-0 ">
+      <div className="relative space-x-32 lg:px-32  overflow-hidden shadow-xl h-[600px] lg:h-[800px] 2xl:h-[800px]  p-6 pt-24 md:pt-32  lg:flex justify-center items-center herobackground">
+        <div className="lg:w-[960px] mt-7 lg:mt-0 ">
           <AnimationOnScroll animateOnce animateIn="animate__fadeInUp">
             <h1 className="flex flex-col font-semibold text-left ">
               {/* <div>Reliable.</div>
               <div className="text-[#5870A1] ">Convenient.</div>{" "}
               <div>Cost-Efficient.</div> */}
-              <span className="text-5xl leading-[60px] md:text-6xl mb-7">
+              <span className="text-5xl leading-[60px] lg:text-6xl mb-7">
                 Blockchain Presence
               </span>
               <div className="">
                 <div className="flex mb-5 ">
                   <div className="">
-                    <span className="opacity-80  text-[1.5rem] md:text-[1.7rem]">
+                    <span className="opacity-80  text-[1.5rem] lg:text-[1.7rem]">
                       A Low-Cost Smart Contract Oracle with On-Chain
                       Authentication
                     </span>{" "}
