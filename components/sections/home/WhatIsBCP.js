@@ -1,5 +1,3 @@
-import { AnimationOnScroll } from "react-animation-on-scroll";
-import YoutubeEmbed from "../../YoutubeEmbed";
 import Iframe from "react-iframe";
 
 const WhatIsBCP = (props) => {
