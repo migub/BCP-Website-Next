@@ -21,7 +21,7 @@ const Hero = (props) => {
               <div className="">
                 <div className="flex mb-5 ">
                   <div className="">
-                    <span className="opacity-80  text-[1.5rem] md:text-[3rem] xl:text-[1.7rem]">
+                    <span className="opacity-80  text-[1.5rem] md:text-[1.7rem]">
                       A Low-Cost Smart Contract Oracle with On-Chain
                       Authentication
                     </span>{" "}
