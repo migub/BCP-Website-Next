@@ -34,7 +34,7 @@ const Investors = () => {
           itemOneIcon={<IoEarthSharp />}
           // Second Point
           itemTwoTitle="Strongly growing global market"
-          itemTwoDescription="The global market for blockchain oracle services has been growing at exceptional rates over the last five years. There is vast potential for further growth."
+          itemTwoDescription="The global market for blockchain oracle services has been growing at exceptional rates over the last five years and there is vast potential for further growth."
           itemTwoIcon={<IoTrendingUpSharp />}
           // Third Point
           itemThreeTitle="Access to young talent"

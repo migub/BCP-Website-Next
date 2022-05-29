@@ -49,7 +49,7 @@ const Timeline = (props) => {
                   Basic Concept
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
-                  The idea for an oracle with on-chain authentication was
+                  The idea of an oracle with on-chain authentication was
                   conceptualized by a research group at the University of
                   Zurich.
                 </p>
@@ -98,8 +98,7 @@ const Timeline = (props) => {
                   Austrian Blockchain Award
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
-                  Blockchain Presence AG won the third prize in the category
-                  business of the Austrian Blockchain Award.
+                  Blockchain Presence AG won the third prize of the Austrian Blockchain Award in the category of business.
                 </p>
               </AnimationOnScroll>
             </div>

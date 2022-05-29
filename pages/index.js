@@ -27,7 +27,7 @@ export default function Home() {
       <Hero
         title="Reliable, Convenient and Cost-Efficient"
         buttonOneTitle="Learn More"
-        buttonTwoTitle="Apply for Internship"
+        buttonTwoTitle="Apply for an Internship"
         buttonThreeTitle="Invest in BCP"
       />
       <Numbers />
@@ -48,7 +48,7 @@ export default function Home() {
         featureTwoIcon={<GiReceiveMoney />}
         // Third Feature
         featureThreeTitle="Convenient"
-        featureThreeDescription="Our website provides users with real-time information on the status of the order and delivery process. Further, mainnet information regarding registrations and commitments is passed on to the testnet, facilitating development and testing."
+        featureThreeDescription="Our website provides users with real-time information on the status of the ordering and delivery process. In addition, information from the mainnet about registrations and commitments is passed on to the testnet, which facilitates development and testing."
         featureThreeIcon={<IoAccessibilitySharp />}
       />
       {/* <HowDoesItWork
