@@ -27,8 +27,11 @@ export default function Home() {
       <Hero
         title="Reliable, Convenient and Cost-Efficient"
         buttonOneTitle="Learn More"
+        buttonOneLink="/learn-more"
         buttonTwoTitle="Apply for an Internship"
+        buttonTwoLink="/internships"
         buttonThreeTitle="Invest in BCP"
+        buttonThreeLink="/investors"
       />
       <Numbers />
       <WhatIsBCP

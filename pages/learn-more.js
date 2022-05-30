@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import TitleSection from "../components/TitleSection";
 import Image from "next/image";
 import Button from "../components/Button";
-const Downloads = () => {
+const LearnMore = () => {
   const router = useRouter();
 
   return (
@@ -68,4 +68,4 @@ const Downloads = () => {
   );
 };
 
-export default Downloads;
+export default LearnMore;

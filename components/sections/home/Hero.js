@@ -51,7 +51,7 @@ const Hero = (props) => {
             <Button
               outlined
               onClick={() => {
-                router.push("/investors");
+                router.push(props.buttonOneLink);
               }}
             >
               {props.buttonOneTitle}
@@ -59,7 +59,7 @@ const Hero = (props) => {
             <Button
               outlined
               onClick={() => {
-                router.push("/investors");
+                router.push(props.buttonTwoLink);
               }}
             >
               {props.buttonTwoTitle}
@@ -67,7 +67,7 @@ const Hero = (props) => {
             <Button
               outlined
               onClick={() => {
-                router.push("/investors");
+                router.push(props.buttonThreeLink);
               }}
             >
               {props.buttonThreeTitle}
