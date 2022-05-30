@@ -25,6 +25,7 @@ const Investors = () => {
         <Relations
           title="Interested in becoming a shareholder in Blockchain Presence AG?"
           buttonTitle="Contact Us"
+          buttonLink="/contact"
         />
         <WhyYouShouldInvest
           title="Why Blockchain Presence?"

@@ -1,5 +1,7 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 const Relations = (props) => {
+  const router = useRouter();
   return (
     <>
       <div className=" py-8 overflow-hidden bg-[#384054] md:flex md:space-x-24 2xl:space-x-0 justify-center items-center ">
