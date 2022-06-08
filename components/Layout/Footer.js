@@ -114,6 +114,12 @@ const Footer = () => {
           >
             Terms of Use
           </div>
+          <div
+            onClick={() => router.push("/impressum")}
+            className="cursor-pointer"
+          >
+            Impressum
+          </div>
         </div>
         <div className="pt-5 text-center text-white opacity-50 ">
           <a href="mailto:info@blockchainpresence.net">

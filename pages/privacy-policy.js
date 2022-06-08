@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="">
       <TitleSection title="Privacy Policy" subTitle="Last update: 29.05.2022" />
-      <div className="w-1/2 m-auto mb-10">
+      <div className="w-1/2 m-auto my-10">
         <h2>1. Introduction</h2>
         <h3>1.1. Scope, validity, modifications</h3>
         <p>

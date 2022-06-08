@@ -4,7 +4,7 @@ const TermsOfUse = () => {
   return (
     <div className="">
       <TitleSection title="Terms of Use" subTitle="Last update: 29.05.2022" />
-      <div className="w-1/2 m-auto mb-10">
+      <div className="w-1/2 m-auto my-10">
         <div>
           <h2>1. Introduction</h2>
           <h3>1.1 Scope and validity of the Terms of Use</h3>
