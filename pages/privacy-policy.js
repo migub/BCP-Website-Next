@@ -10,6 +10,7 @@ const PrivacyPolicy = () => {
         <h2>1. Introduction</h2>
         <h3>1.1. Scope, validity, modifications</h3>
         <p>
+          {`
           This Privacy Policy explains how Blockchain Presence AG, 8044 Zürich,
           Switzerland (henceforth “BCP”) uses the personal data it collects from
           its users when they view and use its platform and/or website. BCP
@@ -19,19 +20,20 @@ const PrivacyPolicy = () => {
           have to update its Privacy Policy accordingly in the future. Users are
           responsible for regularly reviewing this Privacy Policy. Continued use
           of the platform and/or the website after such changes shall constitute
-          users’ consent to such changes.
+          users’ consent to such changes.`}
         </p>
         <p>
+          {`
           By using or accessing BCP's platform and/or website, users agree that
           BCP collects, uses, and shares information and data according to this
-          Privacy Policy.
+          Privacy Policy.`}
         </p>
         <h3>1.2. Definitions</h3>
         <p>
           <a name="_Hlk70356068">
-            For detailed definitions of particular terms used in this Privacy
+            {`For detailed definitions of particular terms used in this Privacy
             Policy (e.g., “platform”, “member”, “user”, etc.) please refer to
-            BCP's “Terms of Use”<strong> </strong>(
+            BCP's “Terms of Use”`}
           </a>
           <a href="http://www.blockchainpresence.net/">
             www.blockchainpresence.net
@@ -53,9 +55,9 @@ const PrivacyPolicy = () => {
           themes, and so on (<em>more on cookies in Section (7)</em>).
         </p>
         <p>
-          BCP collects (in addition to the above-mentioned) the following data
+          {`BCP collects (in addition to the above-mentioned) the following data
           from users when signing up for BCP's newsletter or filling out the
-          contact form:
+          contact form:`}
         </p>
         <p>- Account data: email address</p>
         <p>- Data from contact form: name and message</p>
@@ -67,18 +69,18 @@ const PrivacyPolicy = () => {
           - Respond to user inquiries/offer support to users to solve any
           potential issues they might have with the requested service
         </p>
-        <p>- Facilitate transactions through BCP's services</p>
-        <p>- Check the users’ identity</p>
+        <p>{`- Facilitate transactions through BCP's services`}</p>
+        <p>{`- Check the users’ identity`}</p>
         <p>
-          - Provide access to BCP's website to users and services without errors
+          {`- Provide access to BCP's website to users and services without errors`}
         </p>
         <p>
-          - Analyze how users interact with BCP's platform to improve it
-          accordingly
+          {`- Analyze how users interact with BCP's platform to improve it
+          accordingly`}
         </p>
         <p>
-          - Analyze patterns on how, where, and when users view BCP's platform
-          to adapt its marketing practices accordingly
+          {`- Analyze patterns on how, where, and when users view BCP's platform
+          to adapt its marketing practices accordingly`}
         </p>
         <p>
           - Protect BCP’s services as part of its efforts to keep the services
@@ -86,11 +88,11 @@ const PrivacyPolicy = () => {
         </p>
         <h2>4. How does BCP store Data?</h2>
         <p>
-          BCP securely stores users' data on servers operated by the specialized
+          {`BCP securely stores users' data on servers operated by the specialized
           provider STRATO (Germany). The data is standardly stored on the
           servers, to which only authorized employees have access to. Users’
           passwords are always encrypted, meaning that BCP will never be able to
-          see them or have access to them.
+          see them or have access to them.`}
         </p>
         <h2>5. User’s Privacy Rights</h2>
         <p>Every user is entitled to the following rights:</p>
@@ -172,14 +174,14 @@ const PrivacyPolicy = () => {
         </p>
         <h2>6. Retention of personal data</h2>
         <p>
-          BCP will keep user data collected using cookies or on its website for
-          one year after a user's last access to BCP's platform.
+          {`BCP will keep user data collected using cookies or on its website for
+          one year after a user's last access to BCP's platform.`}
         </p>
         <p>
-          In case users have subscribed to BCP's newsletter, the contact
+          {`In case users have subscribed to BCP's newsletter, the contact
           information is kept to forward emails until users unsubscribe from the
           newsletter. Users can unsubscribe at any time with a written request
-          to:
+          to:`}
           <a href="mailto:info@blockchainpresence.net">
             info@blockchainpresence.net
           </a>
@@ -192,14 +194,14 @@ const PrivacyPolicy = () => {
         </p>
         <h2>7. Cookies</h2>
         <p>
-          Cookies are text files automatically stored on website visitors’
+          {`Cookies are text files automatically stored on website visitors’
           devices to collect standard internet log data and visitors’ behavior
           data. When users view BCP's website, BCP may collect information
           automatically through cookies. Users can set their internet browser
-          not to accept cookies (<em>see </em>{" "}
+          not to accept cookies (see`}
           <a href="http://www.allaboutcookies.org/">all about cookies</a>).
-          However, in some cases, some of BCP's website and platform features
-          may not function properly as a result.
+          {`However, in some cases, some of BCP's website and platform features
+          may not function properly as a result.`}
         </p>
         <h3>7.1. How does BCP use cookies?</h3>
         <p>
@@ -207,14 +209,14 @@ const PrivacyPolicy = () => {
           platform, including:
         </p>
         <p>- Keeping members signed in</p>
-        <p>- Analyzing how users view BCP's Website</p>
+        <p>{`- Analyzing how users view BCP's Website`}</p>
         <p>- For service development purposes</p>
         <p>
-          - To set up an electronic communication process to BCP's website and
-          platform
+          {`- To set up an electronic communication process to BCP's website and
+          platform`}
         </p>
         <p>- To provide certain software functions</p>
-        <p>- To provide BCP's services without technical issues</p>
+        <p>{`- To provide BCP's services without technical issues`}</p>
         <h3>7.2. What type of cookies does BCP use?</h3>
         <p>
           - Functionality cookies: BCP uses these cookies so that it recognizes
@@ -229,10 +231,10 @@ const PrivacyPolicy = () => {
           and IP address.
         </p>
         <p>
-          There are also cookies from third parties that could collect data from
+          {`There are also cookies from third parties that could collect data from
           the devices used to view BCP's Website. Google may collect data
           through Google Analytics cookies stored on the device used and YouTube
-          may also collect data through cookies.
+          may also collect data through cookies.`}
         </p>
         <h2>8. Third parties</h2>
         <p>
