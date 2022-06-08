@@ -22,7 +22,7 @@ const Relations = (props) => {
             {props.buttonTitle}
           </button>
         </div>
-        <div className="flex justify-center ">
+        <div className="flex flex-col items-center justify-center ">
           <div className="relative overflow-hidden rounded-full shadow-xl mt-14 md:mt-0 w-44 h-44">
             <Image
               src="/img/tamara.png"
@@ -30,6 +30,10 @@ const Relations = (props) => {
               layout="fill"
               objectFit="cover"
             />
+          </div>
+          <div className="w-full h-12 mt-3 text-center text-white ">
+            <span className="font-semibold">Tamara Weidmann</span> <br />
+            Investor Relations
           </div>
         </div>
       </div>

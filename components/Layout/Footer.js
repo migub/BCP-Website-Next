@@ -101,7 +101,20 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-center mt-8"></div>
+        <div className="flex flex-col items-center mt-8 space-y-1 text-white opacity-50">
+          <div
+            onClick={() => router.push("/privacy-policy")}
+            className="cursor-pointer"
+          >
+            Privacy Policy
+          </div>
+          <div
+            onClick={() => router.push("/terms-of-use")}
+            className="cursor-pointer"
+          >
+            Terms of Use
+          </div>
+        </div>
         <div className="pt-5 text-center text-white opacity-50 ">
           <a href="mailto:info@blockchainpresence.net">
             info@blockchainpresence.net
