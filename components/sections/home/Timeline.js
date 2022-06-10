@@ -125,9 +125,9 @@ const Timeline = (props) => {
                 </h3>
                 <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
                   Following the decision of the general assembly, Blockchain
-                  Presence AG distributed the dividend via a smart contract on
-                  Polygon, making the company one of the very first
-                  corporations.
+                  Presence AG distributed the dividend for the business year
+                  2021 to its shareholders in the form of MATIC using a smart
+                  contract on the Polygon network.
                 </p>
               </AnimationOnScroll>
             </div>
