@@ -32,7 +32,7 @@ const Timeline = (props) => {
             style={{ left: "50%" }}
           ></div>
           {/* <!-- right timeline --> */}
-          <div className="flex items-center justify-between w-full mb-8 0 md:right-timeline">
+          <div className="flex items-center justify-between w-full mb-8 md:right-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#BDC5D8] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-gray-900">
@@ -41,14 +41,14 @@ const Timeline = (props) => {
             </div>
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="bg-[#384056] px-6 md:ml-5 rounded-lg py-4 shadow-xl"
+                className="bg-[#384056] px-6 md:ml-5 flex flex-col justify-center rounded-lg pb-5 shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
-                <h3 className="mb-3 text-xl font-bold text-white">
+                <h3 className="mb-3 text-xl font-bold text-white ">
                   Basic Concept
                 </h3>
-                <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
+                <p className="text-sm leading-snug tracking-wide text-white text-opacity-100 ">
                   The idea of an oracle with on-chain authentication was
                   conceptualized by a research group at the University of
                   Zurich.
@@ -68,7 +68,7 @@ const Timeline = (props) => {
               <AnimationOnScroll
                 animateOnce
                 animateIn="animate__fadeInLeft"
-                className="order-1 md:mr-5   md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
+                className="order-1 md:mr-5   md:mt-0 px-6 pb-5 pt-1 bg-[#384056] rounded-lg shadow-xl"
               >
                 <h3 className="mb-3 text-xl font-bold text-white">
                   Spin-off of the University of Zurich
@@ -90,7 +90,7 @@ const Timeline = (props) => {
             </div>{" "}
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
+                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 pb-5 pt-1 bg-[#384056] rounded-lg shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
@@ -98,7 +98,8 @@ const Timeline = (props) => {
                   Austrian Blockchain Award
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
-                  Blockchain Presence AG won the third prize of the Austrian Blockchain Award in the category of business.
+                  Blockchain Presence AG won the third prize of the Austrian
+                  Blockchain Award in the category of business.
                 </p>
               </AnimationOnScroll>
             </div>
@@ -116,7 +117,7 @@ const Timeline = (props) => {
               <AnimationOnScroll
                 animateOnce
                 animateIn="animate__fadeInLeft"
-                className="order-1 md:mr-5 md:mt-0 px-6 py-4 bg-[#384056] rounded-lg shadow-xl"
+                className="order-1 md:mr-5 md:mt-0 px-6 pb-5 pt-1 bg-[#384056] rounded-lg shadow-xl"
               >
                 {" "}
                 <h3 className="mb-3 text-xl font-bold text-white">
@@ -213,7 +214,7 @@ const Timeline = (props) => {
             </div>
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="bg-[#BDC5D8] md:ml-5 px-6 rounded-lg py-4 shadow-xl"
+                className="bg-[#BDC5D8] md:ml-5 px-6 rounded-lg pb-5 pt-1 shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
@@ -239,7 +240,7 @@ const Timeline = (props) => {
               <AnimationOnScroll
                 animateOnce
                 animateIn="animate__fadeInLeft"
-                className="order-1  md:mr-5  md:mt-0 px-6 py-4 bg-[#BDC5D8] rounded-lg shadow-xl"
+                className="order-1  md:mr-5  md:mt-0 px-6 pb-5 pt-1 bg-[#BDC5D8] rounded-lg shadow-xl"
               >
                 <h3 className="mb-3 text-xl font-bold text-gray-800">
                   Tokenization
@@ -261,7 +262,7 @@ const Timeline = (props) => {
             </div>{" "}
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 py-4 bg-[#BDC5D8] rounded-lg shadow-xl"
+                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 pb-5 pt-1 bg-[#BDC5D8] rounded-lg shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
