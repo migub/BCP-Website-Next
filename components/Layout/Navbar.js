@@ -122,6 +122,14 @@ const Navbar = (props) => {
           >
             <p>{props.title4}</p>
           </div>
+          <div
+            onClick={() => {
+              router.push(props.link5);
+            }}
+            className="flex items-center space-x-2 cursor-pointer hover:text-gray-200"
+          >
+            <p>{props.title5}</p>
+          </div>
         </div>
       </div>
       {modal && (

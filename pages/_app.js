@@ -14,8 +14,10 @@ function MyApp({ Component, pageProps }) {
           link1="/learn-more"
           title3="Investors"
           link3="/investors"
-          title4="Contact"
-          link4="/contact"
+          title4="About Us"
+          link4="/about-us"
+          title5="Contact"
+          link5="/contact"
         />
         <div style={{ minHeight: "calc(100vh - 384px)" }}>
           <Component {...pageProps} />
