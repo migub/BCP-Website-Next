@@ -6,16 +6,20 @@ const Impressum = () => {
       <TitleSection title="Impressum" subTitle="Last update: 29.05.2022" />
       <div className="w-1/2 m-auto my-10">
         <p>
-          Established in 2020, Blockchain Presence AG (BCP) is a Swiss oracle
-          platform. The company&rsquo;s goal is to provide an efficient,
-          cost-effective, reliable, timely, and secure way to access information
-          on the Polygon blockchain using smart contract applications.
+          {`Blockchain Presence AG is a Zurich based start-up
+          incorporated in December 2020 under Swiss law. The Chief Executive
+          Officer is Prof. Dr. Johannes Christian Ewerhart. The company’s
+          activities aim at developing and running a universal platform for the
+          transfer of real-world information to innovative smart contract
+          applications.`}
         </p>
         <p>&nbsp;</p>
-        <p>Office and Contact</p>
+        <p className="font-bold">Office and Contact</p>
         <p>Blockchain Presence AG</p>
-        <p>8044 Z&uuml;rich</p>
+        <p>Fritz-Fleiner-Weg 15</p>
+        <p>8044 Zürich</p>
         <p>Switzerland</p>
+        <br />
         <p>
           Email:{" "}
           <a href="mailto:info@blockchainpresence.net">
@@ -23,10 +27,10 @@ const Impressum = () => {
           </a>
         </p>
         <p>&nbsp;</p>
-        <p>Company identification number UID</p>
+        <p className="font-bold">Company identification number UID</p>
         <p>CHE-370.249.799</p>
         <p>&nbsp;</p>
-        <p>Register of commerce reference number</p>
+        <p className="font-bold">Register of commerce reference number</p>
         <p>CH-020-3049583-1</p>
       </div>
     </div>
