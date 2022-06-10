@@ -27,10 +27,8 @@ const StudentExperience = (props) => {
                 Mario Beer
               </p>
               <ul className="px-4 text-lg text-gray-500 sm:text-xl">
-                <li>
-                  • Bachelor Student at UZH Junior Analyst at Blockchain
-                  Presence (2021)
-                </li>
+                <li>• Bachelor Student at UZH </li>
+                <li>• Junior Analyst at Blockchain Presence (2021)</li>
                 <li>• Winner of the UZH Semester Prize 2021</li>
               </ul>
             </div>

@@ -10,7 +10,7 @@ const Relations = (props) => {
             {props.title}
           </p>
           <div className="text-lg text-center md:px-10 md:px-0 md:text-left opacity-80">
-            Contact our Investor Relations Office:
+            Contact our investor relations office:
             investor.relations@blockchainpresence.net
           </div>
           <button
@@ -33,7 +33,7 @@ const Relations = (props) => {
           </div>
           <div className="w-full h-12 mt-3 text-center text-white ">
             <span className="font-semibold">Tamara Weidmann</span> <br />
-            Investor Relations
+            Investor Relations Assistant
           </div>
         </div>
       </div>

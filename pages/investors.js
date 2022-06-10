@@ -18,8 +18,9 @@ const Investors = () => {
   return (
     <>
       <TitleSection
+        className="lg:pb-12"
         title="Become an Investor"
-        subTitle="Blockchain Presence AG is open to proposals that aim at expanding the current base of equity holders."
+        subTitle="At the time being, the shareholders of Blockchain Presence AG are its founders, former employees, and individuals that became interested in our activities through the start-up's marketing activities. Our extremely lean cost structure made it possible to distribute a dividend for the first year of business activity. However, to make necessary investments related to its market entry, Blockchain Presence AG is beginning to actively invite seed funding, and we are consequently very open to proposals that aim at expanding the current base of shareholders."
       />
       <div className="">
         <Relations
@@ -30,17 +31,17 @@ const Investors = () => {
         <WhyYouShouldInvest
           title="Why Blockchain Presence?"
           // First point
-          itemOneTitle="Unique business model"
-          itemOneDescription="Blockchain Presence has developed a unique decentralized protocol capable of ensuring the run-time authentification of reputable and committed information providers."
-          itemOneIcon={<IoEarthSharp />}
+          itemThreeTitle="Unique business model"
+          itemThreeDescription="Blockchain Presence has developed a unique decentralized protocol capable of ensuring the run-time authentification of reputable and committed information providers."
+          itemThreeIcon={<IoEarthSharp />}
           // Second Point
-          itemTwoTitle="Strongly growing global market"
-          itemTwoDescription="The global market for blockchain oracle services has been growing at exceptional rates over the last five years and there is vast potential for further growth."
-          itemTwoIcon={<IoTrendingUpSharp />}
+          itemOneTitle="Strongly growing global market"
+          itemOneDescription="The global market for blockchain oracle services has been growing at exceptional rates over the last five years. There is vast potential for further growth."
+          itemOneIcon={<IoTrendingUpSharp />}
           // Third Point
-          itemThreeTitle="Access to young talent"
-          itemThreeDescription="The collaboration with the University of Zurich provides us with privileged access to young talent from all disciplines, including management, banking & finance, business informatics, and economics."
-          itemThreeIcon={<IoSchoolSharp />}
+          itemTwoTitle="Access to young talent"
+          itemTwoDescription="The collaboration with the University of Zurich provides us with privileged access to young talent from a variety of disciplines, including economics, banking & finance, management, and informatics."
+          itemTwoIcon={<IoSchoolSharp />}
         />
         {/* <Roadmap /> */}
       </div>
