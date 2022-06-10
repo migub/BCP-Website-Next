@@ -8,7 +8,7 @@ const WhatIsBCP = (props) => {
           <h1 className="text-3xl font-bold text-center text-gray-800 sm:text-center sm:text-4xl">
             {props.title}
           </h1>
-          <div className="flex flex-col items-center justify-center mt-20 lg:space-x-32 lg:flex-row sm:px-14 ">
+          <div className="flex flex-col items-center justify-center mt-20 xl:space-x-32 xl:flex-row sm:px-14 ">
             <div className="w-full m-auto lg:w-1/2">
               <p className="text-lg text-gray-500 sm:p-4 sm:text-xl">
                 {props.description}
@@ -16,8 +16,8 @@ const WhatIsBCP = (props) => {
             </div>
             <div className="flex items-center justify-center w-full m-auto mt-10 sm:w-1/2 sm:mt-0">
               <Iframe
-                url="https://www.youtube.com/embed/-88c5i5PF0g"
-                width="450px"
+                url="https://www.youtube.com/embed/O9Xw5lgZoaM"
+                width="950px"
                 height="450px"
                 id="myId"
                 className="shadow-xl rounded-xl"
