@@ -7,10 +7,10 @@ const AboutUs = () => {
     <div>
       <TitleSection
         title="About Us"
-        // className="h-[300px] lg:h-[100px] lg:pt-42 lg:pb-20"
+        className="h-[300px] lg:h-[100px] lg:pt-64 lg:pb-32"
         subTitle=""
       />
-      <div className="flex flex-col items-center justify-center w-1/2 py-20 m-auto pb-28">
+      <div className="flex flex-col w-full items-center justify-center md:w-2/3 max-w-[1000px] py-20 m-auto pb-28">
         <div className="text-3xl font-bold">Core Team</div>
         <div className="flex flex-col w-full mt-10 space-y-10 ">
           <TeamItem
