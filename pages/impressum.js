@@ -20,17 +20,23 @@ const Impressum = () => {
         <p>8044 Zürich</p>
         <p>Switzerland</p>
         <br />
-        <p>
+        <p className="">
           Email:{" "}
-          <a href="mailto:info@blockchainpresence.net">
+          <a
+            className="text-blue-400"
+            href="mailto:info@blockchainpresence.net"
+          >
             info@blockchainpresence.net
           </a>
         </p>
-        <p>&nbsp;</p>
-        <p className="font-bold">Company identification number UID</p>
+        <br />
+        <br /> <p className="font-bold">Company identification number UID</p>
+        <br />
         <p>CHE-370.249.799</p>
         <p>&nbsp;</p>
+        <br />
         <p className="font-bold">Register of commerce reference number</p>
+        <br />
         <p>CH-020-3049583-1</p>
       </div>
     </div>
