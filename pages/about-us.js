@@ -14,21 +14,6 @@ const AboutUs = () => {
         <div className="text-3xl font-bold">Core Team</div>
         <div className="flex flex-col w-full mt-10 space-y-10 ">
           <TeamItem
-            link="Adi.jpg"
-            name="Adi Gol"
-            description={
-              <div>
-                <div className="mt-8">
-                  Co-Founder and Chief Operating Officer
-                </div>
-                <div>
-                  BA Economics (Universitity of Zurich), cand. MA Business &
-                  Management (Universitiy St. Gallen)
-                </div>
-              </div>
-            }
-          />
-          <TeamItem
             link="Christian_e.jpg"
             name="Christian Ewerhart"
             description={
@@ -68,6 +53,21 @@ const AboutUs = () => {
                 <div>
                   BA Economics (University of Zurich), MA Economics (University
                   of Zurich)
+                </div>
+              </div>
+            }
+          />
+          <TeamItem
+            link="Adi.jpg"
+            name="Adi Gol"
+            description={
+              <div>
+                <div className="mt-8">
+                  Co-Founder and Chief Operating Officer
+                </div>
+                <div>
+                  BA Economics (Universitity of Zurich), cand. MA Business &
+                  Management (University St. Gallen)
                 </div>
               </div>
             }
