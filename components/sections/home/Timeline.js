@@ -209,7 +209,7 @@ const Timeline = (props) => {
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-white">
-                ~ August 2022
+                ~ September 2022
               </h1>
             </div>
             <div className="order-1 md:w-5/12">
@@ -257,7 +257,7 @@ const Timeline = (props) => {
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-white">
-                ~ June 2023
+                ~ July 2023
               </h1>
             </div>{" "}
             <div className="order-1 md:w-5/12">
