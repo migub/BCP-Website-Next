@@ -19,26 +19,36 @@ const StudentExperience = (props) => {
             </div>
             <div className="w-full lg:w-1/3">
               <p className="px-4 py-10 text-lg text-gray-500 md:py-4 sm:text-xl">
-                {props.quote1}
+                “Developing a product at the frontline of blockchain technology,
+                Blockchain Presence challenged me to go beyond the scope of my
+                studies to work on solutions for its disruptive oracle model.”
               </p>
-              <p className="px-4 font-semibold text-lg text-gray-500 md:py-4 sm:text-xl">
-                {props.quote1b}
+              <p className="px-4 text-lg font-semibold text-gray-500 md:py-4 sm:text-xl">
+                Mario Beer
               </p>
-              <p className="px-4 text-lg text-gray-500 sm:text-xl">
-                {props.quote1c}
-              </p>
+              <ul className="px-4 text-lg text-gray-500 sm:text-xl">
+                <li>
+                  • Bachelor Student at UZH Junior Analyst at Blockchain
+                  Presence (2021)
+                </li>
+                <li>• Winner of the UZH Semester Prize 2021</li>
+              </ul>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center mt-20 md:flex-row md:space-x-20">
             <div className="order-2 w-full md:order-1 lg:w-1/3">
               <p className="px-4 py-10 text-lg text-gray-500 md:py-4 sm:text-xl">
-                {props.quote2}
+                “Blockchain Presence was one of the best experiences in my
+                academic career! Each opinion gets considered & appreciated. One
+                gets the chance to actively help BCP. This allowed me to take
+                initiative and responsibility to develop myself.”
               </p>
-              <p className="px-4 font-semibold text-lg text-gray-500 md:py-4 sm:text-xl">
-                {props.quote2b}
+              <p className="px-4 text-lg font-semibold text-gray-500 md:py-4 sm:text-xl">
+                Subajini Satgunarajah
               </p>
               <p className="px-4 text-lg text-gray-500 sm:text-xl">
-                {props.quote2c}
+                • Master Student at UZH Digital Marketing Associate at
+                Blockchain Presence (2021)
               </p>
             </div>{" "}
             <div className="w-[300px] order-1 md:order-2 shadow-xl h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">
