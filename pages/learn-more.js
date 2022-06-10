@@ -8,6 +8,7 @@ const LearnMore = () => {
   return (
     <>
       <TitleSection
+        className="h-[300px]  lg:pt-64 lg:pb-52"
         title="Learn More"
         subTitle="Here you can find our whitepaper and research documents."
       />
