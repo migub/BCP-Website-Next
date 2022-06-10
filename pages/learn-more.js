@@ -26,6 +26,7 @@ const LearnMore = () => {
             .
           </div>
         }
+        subtitleStyle="text-justify sm:text-justify"
       />
       <div className="my-20 overflow-hidden">
         {/* <div className="relative flex w-full h-[300px] space-x-20   justify-center ">

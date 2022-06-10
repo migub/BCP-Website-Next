@@ -1,15 +1,32 @@
 import Image from "next/image";
 import TitleSection from "../components/TitleSection";
 import TeamItem from "../components/sections/aboutus/TeamItem";
+import { useRouter } from "next/router";
 
 const AboutUs = () => {
+  const router = useRouter();
+
   return (
     <div>
       <TitleSection
         title="About Us"
         className="h-[300px] lg:h-[100px] lg:pt-64 lg:pb-44"
         subtitleStyle="lg:text-justify"
-        subTitle="Blockchain Presence AG is managed by the members of its core team. Most activities in the start-up have a strong research element. Therefore, we are able to embed into our organizational structure a large number of student internship positions."
+        subTitle={
+          <div>
+            Blockchain Presence AG is managed by the members of its core team.
+            Most activities in the start-up have a strong research element.
+            Therefore, we are able to embed into our organizational structure a
+            large number of{" "}
+            <span
+              onClick={() => router.push("/internships")}
+              className="text-blue-700 cursor-pointer"
+            >
+              student internship
+            </span>{" "}
+            positions.
+          </div>
+        }
       />
       <div className="flex flex-col w-full items-center justify-center md:w-2/3 max-w-[1000px] py-20 m-auto pb-28">
         <div className="text-3xl font-bold">Core Team</div>
