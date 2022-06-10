@@ -19,6 +19,7 @@ const Investors = () => {
     <>
       <TitleSection
         className="lg:pb-12"
+        subtitleStyle="md:text-justify"
         title="Become an Investor"
         subTitle="At the time being, the shareholders of Blockchain Presence AG are its founders, former employees, and individuals that became interested in our activities through the start-up's marketing activities. Our extremely lean cost structure made it possible to distribute a dividend for the first year of business activity. However, to make necessary investments related to its market entry, Blockchain Presence AG is beginning to actively invite seed funding, and we are consequently very open to proposals that aim at expanding the current base of shareholders."
       />

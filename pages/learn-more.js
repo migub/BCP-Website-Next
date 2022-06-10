@@ -8,7 +8,7 @@ const LearnMore = () => {
   return (
     <>
       <TitleSection
-        className="h-[300px]  lg:pt-64 lg:pb-52"
+        // className="h-[300px]  lg:pt-64 lg:pb-52"
         title="Learn More"
         subTitle="Below you can find a selection of research documents produced by our strategy team"
       />

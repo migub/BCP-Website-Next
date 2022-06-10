@@ -18,7 +18,7 @@ const TitleSection = (props) => {
         <div>
           <p
             // style={{ lineHeight: "1.1" }}
-            className="mt-8 overflow-hidden text-lg leading-5 text-center opacity-75 sm:text-lg sm:text-center"
+            className={`${props.subtitleStyle} mt-8 overflow-hidden text-lg leading-5 text-center opacity-75 sm:text-lg sm:text-center`}
           >
             {props.subTitle}
           </p>
