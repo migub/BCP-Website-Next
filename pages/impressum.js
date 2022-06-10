@@ -3,7 +3,11 @@ import TitleSection from "../components/TitleSection";
 const Impressum = () => {
   return (
     <div>
-      <TitleSection title="Impressum" subTitle="Last update: 29.05.2022" />
+      <TitleSection
+        title="Impressum"
+        className="h-[300px] lg:h-24"
+        subTitle=""
+      />
       <div className="w-1/2 m-auto my-10">
         <p>
           {`Blockchain Presence AG is a Zurich based start-up
@@ -38,6 +42,7 @@ const Impressum = () => {
         <p className="font-bold">Register of commerce reference number</p>
         <br />
         <p>CH-020-3049583-1</p>
+        <div className="mt-16">Last update: 29.05.2022</div>
       </div>
     </div>
   );

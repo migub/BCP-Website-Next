@@ -5,7 +5,7 @@ const h1 = () => {};
 const PrivacyPolicy = () => {
   return (
     <div className="">
-      <TitleSection title="Privacy Policy" subTitle="Last update: 29.05.2022" />
+      <TitleSection title="Privacy Policy" className="h-[300px] lg:h-24" />
       <div className="w-1/2 m-auto my-10">
         <h2>1. Introduction</h2>
         <h3>1.1. Scope, validity, modifications</h3>
@@ -260,6 +260,7 @@ const PrivacyPolicy = () => {
             info@blockchainpresence.net
           </a>
         </p>
+        <div className="mt-16">Last update: 29.05.2022</div>
       </div>
     </div>
   );
