@@ -109,12 +109,6 @@ const Footer = () => {
             Privacy Policy
           </div>
           <div
-            onClick={() => router.push("/terms-of-use")}
-            className="cursor-pointer"
-          >
-            Terms of Use
-          </div>
-          <div
             onClick={() => router.push("/impressum")}
             className="cursor-pointer"
           >
