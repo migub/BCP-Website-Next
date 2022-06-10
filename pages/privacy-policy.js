@@ -251,11 +251,16 @@ const PrivacyPolicy = () => {
         </p>
         <h2>10. Contact information</h2>
         <p>Blockchain Presence AG</p>
+        <p>Fritz-Fleiner-Weg 15</p>
         <p>8044 Zürich</p>
         <p>Switzerland</p>
-        <p>
-          Email: <a name="_Hlk67678260"></a>
-          <a href="mailto:info@blockchainpresence.net">
+        <br />
+        <p className="">
+          Email:{" "}
+          <a
+            className="text-blue-400"
+            href="mailto:info@blockchainpresence.net"
+          >
             info@blockchainpresence.net
           </a>
         </p>

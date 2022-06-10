@@ -3,7 +3,10 @@ import TitleSection from "../components/TitleSection";
 const TermsOfUse = () => {
   return (
     <div className="">
-      <TitleSection title="Terms of Use" subTitle="Last update: 29.05.2022" />
+      <TitleSection
+        title="Terms of Use"
+        className="h-[300px] lg:h-[100px] lg:pt-42 lg:pb-20"
+      />
       <div className="w-1/2 m-auto my-10">
         <div>
           <h2>1. Introduction</h2>
@@ -387,6 +390,7 @@ const TermsOfUse = () => {
             </a>
           </p>
         </div>
+        <div className="mt-16">Last update: 29.05.2022</div>
       </div>
     </div>
   );
