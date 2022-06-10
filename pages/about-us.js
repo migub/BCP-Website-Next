@@ -66,7 +66,7 @@ const AboutUs = () => {
                   Co-Founder and Chief Operating Officer
                 </div>
                 <div>
-                  BA Economics (Universitity of Zurich), cand. MA Business &
+                  BA Economics (University of Zurich), cand. MA Business &
                   Management (University St. Gallen)
                 </div>
               </div>
