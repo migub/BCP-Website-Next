@@ -33,12 +33,8 @@ const PrivacyPolicy = () => {
           <a name="_Hlk70356068">
             {`For detailed definitions of particular terms used in this Privacy
             Policy (e.g., “platform”, “member”, “user”, etc.) please refer to
-            BCP's “Terms of Use”`}
+            BCP's “Terms of Use”.`}
           </a>
-          <a href="http://www.blockchainpresence.net/">
-            www.blockchainpresence.net
-          </a>
-          ).
         </p>
         <h2>2. What data does BCP collect?</h2>
         <p>
