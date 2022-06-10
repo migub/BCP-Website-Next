@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   const router = useRouter();
   return (
-    <footer className="bg-[#383f56] h-[300px] w-full py-8">
+    <footer className="bg-[#383f56] w-full py-8">
       <div className="max-w-screen-xl px-4 mx-auto">
         <div className="flex items-center justify-center space-x-1 text-white opacity-75"></div>
         <div className="items-center justify-center pt-8 md:space-x-10 md:flex ">
