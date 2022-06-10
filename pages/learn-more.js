@@ -10,7 +10,7 @@ const LearnMore = () => {
       <TitleSection
         className="h-[300px]  lg:pt-64 lg:pb-52"
         title="Learn More"
-        subTitle="Here you can find our whitepaper and research documents."
+        subTitle="Below you can find a selection of research documents produced by our strategy team"
       />
       <div className="my-20 overflow-hidden">
         {/* <div className="relative flex w-full h-[300px] space-x-20   justify-center ">
