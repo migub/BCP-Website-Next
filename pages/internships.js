@@ -12,7 +12,7 @@ const StudentIntership = () => {
     <>
       <TitleSection
         title="Internships"
-        subTitle="Blockchain Presence gives students the opportunity to write their master's or bachelor's thesis by working in teams together with other students and contributing to this project."
+        subTitle={`Blockchain Presence gives students the opportunity to write their master's or bachelor's thesis by working in teams together with other students and contributing to this project.`}
         buttonExternTitle="Start Application"
         buttonExternLink="https://forms.office.com/Pages/ResponsePage.aspx?id=2zjkx2LkIkypCsNYsWmAs7Ovbd1yb0BMjRrifH1U99BURDgyRU0xTExKWjI2MU1NUEVOQ084T0g5Ny4u"
       />

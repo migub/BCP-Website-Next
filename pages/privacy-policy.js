@@ -5,7 +5,10 @@ const h1 = () => {};
 const PrivacyPolicy = () => {
   return (
     <div className="">
-      <TitleSection title="Privacy Policy" className="h-[300px] lg:h-24" />
+      <TitleSection
+        title="Privacy Policy"
+        className="h-[300px] lg:h-[100px] lg:pt-42 lg:pb-20"
+      />
       <div className="w-1/2 m-auto my-10">
         <h2>1. Introduction</h2>
         <h3>1.1. Scope, validity, modifications</h3>

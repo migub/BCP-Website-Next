@@ -5,7 +5,7 @@ const Impressum = () => {
     <div>
       <TitleSection
         title="Impressum"
-        className="h-[300px] lg:h-24"
+        className="h-[300px] lg:h-[100px] lg:pt-42 lg:pb-20"
         subTitle=""
       />
       <div className="w-1/2 m-auto my-10">
