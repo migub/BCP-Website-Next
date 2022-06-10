@@ -23,7 +23,7 @@ const Navbar = (props) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const show = window.scrollY > 150;
+      const show = window.scrollY > 90;
       if (show) {
         setNavBackground("bg-white shadow-lg text-black");
         setMobileMenuColor("black");
