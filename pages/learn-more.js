@@ -10,7 +10,22 @@ const LearnMore = () => {
       <TitleSection
         // className="h-[300px]  lg:pt-64 lg:pb-52"
         title="Learn More"
-        subTitle="Below you can find a selection of research documents produced by our strategy team"
+        subTitle={
+          <div>
+            Below you can find a selection of research documents produced by our
+            strategy team. To obtain financial statements of Blockchain Presence
+            AG, please contact our{" "}
+            <span
+              onClick={() => {
+                router.push("/investors");
+              }}
+              className="text-blue-600 cursor-pointer"
+            >
+              investor relations team
+            </span>
+            .
+          </div>
+        }
       />
       <div className="my-20 overflow-hidden">
         {/* <div className="relative flex w-full h-[300px] space-x-20   justify-center ">
