@@ -4,7 +4,12 @@ import Image from "next/image";
 import Button from "../components/Button";
 const LearnMore = () => {
   const router = useRouter();
-
+  function download(url) {
+    const URL = url;
+    if (typeof window !== "undefined") {
+      window.location.href = URL;
+    }
+  }
   return (
     <>
       <TitleSection
@@ -29,10 +34,14 @@ const LearnMore = () => {
         subtitleStyle="text-justify sm:text-justify"
       />
       <div className="my-20 overflow-hidden">
-        {/* <div className="relative flex w-full h-[300px] space-x-20   justify-center ">
+        <div className="relative flex w-full h-[300px] space-x-20   justify-center ">
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
-            <div>Download our Whitepaper</div>
-            <Button>Download</Button>
+            <div>Download our dividends slide deck</div>
+            <Button
+              onClick={() => download("/static/Dividends_Slide_Deck_v7.pptx")}
+            >
+              Download
+            </Button>
           </div>
           <div className="relative w-1/4 h-full">
             <Image
@@ -42,7 +51,7 @@ const LearnMore = () => {
               objectFit="contain"
             />
           </div>
-        </div> */}
+        </div>
         <div className="relative flex w-full h-[300px] space-x-20  justify-center mt-20 ">
           <div className="relative w-1/4 h-full">
             <Image
