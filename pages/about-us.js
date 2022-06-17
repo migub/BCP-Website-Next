@@ -112,7 +112,7 @@ const AboutUs = () => {
                   Development
                 </div>
                 <div>
-                  BA Banking & Finance (University of Zurich), MA Data Science
+                  BA Banking & Finance (University of Zurich), cand. MA Data Science
                   (University of Zurich)
                 </div>
               </div>
@@ -125,7 +125,7 @@ const AboutUs = () => {
               <div>
                 <div className="mt-8">Co-Founder and Teamlead SCA</div>
                 <div>
-                  BA Economics (University of Zurich), MA Data Science
+                  BA Economics (University of Zurich), cand. MA Data Science
                   (University of Zurich)
                 </div>
               </div>
@@ -140,7 +140,7 @@ const AboutUs = () => {
                   Co-Founder, Chief Technology Officer and Lead Developer
                 </div>
                 <div>
-                  BA Economics (University of Zurich), MA Data Science
+                  BA Economics (University of Zurich), cand. MA Data Science
                   (University of Zurich)
                 </div>
               </div>
@@ -152,7 +152,7 @@ const AboutUs = () => {
             description={
               <div>
                 <div className="mt-8">
-                  Team Leader Strategy, Member of the Board
+                  Team Leader Strategy
                 </div>
                 <div>
                   BA Economics (University of Zurich), cand. MA Economics
