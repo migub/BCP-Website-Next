@@ -38,7 +38,7 @@ const LearnMore = () => {
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
             <div>Download our dividends slide deck</div>
             <Button
-              onClick={() => download("/static/Dividends_Slide_Deck_v7.pptx")}
+              onClick={() => download("/static/Dividend_Distribution_via_Smart_Contract.pdf")}
             >
               Download
             </Button>
