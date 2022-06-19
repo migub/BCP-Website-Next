@@ -45,7 +45,7 @@ const LearnMore = () => {
           </div>
           <div className="relative w-1/4 h-full">
             <Image
-              src="/img/whitepaper.jpg"
+              src="/img/dividends.jpg"
               alt=""
               layout="fill"
               objectFit="contain"
@@ -66,7 +66,9 @@ const LearnMore = () => {
               Read the report of our strategy team about the top smart contract
               platforms
             </div>
-            <Button>Download</Button>
+            <Button
+              onClick={() => download("/static/top_smart_contract_platforms.pdf")}
+            >Download</Button>
           </div>
         </div>
         <div className="relative flex flex-col items-center justify-center w-full mt-32 lg:flex-row lg:space-x-20 ">
