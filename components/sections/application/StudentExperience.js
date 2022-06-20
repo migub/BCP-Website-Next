@@ -45,8 +45,8 @@ const StudentExperience = (props) => {
                 Subajini Satgunarajah
               </p>
               <p className="px-4 text-lg text-gray-500 sm:text-xl">
-                • Master Student at UZH Digital Marketing Associate at
-                Blockchain Presence (2021)
+                <li>• Master Student at UZH </li>
+                <li>• Digital Marketing Associate at Blockchain Presence (2021)</li>
               </p>
             </div>{" "}
             <div className="w-[300px] order-1 md:order-2 shadow-xl h-[400px] rounded-xl overflow-hidden flex relative justify-center items-center">

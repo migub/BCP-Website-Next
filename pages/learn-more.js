@@ -65,7 +65,7 @@ const LearnMore = () => {
           </div>
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
             <div>
-              Read the report of our strategy team about the top smart contract platforms.</div>
+              Read the report of our strategy team about the top smart contract platforms</div>
             <Button
               onClick={() =>
                 download("/static/top_smart_contract_platforms.pdf")
@@ -78,7 +78,7 @@ const LearnMore = () => {
 
         <div className="relative flex w-full h-[300px] space-x-20  justify-center mt-20">
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
-            <div>Read the report of our strategy team about IOTA. </div>
+            <div>Read the report of our strategy team about IOTA </div>
             <Button
               onClick={() =>
                 download("/static/IOTA_Research_Report.pdf")
@@ -108,7 +108,7 @@ const LearnMore = () => {
           </div>
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
             <div>
-              Read the report of our strategy team about the bookmakers with oracles.
+              Read the report of our strategy team about bookmakers with oracles
             </div>
 
             <Button
@@ -123,7 +123,7 @@ const LearnMore = () => {
 
         <div className="relative flex w-full h-[300px] space-x-20   justify-center mt-20">
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
-            <div>Read the report of our strategy team about the Ethereum Layer 2 solution.</div>
+            <div>Read the report of our strategy team about the Ethereum Layer 2 solution</div>
             <Button
               onClick={() =>
                 download("/static/Ethereum_Layer_2.pdf")
