@@ -43,6 +43,13 @@ const Impressum = () => {
         <br />
         <p>CH-020-3049583-1</p>
         <div className="mt-16">Last update: 29.05.2022</div>
+        <Button
+              onClick={() =>
+                download("/static/Dividend_Distribution_via_Smart_Contract.pdf")
+              }
+            >
+              Download our Impressum
+            </Button>
       </div>
     </div>
   );
