@@ -108,12 +108,12 @@ const LearnMore = () => {
           </div>
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
             <div>
-              Read the report of our strategy team about the bookmarkers with oracles.
+              Read the report of our strategy team about the bookmakers with oracles.
             </div>
 
             <Button
               onClick={() =>
-                download("/static/Bookmarkers.pdf")
+                download("/static/Bookmakers_with_Oracles.pdf")
               }
             >
               View Report
