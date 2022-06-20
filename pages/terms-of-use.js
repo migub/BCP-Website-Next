@@ -1,6 +1,15 @@
+import { useRouter } from "next/router";
+import Button from "../components/Button";
 import TitleSection from "../components/TitleSection";
 
 const TermsOfUse = () => {
+  const router = useRouter();
+  function download(url) {
+    const URL = url;
+    if (typeof window !== "undefined") {
+      window.location.href = URL;
+    }
+  }
   return (
     <div className="">
       <TitleSection
@@ -390,6 +399,14 @@ const TermsOfUse = () => {
             </a>
           </p>
         </div>
+        <div className="mt-10 justify-center">
+        <Button
+              onClick={() =>
+                download("/static/Terms_of_Use.pdf")
+              }
+            >
+              Download Terms of Use
+            </Button></div>
         <div className="mt-16">Last update: 29.05.2022</div>
       </div>
     </div>

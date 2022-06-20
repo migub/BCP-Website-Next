@@ -1,8 +1,17 @@
+import { useRouter } from "next/router";
 import TitleSection from "../components/TitleSection";
+import Button from "../components/Button";
 
 const h1 = () => {};
 
 const PrivacyPolicy = () => {
+  const router = useRouter();
+  function download(url) {
+    const URL = url;
+    if (typeof window !== "undefined") {
+      window.location.href = URL;
+    }
+  }
   return (
     <div className="">
       <TitleSection
@@ -264,6 +273,14 @@ const PrivacyPolicy = () => {
             info@blockchainpresence.net
           </a>
         </p>
+        <div className="mt-10 justify-center">
+        <Button
+              onClick={() =>
+                download("/static/Privacy_Policy.pdf")
+              }
+            >
+              Download Privacy Policy
+            </Button></div>
         <div className="mt-16">Last update: 29.05.2022</div>
       </div>
     </div>

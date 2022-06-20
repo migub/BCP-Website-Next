@@ -1,6 +1,15 @@
+import { useRouter } from "next/router";
+import Button from "../components/Button";
 import TitleSection from "../components/TitleSection";
 
 const Impressum = () => {
+  const router = useRouter();
+  function download(url) {
+    const URL = url;
+    if (typeof window !== "undefined") {
+      window.location.href = URL;
+    }
+  }
   return (
     <div>
       <TitleSection
@@ -42,6 +51,14 @@ const Impressum = () => {
         <p className="font-bold">Register of commerce reference number</p>
         <br />
         <p>CH-020-3049583-1</p>
+        <div className="mt-10 justify-center">
+        <Button
+              onClick={() =>
+                download("/static/Impressum.pdf")
+              }
+            >
+              Download Impressum
+            </Button></div>
         <div className="mt-16">Last update: 29.05.2022</div>
 
       </div>
