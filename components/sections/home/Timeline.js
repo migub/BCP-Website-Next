@@ -29,12 +29,12 @@ const Timeline = (props) => {
         <div className="relative h-full p-10 m-auto overflow-hidden 2xl:w-2/3 wrap">
           <div className="absolute h-full" style={{ left: "50%" }}>
             <div className="border  border-gray-700 md:h-[85%] w-[1px] h-[80%] border-2-2 border-opacity-20"></div>
-            <div className="w-12 h-12  ml-[-22.3px] mt-[-24px] text-gray-700 text-opacity-50">
+            <div className="w-12 h-12  ml-[-23px] mt-[-26px] text-gray-700 text-opacity-10">
               <MdKeyboardArrowDown className="w-full h-full" />
             </div>
           </div>
           {/* <!-- right timeline --> */}
-          <div className="flex h-[250px]  items-center justify-between w-full  md:right-timeline">
+          <div className="flex h-auto md:h-[250px] md:mb-0 mb-10  items-center justify-between w-full  md:right-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#BDC5D8] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-gray-900">
@@ -59,7 +59,7 @@ const Timeline = (props) => {
             </div>
           </div>
           {/* <!-- left timeline --> */}
-          <div className="flex h-[250px]  flex-row-reverse items-center justify-between w-full left-timeline">
+          <div className="flex h-auto md:h-[250px] md:mb-0 mb-10  flex-row-reverse items-center justify-between w-full md:left-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#BDC5D8] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-gray-900">
@@ -83,7 +83,7 @@ const Timeline = (props) => {
             </div>
           </div>
           {/* <!-- right timeline --> */}
-          <div className="flex h-[250px]  items-center justify-between w-full  right-timeline">
+          <div className="flex h-auto md:h-[250px] md:mb-0 mb-10  items-center justify-between w-full  md:right-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#BDC5D8] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-gray-900">
@@ -92,7 +92,7 @@ const Timeline = (props) => {
             </div>{" "}
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 pb-6 pt-1 bg-[#384056] rounded-lg shadow-xl"
+                className="order-1 md:ml-5 px-6 pb-6 pt-1 bg-[#384056] rounded-lg shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
@@ -108,7 +108,7 @@ const Timeline = (props) => {
           </div>
 
           {/* <!-- left timeline --> */}
-          <div className="flex h-[250px]  flex-row-reverse items-center justify-between w-full mb-8 left-timeline">
+          <div className="flex h-auto md:h-[250px] md:mb-0 mb-10   flex-row-reverse items-center justify-between w-full mb-8 left-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#BDC5D8] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-gray-900">
@@ -204,12 +204,12 @@ const Timeline = (props) => {
         <div className="relative h-full p-10 m-auto overflow-hidden 2xl:w-2/3 wrap">
           <div className="absolute h-full" style={{ left: "50%" }}>
             <div className="border  border-gray-700 md:h-[85%] w-[1px] h-[80%] border-2-2 border-opacity-20"></div>
-            <div className="w-12 h-12  ml-[-22.3px] mt-[-24px] text-gray-700 text-opacity-50">
+            <div className="w-12 h-12  ml-[-23px] mt-[-26px] text-gray-700 text-opacity-10">
               <MdKeyboardArrowDown className="w-full h-full" />
             </div>
           </div>
           {/* <!-- right timeline --> */}
-          <div className="flex h-[250px] items-center justify-between w-full mb-8 0 md:right-timeline">
+          <div className="flex h-auto md:h-[250px] md:mb-0 mb-10 items-center justify-between w-full 0 md:right-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-white">
@@ -233,7 +233,7 @@ const Timeline = (props) => {
             </div>
           </div>
           {/* <!-- left timeline --> */}
-          <div className="flex h-[250px] flex-row-reverse items-center justify-between w-full left-timeline">
+          <div className="flex h-auto md:h-[250px] md:mb-0 mb-10 flex-row-reverse items-center justify-between w-full left-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-white">
@@ -257,7 +257,7 @@ const Timeline = (props) => {
             </div>
           </div>
           {/* <!-- right timeline --> */}
-          <div className="flex h-[250px] items-center justify-between w-full mb-8 right-timeline">
+          <div className="flex h-auto md:h-[250px] md:mb-0 mb-10 items-center justify-between w-full right-timeline">
             <div className="order-1 hidden w-5/12 md:block"></div>
             <div className=" hidden z-10 md:flex items-center order-1  w-[150px]  h-8 bg-[#384056] rounded-full shadow-xl">
               <h1 className="mx-auto text-sm font-semibold text-white">
@@ -266,7 +266,7 @@ const Timeline = (props) => {
             </div>{" "}
             <div className="order-1 md:w-5/12">
               <AnimationOnScroll
-                className="order-1 md:ml-5 mt-8 md:mt-0 px-6 pb-6 pt-1 bg-[#BDC5D8] rounded-lg shadow-xl"
+                className="order-1 md:ml-5 px-6 pb-6 pt-1 bg-[#BDC5D8] rounded-lg shadow-xl"
                 animateOnce
                 animateIn="animate__fadeInRight"
               >
