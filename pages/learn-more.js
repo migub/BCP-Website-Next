@@ -84,7 +84,7 @@ const LearnMore = () => {
                 download("/static/IOTA_Research_Report.pdf")
               }
             >
-              View Slide Deck
+              View Report
             </Button>
           </div>
           <div className="relative w-1/4 h-full">
