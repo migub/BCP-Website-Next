@@ -36,11 +36,13 @@ const LearnMore = () => {
       <div className="my-20 overflow-hidden">
         <div className="relative flex w-full h-[300px] space-x-20   justify-center ">
           <div className="flex flex-col items-center justify-center w-1/4 space-y-10 font-bold text-center ">
-            <div>Download our dividends slide deck</div>
+            <div>Learn how we distribute dividends via smart contract</div>
             <Button
-              onClick={() => download("/static/Dividend_Distribution_via_Smart_Contract.pdf")}
+              onClick={() =>
+                download("/static/Dividend_Distribution_via_Smart_Contract.pdf")
+              }
             >
-              Download
+              View Slide Deck
             </Button>
           </div>
           <div className="relative w-1/4 h-full">
@@ -66,9 +68,14 @@ const LearnMore = () => {
               Read the report of our strategy team about the top smart contract
               platforms
             </div>
+
             <Button
-              onClick={() => download("/static/top_smart_contract_platforms.pdf")}
-            >Download</Button>
+              onClick={() =>
+                download("/static/top_smart_contract_platforms.pdf")
+              }
+            >
+              View Report
+            </Button>
           </div>
         </div>
         <div className="relative flex flex-col items-center justify-center w-full mt-32 lg:flex-row lg:space-x-20 ">
