@@ -17,17 +17,6 @@ const StudentIntership = () => {
         buttonExternTitle="Start Application"
         buttonExternLink="https://forms.office.com/Pages/ResponsePage.aspx?id=2zjkx2LkIkypCsNYsWmAs7Ovbd1yb0BMjRrifH1U99BURDgyRU0xTExKWjI2MU1NUEVOQ084T0g5Ny4u"
       />
-      <div className="flex items-center justify-center w-full mt-20">
-        <div className="flex items-center justify-center w-[400px] h-[220px] lg:w-[800px] lg:h-[400px] mt-10 sm:mt-0">
-          <Iframe
-            url="https://www.youtube.com/embed/l6zENWETpNA"
-            id="myId"
-            className="w-full h-full shadow-xl rounded-xl"
-            display="initial"
-            position="relative"
-          />
-        </div>
-      </div>
 
       <StudentExperience
         quote1={`“Developing a product at the frontline of blockchain technology, Blockchain Presence challenged me to go beyond 
@@ -48,6 +37,28 @@ const StudentIntership = () => {
         Digital Marketing Associate at Blockchain Presence (2021)
         `}
       />
+      <div className="flex items-center justify-center ">
+        <div className="w-2/3">
+          <p
+            // style={{ lineHeight: "1.1" }}
+            className={`mt-8 overflow-hidden text-lg leading-5 text-center opacity-75 sm:text-lg sm:text-center`}
+          >
+            In an interview with Avijit Gosh, UZH student Mario Beer shares his
+            views on how he experiences team work within Blockchain Presence.
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center justify-center w-full mt-10 mb-20">
+        <div className="flex items-center justify-center w-[400px] h-[220px] lg:w-[800px] lg:h-[400px] mt-10 sm:mt-0">
+          <Iframe
+            url="https://www.youtube.com/embed/l6zENWETpNA"
+            id="myId"
+            className="w-full h-full shadow-xl rounded-xl"
+            display="initial"
+            position="relative"
+          />
+        </div>
+      </div>
     </>
   );
 };
