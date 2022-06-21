@@ -10,7 +10,7 @@ const AboutUs = () => {
     <div>
       <TitleSection
         title="About Us"
-        className="h-[300px] lg:h-[100px] lg:pt-64 lg:pb-44"
+        className="h-[500px] lg:h-[100px] lg:pt-64 lg:pb-44"
         subtitleStyle="lg:text-justify"
         subTitle={
           <div>
@@ -112,8 +112,8 @@ const AboutUs = () => {
                   Development
                 </div>
                 <div>
-                  BA Banking & Finance (University of Zurich), cand. MA Data Science
-                  (University of Zurich)
+                  BA Banking & Finance (University of Zurich), cand. MA Data
+                  Science (University of Zurich)
                 </div>
               </div>
             }
@@ -151,9 +151,7 @@ const AboutUs = () => {
             name="Christian Terrier"
             description={
               <div>
-                <div className="mt-8">
-                  Team Leader Strategy
-                </div>
+                <div className="mt-8">Team Leader Strategy</div>
                 <div>
                   BA Economics (University of Zurich), cand. MA Economics
                   (University of Zurich)

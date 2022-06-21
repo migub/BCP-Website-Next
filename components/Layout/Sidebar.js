@@ -45,6 +45,11 @@ const Sidebar = (props) => {
               link={props.link4}
               title={props.title4}
             />
+            <SidebarItem
+              onClose={props.onClose}
+              link={props.link5}
+              title={props.title5}
+            />
           </nav>
         </div>
       </div>
