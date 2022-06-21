@@ -41,12 +41,12 @@ export default function (req, res) {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true, // true for 465, false for other ports
+      host: "smtp.strato.de",
+      port: 587,
+      secure: false, // true for 465, false for other ports
       auth: {
-        user: "noreply.blockchainpresence@gmail.com", // generated ethereal user
-        pass: "bcporacle19", // generated ethereal password
+        user: "info@blockchainpresence.net", // generated ethereal user
+        pass: "", // generated ethereal password
       },
     });
 
@@ -54,12 +54,13 @@ export default function (req, res) {
     let info = await transporter
       .sendMail({
         from: '"Blockchain Presence" <info@blockchainpresence.net>', // sender address
-        to: "michaelgubler@gmx.net", // list of receivers
+        to: "info@blockchainpresence.net", // list of receivers
         subject: `New Message from ${req.body.name} (${req.body.email})`, // Subject line
         text: req.body.message, // plain text body
         html: `<b>${req.body.message}</b>`, // html body
       })
-      .catch(() => {
+      .catch((err) => {
+        console.log(err);
         res.status(500);
       });
     console.log("Message sent: %s", info.messageId);
