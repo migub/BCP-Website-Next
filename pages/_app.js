@@ -6,7 +6,7 @@ import Footer from "../components/Layout/Footer";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div className="font-montserrat">
+      <div className="overflow-hidden font-montserrat">
         <Navbar
           title2="Internships"
           link2="/internships"
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
           title5="Contact"
           link5="/contact"
         />
-        <div style={{ minHeight: "calc(100vh - 384px)" }}>
+        <div className="" style={{ minHeight: "calc(100vh - 384px)" }}>
           <Component {...pageProps} />
         </div>
         <Footer />
