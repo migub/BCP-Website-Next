@@ -38,7 +38,7 @@ const StudentIntership = () => {
         `}
       />
       <div className="flex items-center justify-center ">
-        <div className="w-2/3">
+        <div className="px-2 md:w-2/3 md:px-0">
           <p
             // style={{ lineHeight: "1.1" }}
             className={`mt-8 overflow-hidden text-lg leading-5 text-center opacity-75 sm:text-lg sm:text-center`}
