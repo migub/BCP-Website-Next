@@ -37,7 +37,7 @@ const AboutUs = () => {
             description={
               <div>
                 <div className="mt-8">
-                  Co-Founder and Chief Operating Officer
+                  Co-Founder and Chief Executive Officer
                 </div>
                 <div>
                   Professor of Information and Contract Economics (University of
