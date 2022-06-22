@@ -70,7 +70,7 @@ const AboutUs = () => {
                 </div>
                 <div>
                   BA Economics (University of Zurich), MA Economics (University
-                  of Zurich), 10 years of experience in the financial sector
+                  of Zurich), 10 years of experience in the financial sector.
                 </div>
               </div>
             }
