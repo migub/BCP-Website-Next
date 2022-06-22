@@ -44,7 +44,7 @@ const StudentIntership = () => {
             className={`mt-8 overflow-hidden text-lg leading-5 text-center opacity-75 sm:text-lg sm:text-center`}
           >
             In an interview with Avijit Gosh, UZH student Mario Beer shares his
-            views on how he experiences team work within Blockchain Presence.
+            views on how he experiences teamwork within Blockchain Presence.
           </p>
         </div>
       </div>
