@@ -46,7 +46,7 @@ export default function (req, res) {
       secure: false, // true for 465, false for other ports
       auth: {
         user: "info@blockchainpresence.net", // generated ethereal user
-        pass: "", // generated ethereal password
+        pass: process.env.PASSWORD, // generated ethereal password
       },
     });
 
@@ -54,7 +54,7 @@ export default function (req, res) {
     let info = await transporter
       .sendMail({
         from: '"Blockchain Presence" <info@blockchainpresence.net>', // sender address
-        to: "info@blockchainpresence.net", // list of receivers
+        to: "michaelgubler@gmx.net", // list of receivers
         subject: `New Message from ${req.body.name} (${req.body.email})`, // Subject line
         text: req.body.message, // plain text body
         html: `<b>${req.body.message}</b>`, // html body
