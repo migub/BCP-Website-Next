@@ -54,7 +54,7 @@ export default function (req, res) {
     let info = await transporter
       .sendMail({
         from: '"Blockchain Presence" <info@blockchainpresence.net>', // sender address
-        to: "michaelgubler@gmx.net", // list of receivers
+        to: "info@blockchainpresence.net", // list of receivers
         subject: `New Message from ${req.body.name} (${req.body.email})`, // Subject line
         text: req.body.message, // plain text body
         html: `<b>${req.body.message}</b>`, // html body
